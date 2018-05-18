@@ -1,7 +1,7 @@
 
-# Datasets for P2RANK project
+# Datasets for P2Rank project
 
-These are datasets used by P2RANK ligand binding site prediction tool for training and evaluation.
+These are datasets used by P2Rank ligand binding site prediction tool for training and evaluation.
 
 Each `*.ds` file contains list of items that form a dataset with actual data being stored in subdirectories.
 
@@ -23,8 +23,8 @@ Main sets of proteins:
 
 ### Variations 
 * "standard" ... 1 column of liganated proteins 
-* `*(mlig)*` datasets: datasets that contain explicitely specified relevant ligands. Valid ligand codes come from MOAD 2013 database. Proteins unknown to MOAD and proteins with conflicting ligand codes (valid&invalid) were removed. 
-* with predictions, include predictions by other ligand binding site prediction methods
+* `*(mlig)*` datasets: datasets that contain explicitly specified relevant ligands. Valid ligand codes come from MOAD 2013 database. Proteins unknown to MOAD and proteins with conflicting ligand codes (valid&invalid) were removed. 
+* datasets with predictions: include predictions by other ligand binding site prediction methods
 (`-fpocket.ds`, `-sitehound.ds`, etc. suffixes)  
 * `*-XXsubset-*` datasets: contain subset of original dataset for which given method finished successfully and produced predictions (`mp`:
 MetaPocket2, `sh`: SiteHound, `ds`: DeepSite)
