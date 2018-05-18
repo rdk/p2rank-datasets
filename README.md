@@ -5,11 +5,8 @@ These are datasets used by P2RANK ligand binding site prediction tool for traini
 
 Each `*.ds` file contains list of items that form a dataset with actual data being stored in subdirectories.
 
-## Dataset types
+Note that `*.ds` files may contain only subsets of PDB files in individual directories (e.g. `holo4k.ds`). 
 
-* "standard" ... 1 column of liganated proteins
-* whith predictions ... 2 columns. Includes predictions by other ligand binding site prediction methods. They are used by older PRANK algorithm for rescoring and by P2RANK for training. ("-fpocket.ds", "-sitehound.ds" suffixes) 
-* with explicily specified relevant ligands ("mlig-*" prefix) based on MOAD database
 
 ## Datasets
 
@@ -24,9 +21,15 @@ Main sets of proteins:
 * FPTRAIN: dataset used by Fpocket for training its pocket scoring function
 * HOLO4K: large dataset of protein-ligand complexes. Contains larger multi chain structures downloaded directly from PDB. Disjunct with CHEN11 and JOINED. 
 
-Variations:
-* `*(mlig)*` datasets: datasets that contain explicitely specified relevant ligands. Valid ligand codes come from MOAD 2013 database. Proteins unknown to MOAD and proteins with conflicting ligand codes (valid&invalid) were removed.
-* `*-shsubset` datasets: contain subset of original dataset for which SiteHound finished successfully.
+###Variations 
+* "standard" ... 1 column of liganated proteins 
+* * `*(mlig)*` datasets: datasets that
+contain explicitely specified relevant ligands. Valid ligand codes come from MOAD 2013 database.
+Proteins unknown to MOAD and proteins with conflicting ligand codes (valid&invalid) were removed. 
+* whith predictions ... include predictions by other ligand binding site prediction methods
+(`-fpocket.ds`, `-sitehound.ds`, etc. suffixes)  
+* `*-XXsubset-*` datasets: contain subset of original dataset for which given method finished successfully and produced predictions (`mp`:
+MetaPocket2, `sh`: SiteHound, `ds`: DeepSite)
 
 
 # Predictions
@@ -42,8 +45,10 @@ This repository also contains binding site predictions prodused by some other me
     - obtained from MetaPocket 2.0 web server by a python script in Fall 2017 using default parameters
 * DeepSite
     - obtained from DeepSite web server by a python script in Fall 2017 using default parameters
-
+* P2Rank
+    - correspond to P2Rank 2.0 with default parameters
 
 # modifications
 
 * 1xgf.pdb removed from holo4k datasets (all UNK groups, no ligands)
+* 
