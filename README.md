@@ -23,10 +23,8 @@ Main sets of proteins:
 
 ### Variations 
 * "standard" ... 1 column of liganated proteins 
-* * `*(mlig)*` datasets: datasets that
-contain explicitely specified relevant ligands. Valid ligand codes come from MOAD 2013 database.
-Proteins unknown to MOAD and proteins with conflicting ligand codes (valid&invalid) were removed. 
-* whith predictions ... include predictions by other ligand binding site prediction methods
+* `*(mlig)*` datasets: datasets that contain explicitely specified relevant ligands. Valid ligand codes come from MOAD 2013 database. Proteins unknown to MOAD and proteins with conflicting ligand codes (valid&invalid) were removed. 
+* with predictions, include predictions by other ligand binding site prediction methods
 (`-fpocket.ds`, `-sitehound.ds`, etc. suffixes)  
 * `*-XXsubset-*` datasets: contain subset of original dataset for which given method finished successfully and produced predictions (`mp`:
 MetaPocket2, `sh`: SiteHound, `ds`: DeepSite)
