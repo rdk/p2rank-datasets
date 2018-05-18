@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "97W9QY4S",
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdbQ9L"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/97W9QY4S/results_97W9QY4S.pdb"
+        }
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeCAM"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/97W9QY4S/97W9QY4S.cube"
+        }
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "table68V"
+          ]
+        },
+        "representation": [
+          {
+            "type": "table",
+            "location": "widget",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[-10.4, 51.0, 48.8]",
+                  "score": "1.0",
+                  "chain": "X",
+                  "id": "1",
+                  "resid": "1"
+                },
+                {
+                  "centers": "[-20.4, 55.0, 52.8]",
+                  "score": "1.0",
+                  "chain": "X",
+                  "id": "2",
+                  "resid": "2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "button6PQ"
+        },
+        "representation": [
+          {
+            "type": "button-download",
+            "position": 1,
+            "location": "widget",
+            "label": "Download results"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/97W9QY4S/97W9QY4S.tar.gz"
+        }
+      }
+    ]
+  }
+]

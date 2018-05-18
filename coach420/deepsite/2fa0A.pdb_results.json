@@ -1,0 +1,113 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "T9NSAFZX",
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/T9NSAFZX/results_T9NSAFZX.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbREM"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/T9NSAFZX/T9NSAFZX.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeX95"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[28.2, 4.5, 20.7]",
+                  "score": "1.0",
+                  "id": "1",
+                  "resid": "1",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "tableB9R"
+          ]
+        },
+        "representation": [
+          {
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "position": 0,
+            "type": "table",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "collapsible": [
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/T9NSAFZX/T9NSAFZX.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonYKV"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "location": "widget",
+            "position": 1,
+            "type": "button-download"
+          }
+        ]
+      }
+    ]
+  }
+]

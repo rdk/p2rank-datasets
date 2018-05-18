@@ -1,0 +1,127 @@
+[
+  {
+    "jobid": "V87QUKGG",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "model": {
+          "name": "pdb6SY",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/V87QUKGG/results_V87QUKGG.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cube7DV",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/V87QUKGG/V87QUKGG.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "collapsible": [
+              true
+            ],
+            "type": "table"
+          }
+        ],
+        "model": {
+          "name": [
+            "tableYD7"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "resid": "1",
+                  "chain": "X",
+                  "id": "1",
+                  "score": "1.0",
+                  "centers": "[29.7, 15.9, 40.3]"
+                },
+                {
+                  "resid": "2",
+                  "chain": "X",
+                  "id": "2",
+                  "score": "0.98",
+                  "centers": "[29.7, 29.9, 32.3]"
+                },
+                {
+                  "resid": "3",
+                  "chain": "X",
+                  "id": "3",
+                  "score": "0.56",
+                  "centers": "[19.7, 19.9, 22.3]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "label": "Download results",
+            "position": 1,
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "name": "buttonFV0",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/V87QUKGG/V87QUKGG.tar.gz"
+        }
+      }
+    ]
+  }
+]

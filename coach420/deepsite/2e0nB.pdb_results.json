@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "W3O0ODOM",
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/W3O0ODOM/results_W3O0ODOM.pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "model": {
+          "name": "pdbL36",
+          "type": "pdb"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/W3O0ODOM/W3O0ODOM.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cubeSD8",
+          "type": "cube"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "resid": "1",
+                  "centers": "[31.0, 35.8, 24.0]",
+                  "score": "1.0",
+                  "id": "1"
+                },
+                {
+                  "chain": "X",
+                  "resid": "2",
+                  "centers": "[45.0, 25.8, 42.0]",
+                  "score": "0.99",
+                  "id": "2"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "table1IL"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/W3O0ODOM/W3O0ODOM.tar.gz"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "position": 1,
+            "label": "Download results",
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "name": "buttonXTO",
+          "type": null
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

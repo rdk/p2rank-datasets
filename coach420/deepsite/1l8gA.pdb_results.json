@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "name": "pdbUUA",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/TBYE92GT/results_TBYE92GT.pdb"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "cubeWX0",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/TBYE92GT/TBYE92GT.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": [
+            "tableLX2"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[12.1, 46.4, 23.3]",
+                  "chain": "X",
+                  "resid": "1",
+                  "score": "1.0",
+                  "id": "1"
+                },
+                {
+                  "centers": "[20.1, 52.4, 37.3]",
+                  "chain": "X",
+                  "resid": "2",
+                  "score": "0.98",
+                  "id": "2"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "type": "table",
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "buttonIY1",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/TBYE92GT/TBYE92GT.tar.gz"
+        },
+        "representation": [
+          {
+            "position": 1,
+            "label": "Download results",
+            "location": "widget",
+            "type": "button-download"
+          }
+        ]
+      }
+    ],
+    "jobid": "TBYE92GT"
+  }
+]

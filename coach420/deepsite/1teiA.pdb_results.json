@@ -1,0 +1,127 @@
+[
+  {
+    "jobid": "NAM5IWS6",
+    "result": [
+      {
+        "model": {
+          "name": "pdb8L0",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/NAM5IWS6/results_NAM5IWS6.pdb"
+        }
+      },
+      {
+        "model": {
+          "name": "cubeJ4V",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/NAM5IWS6/NAM5IWS6.cube"
+        }
+      },
+      {
+        "model": {
+          "name": [
+            "table0UY"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "type": "table",
+            "is_expanded": [
+              true
+            ],
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "label": [
+              "DeepSite prediction results"
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "resid": "1",
+                  "score": "0.97",
+                  "id": "1",
+                  "centers": "[38.2, -3.6, -20.5]",
+                  "chain": "X"
+                },
+                {
+                  "resid": "2",
+                  "score": "0.89",
+                  "id": "2",
+                  "centers": "[46.2, -5.6, -30.5]",
+                  "chain": "X"
+                },
+                {
+                  "resid": "3",
+                  "score": "0.77",
+                  "id": "3",
+                  "centers": "[48.2, 6.4, -12.5]",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "name": "buttonLT9",
+          "type": null
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "position": 1,
+            "type": "button-download",
+            "label": "Download results"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/NAM5IWS6/NAM5IWS6.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

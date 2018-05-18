@@ -1,0 +1,127 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdbJKV"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/BBR3UO3W/results_BBR3UO3W.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cube5DE"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/BBR3UO3W/BBR3UO3W.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "tableSI5"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "resid": "1",
+                  "score": "1.0",
+                  "id": "1",
+                  "centers": "[33.8, 36.1, 19.9]"
+                },
+                {
+                  "chain": "X",
+                  "resid": "2",
+                  "score": "1.0",
+                  "id": "2",
+                  "centers": "[7.8, 22.1, 13.9]"
+                },
+                {
+                  "chain": "X",
+                  "resid": "3",
+                  "score": "0.98",
+                  "id": "3",
+                  "centers": "[7.8, 32.1, 25.9]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "position": 1,
+            "label": "Download results",
+            "location": "widget",
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "buttonGIS"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/BBR3UO3W/BBR3UO3W.tar.gz"
+        }
+      }
+    ],
+    "jobid": "BBR3UO3W"
+  }
+]

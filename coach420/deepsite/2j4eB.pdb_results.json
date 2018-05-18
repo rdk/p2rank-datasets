@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "KZ7NOSGY",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdbETG"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/KZ7NOSGY/results_KZ7NOSGY.pdb"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "highlighted_style": "spacefill"
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeL8J"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/KZ7NOSGY/KZ7NOSGY.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "tableHY4"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "chain": "X",
+                  "centers": "[46.8, 10.5, -7.6]",
+                  "score": "1.0",
+                  "id": "1",
+                  "resid": "1"
+                },
+                {
+                  "chain": "X",
+                  "centers": "[32.8, 6.5, 0.4]",
+                  "score": "0.92",
+                  "id": "2",
+                  "resid": "2"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "location": "widget",
+            "type": "table",
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "buttonI6Z"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/KZ7NOSGY/KZ7NOSGY.tar.gz"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "type": "button-download",
+            "label": "Download results",
+            "position": 1
+          }
+        ]
+      }
+    ]
+  }
+]

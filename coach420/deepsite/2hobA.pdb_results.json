@@ -1,0 +1,134 @@
+[
+  {
+    "jobid": "P6GNBQEG",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "name": "pdbOBB",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/P6GNBQEG/results_P6GNBQEG.pdb"
+        }
+      },
+      {
+        "model": {
+          "name": "cubeHQ7",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/P6GNBQEG/P6GNBQEG.cube"
+        }
+      },
+      {
+        "model": {
+          "name": [
+            "tableRCI"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "is_expanded": [
+              true
+            ],
+            "location": "widget",
+            "type": "table",
+            "collapsible": [
+              true
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "1.0",
+                  "resid": "1",
+                  "chain": "X",
+                  "id": "1",
+                  "centers": "[26.8, -20.6, 115.3]"
+                },
+                {
+                  "score": "0.98",
+                  "resid": "2",
+                  "chain": "X",
+                  "id": "2",
+                  "centers": "[4.8, -22.6, 107.3]"
+                },
+                {
+                  "score": "0.99",
+                  "resid": "3",
+                  "chain": "X",
+                  "id": "3",
+                  "centers": "[16.8, -36.6, 105.3]"
+                },
+                {
+                  "score": "0.66",
+                  "resid": "4",
+                  "chain": "X",
+                  "id": "4",
+                  "centers": "[36.8, 5.4, 115.3]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "name": "buttonFR3",
+          "type": null
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "position": 1,
+            "location": "widget",
+            "type": "button-download"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/P6GNBQEG/P6GNBQEG.tar.gz"
+        }
+      }
+    ]
+  }
+]

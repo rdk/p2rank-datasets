@@ -1,0 +1,141 @@
+[
+  {
+    "jobid": "W48TZGKP",
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdbHD8"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/W48TZGKP/results_W48TZGKP.pdb"
+        }
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeYQP"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/W48TZGKP/W48TZGKP.cube"
+        }
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "table0NN"
+          ]
+        },
+        "representation": [
+          {
+            "type": "table",
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "position": 0,
+            "is_expanded": [
+              true
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "id": "1",
+                  "centers": "[12.8, 4.0, 17.4]",
+                  "score": "0.93",
+                  "resid": "1",
+                  "chain": "X"
+                },
+                {
+                  "id": "2",
+                  "centers": "[24.8, 22.0, 31.4]",
+                  "score": "0.96",
+                  "resid": "2",
+                  "chain": "X"
+                },
+                {
+                  "id": "3",
+                  "centers": "[12.8, 22.0, 25.4]",
+                  "score": "0.85",
+                  "resid": "3",
+                  "chain": "X"
+                },
+                {
+                  "id": "4",
+                  "centers": "[24.8, 2.0, 27.4]",
+                  "score": "0.96",
+                  "resid": "4",
+                  "chain": "X"
+                },
+                {
+                  "id": "5",
+                  "centers": "[26.8, 4.0, 15.4]",
+                  "score": "0.67",
+                  "resid": "5",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "button60Q"
+        },
+        "representation": [
+          {
+            "type": "button-download",
+            "position": 1,
+            "label": "Download results",
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/W48TZGKP/W48TZGKP.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "result": [
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/NNTRQ8HR/results_NNTRQ8HR.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbGOU"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/NNTRQ8HR/NNTRQ8HR.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cube93B"
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "id": "1",
+                  "centers": "[-25.3, 51.3, 51.5]",
+                  "score": "1.0",
+                  "resid": "1",
+                  "chain": "X"
+                },
+                {
+                  "id": "2",
+                  "centers": "[-9.3, 47.3, 55.5]",
+                  "score": "0.93",
+                  "resid": "2",
+                  "chain": "X"
+                },
+                {
+                  "id": "3",
+                  "centers": "[-5.3, 55.3, 39.5]",
+                  "score": "0.82",
+                  "resid": "3",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "table16A"
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": "Download results",
+            "type": "button-download",
+            "position": 1,
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/NNTRQ8HR/NNTRQ8HR.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "button1VT"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "NNTRQ8HR"
+  }
+]

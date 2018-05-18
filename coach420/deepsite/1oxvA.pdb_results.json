@@ -1,0 +1,134 @@
+[
+  {
+    "jobid": "OJOAZ2DV",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/OJOAZ2DV/results_OJOAZ2DV.pdb"
+        },
+        "model": {
+          "name": "pdbR3I",
+          "type": "pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/OJOAZ2DV/OJOAZ2DV.cube"
+        },
+        "model": {
+          "name": "cube5H0",
+          "type": "cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "location": "widget",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "type": "table",
+            "is_expanded": [
+              true
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "resid": "1",
+                  "score": "1.0",
+                  "centers": "[1.0, 47.8, 70.9]",
+                  "id": "1",
+                  "chain": "X"
+                },
+                {
+                  "resid": "2",
+                  "score": "0.77",
+                  "centers": "[5.0, 67.8, 68.9]",
+                  "id": "2",
+                  "chain": "X"
+                },
+                {
+                  "resid": "3",
+                  "score": "0.69",
+                  "centers": "[-15.0, 75.8, 50.9]",
+                  "id": "3",
+                  "chain": "X"
+                },
+                {
+                  "resid": "4",
+                  "score": "0.63",
+                  "centers": "[-9.0, 69.8, 62.9]",
+                  "id": "4",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "table4OC"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": "Download results",
+            "location": "widget",
+            "type": "button-download",
+            "position": 1
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/OJOAZ2DV/OJOAZ2DV.tar.gz"
+        },
+        "model": {
+          "name": "buttonPSI",
+          "type": null
+        }
+      }
+    ]
+  }
+]

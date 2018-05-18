@@ -1,0 +1,141 @@
+[
+  {
+    "result": [
+      {
+        "model": {
+          "name": "pdbAGR",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/TYLUPCDE/results_TYLUPCDE.pdb"
+        }
+      },
+      {
+        "model": {
+          "name": "cubeL4R",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/TYLUPCDE/TYLUPCDE.cube"
+        }
+      },
+      {
+        "model": {
+          "name": [
+            "table1T9"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "type": "table",
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "is_expanded": [
+              true
+            ],
+            "location": "widget",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "score": "1.0",
+                  "resid": "1",
+                  "id": "1",
+                  "centers": "[17.6, -12.1, 9.1]"
+                },
+                {
+                  "chain": "X",
+                  "score": "1.0",
+                  "resid": "2",
+                  "id": "2",
+                  "centers": "[19.6, -6.1, 21.1]"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.74",
+                  "resid": "3",
+                  "id": "3",
+                  "centers": "[23.6, 7.9, 15.1]"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.7",
+                  "resid": "4",
+                  "id": "4",
+                  "centers": "[33.6, 3.9, 19.1]"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.6",
+                  "resid": "5",
+                  "id": "5",
+                  "centers": "[35.6, 17.9, 31.1]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "name": "buttonBMB",
+          "type": null
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "type": "button-download",
+            "label": "Download results",
+            "position": 1
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/TYLUPCDE/TYLUPCDE.tar.gz"
+        }
+      }
+    ],
+    "jobid": "TYLUPCDE",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

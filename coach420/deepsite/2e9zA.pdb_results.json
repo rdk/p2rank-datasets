@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ],
+        "model": {
+          "name": "pdbIZL",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/35JQEI6S/results_35JQEI6S.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cube9QA",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/35JQEI6S/35JQEI6S.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "position": 0,
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "type": "table",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "tableVD5"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "score": "0.99",
+                  "chain": "X",
+                  "resid": "1",
+                  "id": "1",
+                  "centers": "[12.4, 23.7, 13.6]"
+                },
+                {
+                  "score": "0.97",
+                  "chain": "X",
+                  "resid": "2",
+                  "id": "2",
+                  "centers": "[36.4, 21.7, 29.6]"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "position": 1,
+            "location": "widget",
+            "type": "button-download",
+            "label": "Download results"
+          }
+        ],
+        "model": {
+          "name": "buttonLXX",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/35JQEI6S/35JQEI6S.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "35JQEI6S"
+  }
+]

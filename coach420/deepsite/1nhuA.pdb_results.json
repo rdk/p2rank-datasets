@@ -1,0 +1,113 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "XL1QB3AD",
+    "result": [
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdbX4L"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/XL1QB3AD/results_XL1QB3AD.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cubeTL1"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/XL1QB3AD/XL1QB3AD.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "position": 0,
+            "location": "widget",
+            "collapsible": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "table4KV"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "resid": "1",
+                  "id": "1",
+                  "chain": "X",
+                  "score": "1.0",
+                  "centers": "[20.2, 52.6, 47.3]"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "position": 1,
+            "label": "Download results",
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "buttonS5A"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/XL1QB3AD/XL1QB3AD.tar.gz"
+        }
+      }
+    ]
+  }
+]

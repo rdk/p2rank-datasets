@@ -1,0 +1,113 @@
+[
+  {
+    "jobid": "70ML7MS6",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/70ML7MS6/results_70ML7MS6.pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "pdbO8J",
+          "type": "pdb"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/70ML7MS6/70ML7MS6.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "cube7TX",
+          "type": "cube"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "resid": "1",
+                  "id": "1",
+                  "chain": "X",
+                  "centers": "[-4.3, 12.0, -30.9]",
+                  "score": "1.0"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "type": "table",
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "tableWTZ"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/70ML7MS6/70ML7MS6.tar.gz"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "type": "button-download",
+            "position": 1,
+            "location": "widget"
+          }
+        ],
+        "model": {
+          "name": "buttonFUR",
+          "type": null
+        }
+      }
+    ]
+  }
+]

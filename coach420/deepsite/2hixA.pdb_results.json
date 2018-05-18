@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "KBH0HQWC",
+    "result": [
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "model": {
+          "name": "pdb03K",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/KBH0HQWC/results_KBH0HQWC.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cubeLCC",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/KBH0HQWC/KBH0HQWC.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "type": "table",
+            "location": "widget",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "position": 0
+          }
+        ],
+        "model": {
+          "name": [
+            "tableQ94"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "id": "1",
+                  "score": "1.0",
+                  "chain": "X",
+                  "centers": "[15.0, 27.9, 20.0]",
+                  "resid": "1"
+                },
+                {
+                  "id": "2",
+                  "score": "0.97",
+                  "chain": "X",
+                  "centers": "[27.0, 13.9, 28.0]",
+                  "resid": "2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "label": "Download results",
+            "type": "button-download",
+            "position": 1
+          }
+        ],
+        "model": {
+          "name": "buttonQ38",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/KBH0HQWC/KBH0HQWC.tar.gz"
+        }
+      }
+    ]
+  }
+]

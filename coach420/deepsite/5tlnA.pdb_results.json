@@ -1,0 +1,127 @@
+[
+  {
+    "result": [
+      {
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdbQH7"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/LX24U69U/results_LX24U69U.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cube7BZ"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/LX24U69U/LX24U69U.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "position": 0,
+            "type": "table",
+            "collapsible": [
+              true
+            ],
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "tableEZS"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "chain": "X",
+                  "resid": "1",
+                  "id": "1",
+                  "centers": "[56.3, 19.0, -1.4]",
+                  "score": "1.0"
+                },
+                {
+                  "chain": "X",
+                  "resid": "2",
+                  "id": "2",
+                  "centers": "[64.3, 35.0, -3.4]",
+                  "score": "0.97"
+                },
+                {
+                  "chain": "X",
+                  "resid": "3",
+                  "id": "3",
+                  "centers": "[52.3, 35.0, 4.6]",
+                  "score": "0.97"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "position": 1,
+            "type": "button-download",
+            "location": "widget",
+            "label": "Download results"
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "button059"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/LX24U69U/LX24U69U.tar.gz"
+        }
+      }
+    ],
+    "jobid": "LX24U69U",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

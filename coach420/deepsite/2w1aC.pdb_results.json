@@ -1,0 +1,134 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/PDCD50GR/results_PDCD50GR.pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdbLCP"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/PDCD50GR/PDCD50GR.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cubeDRU"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "score": "0.99",
+                  "id": "1",
+                  "centers": "[65.7, 134.6, 9.4]",
+                  "resid": "1",
+                  "chain": "X"
+                },
+                {
+                  "score": "0.98",
+                  "id": "2",
+                  "centers": "[63.7, 134.6, 9.4]",
+                  "resid": "2",
+                  "chain": "X"
+                },
+                {
+                  "score": "0.96",
+                  "id": "3",
+                  "centers": "[63.7, 136.6, 7.4]",
+                  "resid": "3",
+                  "chain": "X"
+                },
+                {
+                  "score": "0.99",
+                  "id": "4",
+                  "centers": "[65.7, 134.6, 11.4]",
+                  "resid": "4",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "is_expanded": [
+              true
+            ],
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ]
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "tableNBW"
+          ]
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/PDCD50GR/PDCD50GR.tar.gz"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "label": "Download results",
+            "type": "button-download",
+            "position": 1
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "buttonAE2"
+        }
+      }
+    ],
+    "jobid": "PDCD50GR"
+  }
+]

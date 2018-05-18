@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "CB2BIMSM",
+    "result": [
+      {
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/CB2BIMSM/results_CB2BIMSM.pdb"
+        },
+        "model": {
+          "name": "pdbTYU",
+          "type": "pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/CB2BIMSM/CB2BIMSM.cube"
+        },
+        "model": {
+          "name": "cube4LQ",
+          "type": "cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "type": "table",
+            "location": "widget",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "id": "1",
+                  "score": "1.0",
+                  "resid": "1",
+                  "chain": "X",
+                  "centers": "[21.9, 53.0, 14.7]"
+                },
+                {
+                  "id": "2",
+                  "score": "0.95",
+                  "resid": "2",
+                  "chain": "X",
+                  "centers": "[31.9, 77.0, 28.7]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "tableZ8S"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "label": "Download results",
+            "position": 1,
+            "type": "button-download"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/CB2BIMSM/CB2BIMSM.tar.gz"
+        },
+        "model": {
+          "name": "button3YW",
+          "type": null
+        }
+      }
+    ]
+  }
+]

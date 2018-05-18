@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "JU1QP3IW",
+    "result": [
+      {
+        "model": {
+          "name": "pdbS9Y",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/JU1QP3IW/results_JU1QP3IW.pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "cubeJE8",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/JU1QP3IW/JU1QP3IW.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": [
+            "table3LQ"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "id": "1",
+                  "resid": "1",
+                  "score": "1.0",
+                  "chain": "X",
+                  "centers": "[63.9, 5.6, 7.7]"
+                },
+                {
+                  "id": "2",
+                  "resid": "2",
+                  "score": "1.0",
+                  "chain": "X",
+                  "centers": "[71.9, 13.6, 9.7]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "location": "widget",
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "button2BS",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/JU1QP3IW/JU1QP3IW.tar.gz"
+        },
+        "representation": [
+          {
+            "position": 1,
+            "label": "Download results",
+            "location": "widget",
+            "type": "button-download"
+          }
+        ]
+      }
+    ]
+  }
+]

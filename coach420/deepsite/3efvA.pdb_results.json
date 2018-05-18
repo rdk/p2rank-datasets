@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8
+          }
+        ],
+        "model": {
+          "name": "pdbHUZ",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/US3ZXCRH/results_US3ZXCRH.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "cubeV68",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/US3ZXCRH/US3ZXCRH.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "position": 0,
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "tableEBO"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "resid": "1",
+                  "centers": "[87.2, 42.2, 48.1]",
+                  "chain": "X",
+                  "id": "1",
+                  "score": "1.0"
+                },
+                {
+                  "resid": "2",
+                  "centers": "[109.2, 44.2, 58.1]",
+                  "chain": "X",
+                  "id": "2",
+                  "score": "0.82"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "button-download",
+            "label": "Download results",
+            "location": "widget",
+            "position": 1
+          }
+        ],
+        "model": {
+          "name": "buttonI43",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/US3ZXCRH/US3ZXCRH.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "US3ZXCRH"
+  }
+]

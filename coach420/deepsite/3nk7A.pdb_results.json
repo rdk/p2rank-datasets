@@ -1,0 +1,141 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "H2HAE27G",
+    "result": [
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/H2HAE27G/results_H2HAE27G.pdb"
+        },
+        "model": {
+          "name": "pdb43E",
+          "type": "pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/H2HAE27G/H2HAE27G.cube"
+        },
+        "model": {
+          "name": "cube9Y7",
+          "type": "cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "position": 0
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "0.94",
+                  "chain": "X",
+                  "centers": "[28.6, 8.6, 20.0]",
+                  "id": "1",
+                  "resid": "1"
+                },
+                {
+                  "score": "0.84",
+                  "chain": "X",
+                  "centers": "[28.6, -7.4, 14.0]",
+                  "id": "2",
+                  "resid": "2"
+                },
+                {
+                  "score": "0.76",
+                  "chain": "X",
+                  "centers": "[18.6, 20.6, 34.0]",
+                  "id": "3",
+                  "resid": "3"
+                },
+                {
+                  "score": "0.45",
+                  "chain": "X",
+                  "centers": "[20.6, 24.6, 20.0]",
+                  "id": "4",
+                  "resid": "4"
+                },
+                {
+                  "score": "0.65",
+                  "chain": "X",
+                  "centers": "[28.6, 16.6, 30.0]",
+                  "id": "5",
+                  "resid": "5"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "tableAV7"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "position": 1,
+            "type": "button-download",
+            "label": "Download results"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/H2HAE27G/H2HAE27G.tar.gz"
+        },
+        "model": {
+          "name": "buttonGL9",
+          "type": null
+        }
+      }
+    ]
+  }
+]

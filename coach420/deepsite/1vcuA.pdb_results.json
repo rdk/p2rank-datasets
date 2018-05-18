@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "model": {
+          "name": "pdbBWP",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/POX64GWB/results_POX64GWB.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cube0P2",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/POX64GWB/POX64GWB.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "is_expanded": [
+              true
+            ],
+            "location": "widget",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "type": "table"
+          }
+        ],
+        "model": {
+          "name": [
+            "tableC6M"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "chain": "X",
+                  "score": "1.0",
+                  "resid": "1",
+                  "centers": "[20.5, -4.5, 28.9]",
+                  "id": "1"
+                },
+                {
+                  "chain": "X",
+                  "score": "1.0",
+                  "resid": "2",
+                  "centers": "[10.5, 9.5, 10.9]",
+                  "id": "2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "position": 1,
+            "location": "widget",
+            "label": "Download results",
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "name": "button50T",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/POX64GWB/POX64GWB.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "POX64GWB"
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdb6VD"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/ELSGR89W/results_ELSGR89W.pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "displayAroundSelection": 8
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cube3PT"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/ELSGR89W/ELSGR89W.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "tableVNM"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "score": "1.0",
+                  "resid": "1",
+                  "id": "1",
+                  "centers": "[3.8, 67.1, 64.8]"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.99",
+                  "resid": "2",
+                  "id": "2",
+                  "centers": "[21.8, 55.1, 52.8]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "position": 0,
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "collapsible": [
+              true
+            ],
+            "is_expanded": [
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "button4UJ"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/ELSGR89W/ELSGR89W.tar.gz"
+        },
+        "representation": [
+          {
+            "type": "button-download",
+            "position": 1,
+            "label": "Download results",
+            "location": "widget"
+          }
+        ]
+      }
+    ],
+    "jobid": "ELSGR89W"
+  }
+]

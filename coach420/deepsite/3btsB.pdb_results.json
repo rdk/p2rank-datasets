@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/ZC5MSAPU/results_ZC5MSAPU.pdb"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdb6B3"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/ZC5MSAPU/ZC5MSAPU.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cube41B"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[33.1, 14.2, 84.7]",
+                  "resid": "1",
+                  "id": "1",
+                  "chain": "X",
+                  "score": "1.0"
+                },
+                {
+                  "centers": "[45.1, 34.2, 92.7]",
+                  "resid": "2",
+                  "id": "2",
+                  "chain": "X",
+                  "score": "0.98"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "collapsible": [
+              true
+            ],
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "tableVGY"
+          ]
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/ZC5MSAPU/ZC5MSAPU.tar.gz"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "type": "button-download",
+            "label": "Download results",
+            "position": 1
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "buttonGLP"
+        }
+      }
+    ],
+    "jobid": "ZC5MSAPU"
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "jobid": "EY0NILM7",
+    "result": [
+      {
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "displayAroundSelection": 8
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/EY0NILM7/results_EY0NILM7.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbHCO"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/EY0NILM7/EY0NILM7.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeQ6P"
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "position": 0,
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[-6.2, 2.5, 15.1]",
+                  "score": "1.0",
+                  "resid": "1",
+                  "id": "1",
+                  "chain": "X"
+                },
+                {
+                  "centers": "[3.8, -3.5, 25.1]",
+                  "score": "0.69",
+                  "resid": "2",
+                  "id": "2",
+                  "chain": "X"
+                },
+                {
+                  "centers": "[-10.2, 4.5, 29.1]",
+                  "score": "0.91",
+                  "resid": "3",
+                  "id": "3",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "table1XN"
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "type": "button-download",
+            "position": 1,
+            "label": "Download results"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/EY0NILM7/EY0NILM7.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonRZS"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

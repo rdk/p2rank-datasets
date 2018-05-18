@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "model": {
+          "name": "pdbHKF",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/JMBJTHHX/results_JMBJTHHX.pdb"
+        }
+      },
+      {
+        "model": {
+          "name": "cubeISG",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/JMBJTHHX/JMBJTHHX.cube"
+        }
+      },
+      {
+        "model": {
+          "name": [
+            "tableYPF"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "collapsible": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "chain": "X",
+                  "centers": "[23.8, 14.8, 75.7]",
+                  "resid": "1",
+                  "id": "1",
+                  "score": "1.0"
+                },
+                {
+                  "chain": "X",
+                  "centers": "[37.8, 4.8, 71.7]",
+                  "resid": "2",
+                  "id": "2",
+                  "score": "0.91"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "name": "buttonRMM",
+          "type": null
+        },
+        "representation": [
+          {
+            "position": 1,
+            "label": "Download results",
+            "type": "button-download",
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/JMBJTHHX/JMBJTHHX.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "JMBJTHHX"
+  }
+]

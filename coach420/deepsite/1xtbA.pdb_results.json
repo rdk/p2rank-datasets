@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdbBC6"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/B3JORDVD/results_B3JORDVD.pdb"
+        }
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeP7A"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/B3JORDVD/B3JORDVD.cube"
+        }
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "table41V"
+          ]
+        },
+        "representation": [
+          {
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "collapsible": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "resid": "1",
+                  "centers": "[19.9, 9.9, 28.9]",
+                  "id": "1",
+                  "score": "1.0",
+                  "chain": "X"
+                },
+                {
+                  "resid": "2",
+                  "centers": "[-2.1, 5.9, 18.9]",
+                  "id": "2",
+                  "score": "0.99",
+                  "chain": "X"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "buttonHLW"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "label": "Download results",
+            "type": "button-download",
+            "position": 1
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/B3JORDVD/B3JORDVD.tar.gz"
+        }
+      }
+    ],
+    "jobid": "B3JORDVD"
+  }
+]

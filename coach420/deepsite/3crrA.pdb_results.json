@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "HB81PU8J",
+    "result": [
+      {
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/HB81PU8J/results_HB81PU8J.pdb"
+        },
+        "model": {
+          "name": "pdbQLQ",
+          "type": "pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/HB81PU8J/HB81PU8J.cube"
+        },
+        "model": {
+          "name": "cube5CI",
+          "type": "cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "type": "table",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "centers": "[59.4, 20.3, 20.6]",
+                  "score": "1.0",
+                  "resid": "1",
+                  "id": "1"
+                },
+                {
+                  "chain": "X",
+                  "centers": "[63.4, 32.3, 38.6]",
+                  "score": "0.95",
+                  "resid": "2",
+                  "id": "2"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "table7AL"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "position": 1,
+            "type": "button-download",
+            "label": "Download results"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/HB81PU8J/HB81PU8J.tar.gz"
+        },
+        "model": {
+          "name": "buttonX69",
+          "type": null
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

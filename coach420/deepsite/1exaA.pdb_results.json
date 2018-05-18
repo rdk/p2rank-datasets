@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/4SPNGEG4/results_4SPNGEG4.pdb"
+        },
+        "model": {
+          "name": "pdb7QJ",
+          "type": "pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/4SPNGEG4/4SPNGEG4.cube"
+        },
+        "model": {
+          "name": "cubeQED",
+          "type": "cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0,
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "resid": "1",
+                  "chain": "X",
+                  "centers": "[40.6, 15.1, 84.0]",
+                  "id": "1",
+                  "score": "1.0"
+                },
+                {
+                  "resid": "2",
+                  "chain": "X",
+                  "centers": "[32.6, 7.1, 96.0]",
+                  "id": "2",
+                  "score": "0.84"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "tableGQZ"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "representation": [
+          {
+            "position": 1,
+            "type": "button-download",
+            "location": "widget",
+            "label": "Download results"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/4SPNGEG4/4SPNGEG4.tar.gz"
+        },
+        "model": {
+          "name": "buttonFRK",
+          "type": null
+        }
+      }
+    ],
+    "jobid": "4SPNGEG4"
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "HQP2RYX3",
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/HQP2RYX3/results_HQP2RYX3.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbIGM"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/HQP2RYX3/HQP2RYX3.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeA5H"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "chain": "X",
+                  "id": "1",
+                  "resid": "1",
+                  "centers": "[17.2, 37.6, 30.0]",
+                  "score": "1.0"
+                },
+                {
+                  "chain": "X",
+                  "id": "2",
+                  "resid": "2",
+                  "centers": "[21.2, 37.6, 32.0]",
+                  "score": "1.0"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "tableXOG"
+          ]
+        },
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "location": "widget",
+            "position": 0,
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/HQP2RYX3/HQP2RYX3.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonE8Q"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "position": 1,
+            "type": "button-download",
+            "label": "Download results"
+          }
+        ]
+      }
+    ]
+  }
+]

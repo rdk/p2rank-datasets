@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/38BY2KQY/results_38BY2KQY.pdb"
+        },
+        "model": {
+          "name": "pdbVPK",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/38BY2KQY/38BY2KQY.cube"
+        },
+        "model": {
+          "name": "cubeXXT",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "chain": "X",
+                  "centers": "[13.3, 9.3, -3.9]",
+                  "resid": "1",
+                  "id": "1",
+                  "score": "1.0"
+                },
+                {
+                  "chain": "X",
+                  "centers": "[-2.7, -6.7, -9.9]",
+                  "resid": "2",
+                  "id": "2",
+                  "score": "0.99"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "tableVP1"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "location": "widget",
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "is_expanded": [
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/38BY2KQY/38BY2KQY.tar.gz"
+        },
+        "model": {
+          "name": "buttonEXG",
+          "type": null
+        },
+        "representation": [
+          {
+            "position": 1,
+            "type": "button-download",
+            "location": "widget",
+            "label": "Download results"
+          }
+        ]
+      }
+    ],
+    "jobid": "38BY2KQY"
+  }
+]

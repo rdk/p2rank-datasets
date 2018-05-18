@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/XMMKAX2Y/results_XMMKAX2Y.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbFRI"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/XMMKAX2Y/XMMKAX2Y.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeEN3"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[17.7, 25.9, 8.7]",
+                  "chain": "X",
+                  "score": "1.0",
+                  "resid": "1",
+                  "id": "1"
+                },
+                {
+                  "centers": "[39.7, 31.9, 20.7]",
+                  "chain": "X",
+                  "score": "0.9",
+                  "resid": "2",
+                  "id": "2"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "tableQ9X"
+          ]
+        },
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "type": "table",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0,
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/XMMKAX2Y/XMMKAX2Y.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "button4TM"
+        },
+        "representation": [
+          {
+            "type": "button-download",
+            "label": "Download results",
+            "position": 1,
+            "location": "widget"
+          }
+        ]
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "XMMKAX2Y"
+  }
+]

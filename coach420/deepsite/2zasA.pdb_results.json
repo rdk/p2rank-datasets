@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "D6EGH4SZ",
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdbVXH"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/D6EGH4SZ/results_D6EGH4SZ.pdb"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "displayAroundSelection": 8
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeVO4"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/D6EGH4SZ/D6EGH4SZ.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "tableGXK"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "1.0",
+                  "centers": "[15.4, 27.7, 39.6]",
+                  "id": "1",
+                  "chain": "X",
+                  "resid": "1"
+                },
+                {
+                  "score": "1.0",
+                  "centers": "[19.4, 19.7, 41.6]",
+                  "id": "2",
+                  "chain": "X",
+                  "resid": "2"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "type": "table",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "position": 0,
+            "collapsible": [
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "buttonZWV"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/D6EGH4SZ/D6EGH4SZ.tar.gz"
+        },
+        "representation": [
+          {
+            "type": "button-download",
+            "label": "Download results",
+            "position": 1,
+            "location": "widget"
+          }
+        ]
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

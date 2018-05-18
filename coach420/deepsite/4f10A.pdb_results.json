@@ -1,0 +1,148 @@
+[
+  {
+    "result": [
+      {
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "pdbUS9",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/0ELCFRNE/results_0ELCFRNE.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "cube2GZ",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/0ELCFRNE/0ELCFRNE.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "location": "widget",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "position": 0
+          }
+        ],
+        "model": {
+          "name": [
+            "tableP5I"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "score": "1.0",
+                  "id": "1",
+                  "chain": "X",
+                  "centers": "[-3.8, -10.8, 45.1]",
+                  "resid": "1"
+                },
+                {
+                  "score": "0.99",
+                  "id": "2",
+                  "chain": "X",
+                  "centers": "[-15.8, -18.8, 65.1]",
+                  "resid": "2"
+                },
+                {
+                  "score": "0.9",
+                  "id": "3",
+                  "chain": "X",
+                  "centers": "[-9.8, -28.8, 51.1]",
+                  "resid": "3"
+                },
+                {
+                  "score": "0.85",
+                  "id": "4",
+                  "chain": "X",
+                  "centers": "[-7.8, -36.8, 59.1]",
+                  "resid": "4"
+                },
+                {
+                  "score": "0.86",
+                  "id": "5",
+                  "chain": "X",
+                  "centers": "[-11.8, -12.8, 53.1]",
+                  "resid": "5"
+                },
+                {
+                  "score": "0.65",
+                  "id": "6",
+                  "chain": "X",
+                  "centers": "[4.2, -26.8, 55.1]",
+                  "resid": "6"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": "Download results",
+            "type": "button-download",
+            "location": "widget",
+            "position": 1
+          }
+        ],
+        "model": {
+          "name": "buttonMQ1",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/0ELCFRNE/0ELCFRNE.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "0ELCFRNE"
+  }
+]

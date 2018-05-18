@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "model": {
+          "name": "pdb9CU",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/L79TWOTT/results_L79TWOTT.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cubeBM2",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/L79TWOTT/L79TWOTT.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "collapsible": [
+              true
+            ],
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "position": 0
+          }
+        ],
+        "model": {
+          "name": [
+            "table4W8"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "centers": "[15.4, -61.7, 0.1]",
+                  "chain": "X",
+                  "score": "1.0",
+                  "id": "1",
+                  "resid": "1"
+                },
+                {
+                  "centers": "[59.4, -31.7, 0.1]",
+                  "chain": "X",
+                  "score": "0.99",
+                  "id": "2",
+                  "resid": "2"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": "Download results",
+            "location": "widget",
+            "position": 1,
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "name": "button26A",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/L79TWOTT/L79TWOTT.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "L79TWOTT"
+  }
+]

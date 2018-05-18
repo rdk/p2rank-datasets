@@ -1,0 +1,134 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/Q86WEOZS/results_Q86WEOZS.pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdb9ZA"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/Q86WEOZS/Q86WEOZS.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cubeYRW"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "centers": "[22.6, -8.6, 27.6]",
+                  "resid": "1",
+                  "id": "1",
+                  "score": "1.0",
+                  "chain": "X"
+                },
+                {
+                  "centers": "[24.6, -14.6, 13.6]",
+                  "resid": "2",
+                  "id": "2",
+                  "score": "0.9",
+                  "chain": "X"
+                },
+                {
+                  "centers": "[16.6, -4.6, 9.6]",
+                  "resid": "3",
+                  "id": "3",
+                  "score": "0.82",
+                  "chain": "X"
+                },
+                {
+                  "centers": "[4.6, -12.6, 31.6]",
+                  "resid": "4",
+                  "id": "4",
+                  "score": "0.42",
+                  "chain": "X"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "is_expanded": [
+              true
+            ],
+            "location": "widget",
+            "type": "table",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "tableMDV"
+          ]
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/Q86WEOZS/Q86WEOZS.tar.gz"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "type": "button-download",
+            "position": 1,
+            "label": "Download results"
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "buttonKQ1"
+        }
+      }
+    ],
+    "jobid": "Q86WEOZS"
+  }
+]

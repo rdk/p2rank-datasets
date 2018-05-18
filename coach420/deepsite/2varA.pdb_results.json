@@ -1,0 +1,141 @@
+[
+  {
+    "jobid": "GNAUFGL6",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/GNAUFGL6/results_GNAUFGL6.pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdbUKH"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/GNAUFGL6/GNAUFGL6.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cube3TD"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "centers": "[-33.9, 19.9, 7.5]",
+                  "id": "1",
+                  "resid": "1",
+                  "score": "0.99",
+                  "chain": "X"
+                },
+                {
+                  "centers": "[-35.9, 25.9, -2.5]",
+                  "id": "2",
+                  "resid": "2",
+                  "score": "1.0",
+                  "chain": "X"
+                },
+                {
+                  "centers": "[-43.9, 9.9, 11.5]",
+                  "id": "3",
+                  "resid": "3",
+                  "score": "0.9",
+                  "chain": "X"
+                },
+                {
+                  "centers": "[-27.9, 19.9, 19.5]",
+                  "id": "4",
+                  "resid": "4",
+                  "score": "0.91",
+                  "chain": "X"
+                },
+                {
+                  "centers": "[-31.9, 17.9, -12.5]",
+                  "id": "5",
+                  "resid": "5",
+                  "score": "0.56",
+                  "chain": "X"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "position": 0,
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "table4J4"
+          ]
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/GNAUFGL6/GNAUFGL6.tar.gz"
+        },
+        "representation": [
+          {
+            "type": "button-download",
+            "label": "Download results",
+            "location": "widget",
+            "position": 1
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "button4RF"
+        }
+      }
+    ]
+  }
+]

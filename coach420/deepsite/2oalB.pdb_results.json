@@ -1,0 +1,127 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/PVS66HP3/results_PVS66HP3.pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "pdbPEK",
+          "type": "pdb"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/PVS66HP3/PVS66HP3.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "cubeNHY",
+          "type": "cube"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[-25.3, 31.1, 24.2]",
+                  "score": "1.0",
+                  "chain": "X",
+                  "resid": "1",
+                  "id": "1"
+                },
+                {
+                  "centers": "[-21.3, 23.1, 6.2]",
+                  "score": "1.0",
+                  "chain": "X",
+                  "resid": "2",
+                  "id": "2"
+                },
+                {
+                  "centers": "[-19.3, 39.1, 32.2]",
+                  "score": "0.95",
+                  "chain": "X",
+                  "resid": "3",
+                  "id": "3"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "location": "widget",
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "position": 0
+          }
+        ],
+        "model": {
+          "name": [
+            "tableLEG"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/PVS66HP3/PVS66HP3.tar.gz"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "position": 1,
+            "label": "Download results",
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "name": "button23R",
+          "type": null
+        }
+      }
+    ],
+    "jobid": "PVS66HP3"
+  }
+]

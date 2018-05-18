@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/N8OOKHF5/results_N8OOKHF5.pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "pdbHQU",
+          "type": "pdb"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/N8OOKHF5/N8OOKHF5.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "cubeKEA",
+          "type": "cube"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "score": "1.0",
+                  "resid": "1",
+                  "centers": "[50.3, 49.4, 18.4]",
+                  "id": "1"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.95",
+                  "resid": "2",
+                  "centers": "[64.3, 55.4, -3.6]",
+                  "id": "2"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "position": 0,
+            "collapsible": [
+              true
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "table8K4"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/N8OOKHF5/N8OOKHF5.tar.gz"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "location": "widget",
+            "type": "button-download",
+            "position": 1
+          }
+        ],
+        "model": {
+          "name": "buttonP3B",
+          "type": null
+        }
+      }
+    ],
+    "jobid": "N8OOKHF5",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

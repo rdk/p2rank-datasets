@@ -1,0 +1,127 @@
+[
+  {
+    "jobid": "KLORAYQ3",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdbKCW"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/KLORAYQ3/results_KLORAYQ3.pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cube07V"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/KLORAYQ3/KLORAYQ3.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "tableTBO"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "chain": "X",
+                  "score": "0.99",
+                  "centers": "[19.8, -12.9, -4.0]",
+                  "id": "1",
+                  "resid": "1"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.89",
+                  "centers": "[29.8, -12.9, 2.0]",
+                  "id": "2",
+                  "resid": "2"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.68",
+                  "centers": "[21.8, -0.9, 4.0]",
+                  "id": "3",
+                  "resid": "3"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "button70P"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/KLORAYQ3/KLORAYQ3.tar.gz"
+        },
+        "representation": [
+          {
+            "position": 1,
+            "location": "widget",
+            "label": "Download results",
+            "type": "button-download"
+          }
+        ]
+      }
+    ]
+  }
+]

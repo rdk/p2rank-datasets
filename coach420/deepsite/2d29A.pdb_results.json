@@ -1,0 +1,113 @@
+[
+  {
+    "jobid": "4T2T3QIA",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdbG9R"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/4T2T3QIA/results_4T2T3QIA.pdb"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeJ3T"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/4T2T3QIA/4T2T3QIA.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "tableQ7W"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "id": "1",
+                  "centers": "[43.5, 64.6, 78.9]",
+                  "chain": "X",
+                  "score": "1.0",
+                  "resid": "1"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "location": "widget",
+            "is_expanded": [
+              true
+            ],
+            "type": "table"
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "button6N3"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/4T2T3QIA/4T2T3QIA.tar.gz"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "type": "button-download",
+            "location": "widget",
+            "position": 1
+          }
+        ]
+      }
+    ]
+  }
+]

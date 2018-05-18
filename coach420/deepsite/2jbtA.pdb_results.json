@@ -1,0 +1,127 @@
+[
+  {
+    "result": [
+      {
+        "model": {
+          "name": "pdbLJK",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/6HL981VR/results_6HL981VR.pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "displayAroundSelection": 8
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "cubePYA",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/6HL981VR/6HL981VR.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": [
+            "table7JS"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "1.0",
+                  "resid": "1",
+                  "id": "1",
+                  "chain": "X",
+                  "centers": "[34.8, 58.9, 85.3]"
+                },
+                {
+                  "score": "1.0",
+                  "resid": "2",
+                  "id": "2",
+                  "chain": "X",
+                  "centers": "[42.8, 40.9, 77.3]"
+                },
+                {
+                  "score": "0.89",
+                  "resid": "3",
+                  "id": "3",
+                  "chain": "X",
+                  "centers": "[54.8, 28.9, 91.3]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "collapsible": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "type": "table"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "buttonUOL",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/6HL981VR/6HL981VR.tar.gz"
+        },
+        "representation": [
+          {
+            "position": 1,
+            "label": "Download results",
+            "type": "button-download",
+            "location": "widget"
+          }
+        ]
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "6HL981VR"
+  }
+]

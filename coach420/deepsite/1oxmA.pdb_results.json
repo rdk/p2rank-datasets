@@ -1,0 +1,127 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/SH7W2AOA/results_SH7W2AOA.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbTNV"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/SH7W2AOA/SH7W2AOA.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeH1S"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "id": "1",
+                  "resid": "1",
+                  "chain": "X",
+                  "centers": "[14.6, 59.0, 9.2]",
+                  "score": "1.0"
+                },
+                {
+                  "id": "2",
+                  "resid": "2",
+                  "chain": "X",
+                  "centers": "[10.6, 61.0, -0.8]",
+                  "score": "0.67"
+                },
+                {
+                  "id": "3",
+                  "resid": "3",
+                  "chain": "X",
+                  "centers": "[-7.4, 75.0, 5.2]",
+                  "score": "0.66"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "tableZW6"
+          ]
+        },
+        "representation": [
+          {
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0,
+            "collapsible": [
+              true
+            ],
+            "type": "table",
+            "location": "widget",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/SH7W2AOA/SH7W2AOA.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonRO3"
+        },
+        "representation": [
+          {
+            "position": 1,
+            "label": "Download results",
+            "type": "button-download",
+            "location": "widget"
+          }
+        ]
+      }
+    ],
+    "jobid": "SH7W2AOA"
+  }
+]

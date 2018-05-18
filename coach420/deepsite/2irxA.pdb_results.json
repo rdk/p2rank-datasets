@@ -1,0 +1,148 @@
+[
+  {
+    "jobid": "S3IFL69R",
+    "result": [
+      {
+        "model": {
+          "name": "pdb9GL",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/S3IFL69R/results_S3IFL69R.pdb"
+        }
+      },
+      {
+        "model": {
+          "name": "cubeZTV",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/S3IFL69R/S3IFL69R.cube"
+        }
+      },
+      {
+        "model": {
+          "name": [
+            "tableESV"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "1.0",
+                  "id": "1",
+                  "chain": "X",
+                  "centers": "[23.4, 39.2, 9.5]",
+                  "resid": "1"
+                },
+                {
+                  "score": "0.98",
+                  "id": "2",
+                  "chain": "X",
+                  "centers": "[25.4, 37.2, 5.5]",
+                  "resid": "2"
+                },
+                {
+                  "score": "0.78",
+                  "id": "3",
+                  "chain": "X",
+                  "centers": "[21.4, 19.2, -0.5]",
+                  "resid": "3"
+                },
+                {
+                  "score": "0.66",
+                  "id": "4",
+                  "chain": "X",
+                  "centers": "[21.4, 55.2, 3.5]",
+                  "resid": "4"
+                },
+                {
+                  "score": "0.52",
+                  "id": "5",
+                  "chain": "X",
+                  "centers": "[29.4, 51.2, 17.5]",
+                  "resid": "5"
+                },
+                {
+                  "score": "0.49",
+                  "id": "6",
+                  "chain": "X",
+                  "centers": "[27.4, 49.2, 3.5]",
+                  "resid": "6"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "name": "buttonK2Y",
+          "type": null
+        },
+        "representation": [
+          {
+            "position": 1,
+            "label": "Download results",
+            "location": "widget",
+            "type": "button-download"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/S3IFL69R/S3IFL69R.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

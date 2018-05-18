@@ -1,0 +1,141 @@
+[
+  {
+    "jobid": "FEIO96CJ",
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/FEIO96CJ/results_FEIO96CJ.pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "model": {
+          "name": "pdbTCH",
+          "type": "pdb"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/FEIO96CJ/FEIO96CJ.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "cubeS8V",
+          "type": "cube"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "0.89",
+                  "centers": "[2.3, 5.1, 22.1]",
+                  "chain": "X",
+                  "resid": "1",
+                  "id": "1"
+                },
+                {
+                  "score": "0.96",
+                  "centers": "[-1.7, 5.1, 4.1]",
+                  "chain": "X",
+                  "resid": "2",
+                  "id": "2"
+                },
+                {
+                  "score": "0.77",
+                  "centers": "[-11.7, 1.1, -1.9]",
+                  "chain": "X",
+                  "resid": "3",
+                  "id": "3"
+                },
+                {
+                  "score": "0.51",
+                  "centers": "[-7.7, -2.9, 10.1]",
+                  "chain": "X",
+                  "resid": "4",
+                  "id": "4"
+                },
+                {
+                  "score": "0.65",
+                  "centers": "[8.3, 3.1, 0.1]",
+                  "chain": "X",
+                  "resid": "5",
+                  "id": "5"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "location": "widget",
+            "label": [
+              "DeepSite prediction results"
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "tableSOY"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/FEIO96CJ/FEIO96CJ.tar.gz"
+        },
+        "representation": [
+          {
+            "position": 1,
+            "location": "widget",
+            "type": "button-download",
+            "label": "Download results"
+          }
+        ],
+        "model": {
+          "name": "button6FE",
+          "type": null
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

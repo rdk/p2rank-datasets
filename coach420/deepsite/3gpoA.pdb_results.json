@@ -1,0 +1,127 @@
+[
+  {
+    "result": [
+      {
+        "model": {
+          "name": "pdbDMQ",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/VUX22T88/results_VUX22T88.pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "type": "ngl-viewer-pdb"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "cubeGNP",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/VUX22T88/VUX22T88.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": [
+            "table54W"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "score": "0.99",
+                  "resid": "1",
+                  "centers": "[4.8, 44.3, -11.3]",
+                  "chain": "X",
+                  "id": "1"
+                },
+                {
+                  "score": "1.0",
+                  "resid": "2",
+                  "centers": "[12.8, 46.3, -9.3]",
+                  "chain": "X",
+                  "id": "2"
+                },
+                {
+                  "score": "0.88",
+                  "resid": "3",
+                  "centers": "[12.8, 50.3, 4.7]",
+                  "chain": "X",
+                  "id": "3"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "location": "widget"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "buttonSZ0",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/VUX22T88/VUX22T88.tar.gz"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "position": 1,
+            "location": "widget",
+            "type": "button-download"
+          }
+        ]
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "VUX22T88"
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "NOIVKFF0",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/NOIVKFF0/results_NOIVKFF0.pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdbZQA"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/NOIVKFF0/NOIVKFF0.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cubeKFP"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "centers": "[35.3, 54.7, 5.6]",
+                  "chain": "X",
+                  "score": "1.0",
+                  "id": "1",
+                  "resid": "1"
+                },
+                {
+                  "centers": "[47.3, 40.7, 11.6]",
+                  "chain": "X",
+                  "score": "0.7",
+                  "id": "2",
+                  "resid": "2"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "collapsible": [
+              true
+            ],
+            "location": "widget",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "table0MX"
+          ]
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/NOIVKFF0/NOIVKFF0.tar.gz"
+        },
+        "representation": [
+          {
+            "position": 1,
+            "location": "widget",
+            "type": "button-download",
+            "label": "Download results"
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "buttonW7V"
+        }
+      }
+    ]
+  }
+]

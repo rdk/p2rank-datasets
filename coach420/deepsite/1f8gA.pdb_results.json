@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/93JFYLNZ/results_93JFYLNZ.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbPXL"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/93JFYLNZ/93JFYLNZ.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cube7BQ"
+        }
+      },
+      {
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "1.0",
+                  "id": "1",
+                  "resid": "1",
+                  "chain": "X",
+                  "centers": "[-1.2, -4.6, -0.1]"
+                },
+                {
+                  "score": "0.91",
+                  "id": "2",
+                  "resid": "2",
+                  "chain": "X",
+                  "centers": "[-23.2, 9.4, 5.9]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "tableJCP"
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "button-download",
+            "position": 1,
+            "label": "Download results",
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/93JFYLNZ/93JFYLNZ.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonS9T"
+        }
+      }
+    ],
+    "jobid": "93JFYLNZ"
+  }
+]

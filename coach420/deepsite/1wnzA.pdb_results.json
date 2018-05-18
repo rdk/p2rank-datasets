@@ -1,0 +1,155 @@
+[
+  {
+    "jobid": "CT386UMO",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/CT386UMO/results_CT386UMO.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdb3S1"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/CT386UMO/CT386UMO.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeMAW"
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0,
+            "collapsible": [
+              true
+            ],
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "id": "1",
+                  "centers": "[58.6, 17.1, 24.9]",
+                  "score": "0.56",
+                  "chain": "X",
+                  "resid": "1"
+                },
+                {
+                  "id": "2",
+                  "centers": "[72.6, 19.1, 28.9]",
+                  "score": "0.74",
+                  "chain": "X",
+                  "resid": "2"
+                },
+                {
+                  "id": "3",
+                  "centers": "[68.6, 13.1, 18.9]",
+                  "score": "0.64",
+                  "chain": "X",
+                  "resid": "3"
+                },
+                {
+                  "id": "4",
+                  "centers": "[84.6, 25.1, 18.9]",
+                  "score": "0.57",
+                  "chain": "X",
+                  "resid": "4"
+                },
+                {
+                  "id": "5",
+                  "centers": "[70.6, 31.1, 28.9]",
+                  "score": "0.42",
+                  "chain": "X",
+                  "resid": "5"
+                },
+                {
+                  "id": "6",
+                  "centers": "[76.6, 25.1, 18.9]",
+                  "score": "0.48",
+                  "chain": "X",
+                  "resid": "6"
+                },
+                {
+                  "id": "7",
+                  "centers": "[80.6, 27.1, 28.9]",
+                  "score": "0.54",
+                  "chain": "X",
+                  "resid": "7"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "table7Y4"
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": "Download results",
+            "location": "widget",
+            "type": "button-download",
+            "position": 1
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/CT386UMO/CT386UMO.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonPTM"
+        }
+      }
+    ]
+  }
+]

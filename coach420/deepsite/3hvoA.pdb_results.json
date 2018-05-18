@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "name": "pdb8B8",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/WEV180F4/results_WEV180F4.pdb"
+        }
+      },
+      {
+        "model": {
+          "name": "cubeJWJ",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/WEV180F4/WEV180F4.cube"
+        }
+      },
+      {
+        "model": {
+          "name": [
+            "tableNP8"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "location": "widget",
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "id": "1",
+                  "chain": "X",
+                  "score": "1.0",
+                  "resid": "1",
+                  "centers": "[60.5, 3.1, 42.8]"
+                },
+                {
+                  "id": "2",
+                  "chain": "X",
+                  "score": "1.0",
+                  "resid": "2",
+                  "centers": "[42.5, 1.1, 74.8]"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "name": "button85Y",
+          "type": null
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "position": 1,
+            "type": "button-download",
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/WEV180F4/WEV180F4.tar.gz"
+        }
+      }
+    ],
+    "jobid": "WEV180F4"
+  }
+]

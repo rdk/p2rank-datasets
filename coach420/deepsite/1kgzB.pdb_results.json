@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdbQYV"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/42YIWV6A/results_42YIWV6A.pdb"
+        }
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeVP1"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/42YIWV6A/42YIWV6A.cube"
+        }
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "tableWV0"
+          ]
+        },
+        "representation": [
+          {
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "position": 0,
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "id": "1",
+                  "centers": "[22.6, 11.7, 52.4]",
+                  "resid": "1",
+                  "chain": "X",
+                  "score": "1.0"
+                },
+                {
+                  "id": "2",
+                  "centers": "[30.6, 29.7, 50.4]",
+                  "resid": "2",
+                  "chain": "X",
+                  "score": "0.93"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "buttonP2G"
+        },
+        "representation": [
+          {
+            "type": "button-download",
+            "location": "widget",
+            "position": 1,
+            "label": "Download results"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/42YIWV6A/42YIWV6A.tar.gz"
+        }
+      }
+    ],
+    "jobid": "42YIWV6A",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/EDGL4985/results_EDGL4985.pdb"
+        },
+        "model": {
+          "name": "pdb012",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "type": "ngl-viewer-pdb"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/EDGL4985/EDGL4985.cube"
+        },
+        "model": {
+          "name": "cubeNQ3",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "centers": "[37.7, 32.7, 55.3]",
+                  "score": "0.97",
+                  "resid": "1",
+                  "chain": "X",
+                  "id": "1"
+                },
+                {
+                  "centers": "[43.7, 40.7, 49.3]",
+                  "score": "0.95",
+                  "resid": "2",
+                  "chain": "X",
+                  "id": "2"
+                },
+                {
+                  "centers": "[31.7, 40.7, 51.3]",
+                  "score": "0.75",
+                  "resid": "3",
+                  "chain": "X",
+                  "id": "3"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "table27C"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "position": 0,
+            "collapsible": [
+              true
+            ],
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/EDGL4985/EDGL4985.tar.gz"
+        },
+        "model": {
+          "name": "buttonJMF",
+          "type": null
+        },
+        "representation": [
+          {
+            "position": 1,
+            "type": "button-download",
+            "location": "widget",
+            "label": "Download results"
+          }
+        ]
+      }
+    ],
+    "jobid": "EDGL4985",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

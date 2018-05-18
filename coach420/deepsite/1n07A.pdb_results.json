@@ -1,0 +1,127 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/72LMPZ38/results_72LMPZ38.pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "pdbL6X",
+          "type": "pdb"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/72LMPZ38/72LMPZ38.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "cube37P",
+          "type": "cube"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "id": "1",
+                  "chain": "X",
+                  "centers": "[6.5, 5.3, -5.7]",
+                  "resid": "1",
+                  "score": "1.0"
+                },
+                {
+                  "id": "2",
+                  "chain": "X",
+                  "centers": "[4.5, 5.3, -7.7]",
+                  "resid": "2",
+                  "score": "1.0"
+                },
+                {
+                  "id": "3",
+                  "chain": "X",
+                  "centers": "[2.5, 5.3, 8.3]",
+                  "resid": "3",
+                  "score": "0.96"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "collapsible": [
+              true
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "table26M"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/72LMPZ38/72LMPZ38.tar.gz"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "location": "widget",
+            "type": "button-download",
+            "position": 1
+          }
+        ],
+        "model": {
+          "name": "button8S1",
+          "type": null
+        }
+      }
+    ],
+    "jobid": "72LMPZ38"
+  }
+]

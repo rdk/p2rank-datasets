@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "MZB3ZTEG",
+    "result": [
+      {
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/MZB3ZTEG/results_MZB3ZTEG.pdb"
+        },
+        "model": {
+          "name": "pdbYTJ",
+          "type": "pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/MZB3ZTEG/MZB3ZTEG.cube"
+        },
+        "model": {
+          "name": "cubeKAV",
+          "type": "cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "type": "table",
+            "position": 0,
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "id": "1",
+                  "centers": "[4.7, -4.7, 13.1]",
+                  "resid": "1",
+                  "score": "1.0",
+                  "chain": "X"
+                },
+                {
+                  "id": "2",
+                  "centers": "[4.7, 7.3, 7.1]",
+                  "resid": "2",
+                  "score": "1.0",
+                  "chain": "X"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "tableU49"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "type": "button-download",
+            "position": 1,
+            "label": "Download results"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/MZB3ZTEG/MZB3ZTEG.tar.gz"
+        },
+        "model": {
+          "name": "buttonZ20",
+          "type": null
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

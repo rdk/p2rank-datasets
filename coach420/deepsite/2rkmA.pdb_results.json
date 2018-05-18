@@ -1,0 +1,127 @@
+[
+  {
+    "jobid": "AZNXYXNO",
+    "result": [
+      {
+        "model": {
+          "name": "pdbOKB",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/AZNXYXNO/results_AZNXYXNO.pdb"
+        }
+      },
+      {
+        "model": {
+          "name": "cubeXM9",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/AZNXYXNO/AZNXYXNO.cube"
+        }
+      },
+      {
+        "model": {
+          "name": [
+            "table7I1"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "position": 0,
+            "collapsible": [
+              true
+            ],
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "score": "1.0",
+                  "resid": "1",
+                  "chain": "X",
+                  "id": "1",
+                  "centers": "[-5.2, 23.0, 16.8]"
+                },
+                {
+                  "score": "1.0",
+                  "resid": "2",
+                  "chain": "X",
+                  "id": "2",
+                  "centers": "[20.8, 13.0, 20.8]"
+                },
+                {
+                  "score": "0.96",
+                  "resid": "3",
+                  "chain": "X",
+                  "id": "3",
+                  "centers": "[2.8, 11.0, 34.8]"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "name": "button5IM",
+          "type": null
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "position": 1,
+            "label": "Download results",
+            "type": "button-download"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/AZNXYXNO/AZNXYXNO.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

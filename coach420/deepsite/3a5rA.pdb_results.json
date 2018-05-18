@@ -1,0 +1,127 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/BGGAKNMR/results_BGGAKNMR.pdb"
+        },
+        "model": {
+          "name": "pdbRFF",
+          "type": "pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/BGGAKNMR/BGGAKNMR.cube"
+        },
+        "model": {
+          "name": "cubeEDG",
+          "type": "cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "is_expanded": [
+              true
+            ],
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "type": "table"
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[10.5, -41.1, 117.7]",
+                  "resid": "1",
+                  "chain": "X",
+                  "id": "1",
+                  "score": "1.0"
+                },
+                {
+                  "centers": "[26.5, -53.1, 97.7]",
+                  "resid": "2",
+                  "chain": "X",
+                  "id": "2",
+                  "score": "0.88"
+                },
+                {
+                  "centers": "[24.5, -57.1, 107.7]",
+                  "resid": "3",
+                  "chain": "X",
+                  "id": "3",
+                  "score": "0.98"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "tableUYV"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": "Download results",
+            "position": 1,
+            "type": "button-download",
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/BGGAKNMR/BGGAKNMR.tar.gz"
+        },
+        "model": {
+          "name": "buttonPK0",
+          "type": null
+        }
+      }
+    ],
+    "jobid": "BGGAKNMR"
+  }
+]

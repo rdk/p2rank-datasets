@@ -1,0 +1,113 @@
+[
+  {
+    "jobid": "GARFB7QS",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "name": "pdb8AC",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/GARFB7QS/results_GARFB7QS.pdb"
+        }
+      },
+      {
+        "model": {
+          "name": "cubeJTU",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/GARFB7QS/GARFB7QS.cube"
+        }
+      },
+      {
+        "model": {
+          "name": [
+            "tableBLN"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "is_expanded": [
+              true
+            ],
+            "location": "widget",
+            "position": 0,
+            "label": [
+              "DeepSite prediction results"
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "1.0",
+                  "id": "1",
+                  "resid": "1",
+                  "centers": "[-27.7, -10.1, 4.5]",
+                  "chain": "X"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "name": "buttonW8J",
+          "type": null
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "label": "Download results",
+            "position": 1,
+            "type": "button-download"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/GARFB7QS/GARFB7QS.tar.gz"
+        }
+      }
+    ]
+  }
+]

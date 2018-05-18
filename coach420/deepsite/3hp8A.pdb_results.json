@@ -1,0 +1,113 @@
+[
+  {
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/TB405PIA/results_TB405PIA.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdb5CO"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/TB405PIA/TB405PIA.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeG1C"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[20.2, 5.5, 3.1]",
+                  "resid": "1",
+                  "id": "1",
+                  "chain": "X",
+                  "score": "0.84"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "tableEQ4"
+          ]
+        },
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "location": "widget"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/TB405PIA/TB405PIA.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonINE"
+        },
+        "representation": [
+          {
+            "position": 1,
+            "label": "Download results",
+            "type": "button-download",
+            "location": "widget"
+          }
+        ]
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "TB405PIA"
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "result": [
+      {
+        "model": {
+          "name": "pdbB9L",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/RPCTIXR5/results_RPCTIXR5.pdb"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "cube0MP",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/RPCTIXR5/RPCTIXR5.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": [
+            "table1L2"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "0.99",
+                  "id": "1",
+                  "centers": "[-11.3, 26.3, 10.9]",
+                  "chain": "X",
+                  "resid": "1"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "position": 0,
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "location": "widget",
+            "collapsible": [
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "buttonGC8",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/RPCTIXR5/RPCTIXR5.tar.gz"
+        },
+        "representation": [
+          {
+            "position": 1,
+            "label": "Download results",
+            "type": "button-download",
+            "location": "widget"
+          }
+        ]
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "RPCTIXR5"
+  }
+]

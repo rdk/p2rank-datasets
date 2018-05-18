@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "556ROX15",
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/556ROX15/results_556ROX15.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdb2GT"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/556ROX15/556ROX15.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeCOL"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "resid": "1",
+                  "score": "1.0",
+                  "centers": "[-2.6, 1.9, 37.8]",
+                  "chain": "X",
+                  "id": "1"
+                },
+                {
+                  "resid": "2",
+                  "score": "1.0",
+                  "centers": "[5.4, 11.9, 45.8]",
+                  "chain": "X",
+                  "id": "2"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "table0OS"
+          ]
+        },
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "collapsible": [
+              true
+            ],
+            "location": "widget",
+            "type": "table",
+            "position": 0,
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/556ROX15/556ROX15.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonX1C"
+        },
+        "representation": [
+          {
+            "position": 1,
+            "type": "button-download",
+            "location": "widget",
+            "label": "Download results"
+          }
+        ]
+      }
+    ]
+  }
+]

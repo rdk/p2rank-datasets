@@ -1,0 +1,162 @@
+[
+  {
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdbQ75"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/SPYBWQF5/results_SPYBWQF5.pdb"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "highlighted_style": "spacefill"
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeTC1"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/SPYBWQF5/SPYBWQF5.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "tableQZ6"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "0.88",
+                  "chain": "X",
+                  "resid": "1",
+                  "id": "1",
+                  "centers": "[8.5, 43.0, 11.2]"
+                },
+                {
+                  "score": "0.59",
+                  "chain": "X",
+                  "resid": "2",
+                  "id": "2",
+                  "centers": "[-7.5, 37.0, 1.2]"
+                },
+                {
+                  "score": "0.71",
+                  "chain": "X",
+                  "resid": "3",
+                  "id": "3",
+                  "centers": "[0.5, 27.0, -0.8]"
+                },
+                {
+                  "score": "0.9",
+                  "chain": "X",
+                  "resid": "4",
+                  "id": "4",
+                  "centers": "[12.5, 33.0, 13.2]"
+                },
+                {
+                  "score": "0.65",
+                  "chain": "X",
+                  "resid": "5",
+                  "id": "5",
+                  "centers": "[-3.5, 29.0, 15.2]"
+                },
+                {
+                  "score": "0.54",
+                  "chain": "X",
+                  "resid": "6",
+                  "id": "6",
+                  "centers": "[-9.5, 29.0, 11.2]"
+                },
+                {
+                  "score": "0.41",
+                  "chain": "X",
+                  "resid": "7",
+                  "id": "7",
+                  "centers": "[-3.5, 41.0, 15.2]"
+                },
+                {
+                  "score": "0.42",
+                  "chain": "X",
+                  "resid": "8",
+                  "id": "8",
+                  "centers": "[4.5, 31.0, 3.2]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "location": "widget",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "buttonPZT"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/SPYBWQF5/SPYBWQF5.tar.gz"
+        },
+        "representation": [
+          {
+            "type": "button-download",
+            "label": "Download results",
+            "position": 1,
+            "location": "widget"
+          }
+        ]
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "SPYBWQF5"
+  }
+]

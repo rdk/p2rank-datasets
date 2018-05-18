@@ -1,0 +1,127 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/Y85ROEBL/results_Y85ROEBL.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbHE2"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/Y85ROEBL/Y85ROEBL.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeJKU"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "resid": "1",
+                  "id": "1",
+                  "centers": "[20.6, -6.3, 7.7]",
+                  "score": "1.0",
+                  "chain": "X"
+                },
+                {
+                  "resid": "2",
+                  "id": "2",
+                  "centers": "[30.6, 1.7, -2.3]",
+                  "score": "0.7",
+                  "chain": "X"
+                },
+                {
+                  "resid": "3",
+                  "id": "3",
+                  "centers": "[20.6, -14.3, -0.3]",
+                  "score": "0.74",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "tableCBR"
+          ]
+        },
+        "representation": [
+          {
+            "position": 0,
+            "location": "widget",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "type": "table",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/Y85ROEBL/Y85ROEBL.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonIPS"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "location": "widget",
+            "type": "button-download",
+            "position": 1
+          }
+        ]
+      }
+    ],
+    "jobid": "Y85ROEBL"
+  }
+]

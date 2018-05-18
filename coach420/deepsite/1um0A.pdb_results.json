@@ -1,0 +1,113 @@
+[
+  {
+    "jobid": "5QDGIWRL",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/5QDGIWRL/results_5QDGIWRL.pdb"
+        },
+        "model": {
+          "name": "pdbW5R",
+          "type": "pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/5QDGIWRL/5QDGIWRL.cube"
+        },
+        "model": {
+          "name": "cubeUZF",
+          "type": "cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "position": 0,
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[43.7, 50.6, 29.2]",
+                  "score": "1.0",
+                  "chain": "X",
+                  "id": "1",
+                  "resid": "1"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "table6P9"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "type": "button-download",
+            "position": 1,
+            "label": "Download results"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/5QDGIWRL/5QDGIWRL.tar.gz"
+        },
+        "model": {
+          "name": "buttonR1O",
+          "type": null
+        }
+      }
+    ]
+  }
+]

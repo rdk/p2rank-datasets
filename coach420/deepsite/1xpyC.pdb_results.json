@@ -1,0 +1,113 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "HFUHIV24",
+    "result": [
+      {
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "pdbOWJ",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/HFUHIV24/results_HFUHIV24.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "cube58D",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/HFUHIV24/HFUHIV24.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "collapsible": [
+              true
+            ],
+            "type": "table",
+            "location": "widget",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "tableBMI"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "resid": "1",
+                  "chain": "X",
+                  "id": "1",
+                  "centers": "[55.3, 17.7, 29.4]",
+                  "score": "1.0"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": "Download results",
+            "location": "widget",
+            "position": 1,
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "name": "buttonT8I",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/HFUHIV24/HFUHIV24.tar.gz"
+        }
+      }
+    ]
+  }
+]

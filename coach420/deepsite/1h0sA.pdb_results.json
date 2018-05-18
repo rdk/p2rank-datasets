@@ -1,0 +1,127 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "H3B18F59",
+    "result": [
+      {
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdb7VM"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/H3B18F59/results_H3B18F59.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cubeMWF"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/H3B18F59/H3B18F59.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0,
+            "location": "widget",
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ]
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "table9P9"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "1.0",
+                  "chain": "X",
+                  "centers": "[27.5, 71.1, 18.5]",
+                  "resid": "1",
+                  "id": "1"
+                },
+                {
+                  "score": "0.91",
+                  "chain": "X",
+                  "centers": "[25.5, 59.1, 32.5]",
+                  "resid": "2",
+                  "id": "2"
+                },
+                {
+                  "score": "0.93",
+                  "chain": "X",
+                  "centers": "[17.5, 59.1, 32.5]",
+                  "resid": "3",
+                  "id": "3"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": "Download results",
+            "position": 1,
+            "location": "widget",
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "buttonRIM"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/H3B18F59/H3B18F59.tar.gz"
+        }
+      }
+    ]
+  }
+]

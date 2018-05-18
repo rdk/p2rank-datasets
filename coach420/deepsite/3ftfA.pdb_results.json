@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "TGZ7DTM3",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdb6IW"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/TGZ7DTM3/results_TGZ7DTM3.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cubeD4N"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/TGZ7DTM3/TGZ7DTM3.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "position": 0,
+            "location": "widget"
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "tableRJ7"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "id": "1",
+                  "score": "1.0",
+                  "resid": "1",
+                  "centers": "[14.9, -6.8, 7.5]",
+                  "chain": "X"
+                },
+                {
+                  "id": "2",
+                  "score": "0.94",
+                  "resid": "2",
+                  "centers": "[14.9, 1.2, 15.5]",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": "Download results",
+            "type": "button-download",
+            "position": 1,
+            "location": "widget"
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "buttonL6E"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/TGZ7DTM3/TGZ7DTM3.tar.gz"
+        }
+      }
+    ]
+  }
+]

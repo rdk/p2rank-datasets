@@ -1,0 +1,127 @@
+[
+  {
+    "jobid": "F1O4LWRW",
+    "result": [
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/F1O4LWRW/results_F1O4LWRW.pdb"
+        },
+        "model": {
+          "name": "pdbLC6",
+          "type": "pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/F1O4LWRW/F1O4LWRW.cube"
+        },
+        "model": {
+          "name": "cubeG0V",
+          "type": "cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "position": 0,
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table"
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "score": "1.0",
+                  "id": "1",
+                  "resid": "1",
+                  "centers": "[4.0, -10.9, 39.5]"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.88",
+                  "id": "2",
+                  "resid": "2",
+                  "centers": "[-12.0, -22.9, 49.5]"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.72",
+                  "id": "3",
+                  "resid": "3",
+                  "centers": "[-14.0, -12.9, 37.5]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "tableMFI"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "label": "Download results",
+            "position": 1,
+            "type": "button-download"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/F1O4LWRW/F1O4LWRW.tar.gz"
+        },
+        "model": {
+          "name": "button5PF",
+          "type": null
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

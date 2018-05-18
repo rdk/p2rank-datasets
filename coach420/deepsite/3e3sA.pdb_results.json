@@ -1,0 +1,127 @@
+[
+  {
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/YWC6JP6W/results_YWC6JP6W.pdb"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "model": {
+          "name": "pdb0PJ",
+          "type": "pdb"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/YWC6JP6W/YWC6JP6W.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cubeICX",
+          "type": "cube"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "chain": "X",
+                  "score": "0.96",
+                  "centers": "[8.8, 31.4, 43.6]",
+                  "resid": "1",
+                  "id": "1"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.96",
+                  "centers": "[10.8, 21.4, 39.6]",
+                  "resid": "2",
+                  "id": "2"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.94",
+                  "centers": "[8.8, 31.4, 25.6]",
+                  "resid": "3",
+                  "id": "3"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "position": 0,
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "is_expanded": [
+              true
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "tableERE"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/YWC6JP6W/YWC6JP6W.tar.gz"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "location": "widget",
+            "type": "button-download",
+            "position": 1
+          }
+        ],
+        "model": {
+          "name": "buttonHH6",
+          "type": null
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "YWC6JP6W"
+  }
+]

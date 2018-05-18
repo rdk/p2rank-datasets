@@ -1,0 +1,127 @@
+[
+  {
+    "jobid": "IMHJDKCP",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "name": "pdbVB6",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/IMHJDKCP/results_IMHJDKCP.pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "type": "ngl-viewer-pdb"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "cubeATG",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/IMHJDKCP/IMHJDKCP.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": [
+            "table53L"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "id": "1",
+                  "score": "1.0",
+                  "resid": "1",
+                  "centers": "[14.2, 22.0, 5.7]",
+                  "chain": "X"
+                },
+                {
+                  "id": "2",
+                  "score": "1.0",
+                  "resid": "2",
+                  "centers": "[20.2, 44.0, -12.3]",
+                  "chain": "X"
+                },
+                {
+                  "id": "3",
+                  "score": "1.0",
+                  "resid": "3",
+                  "centers": "[6.2, 6.0, 15.7]",
+                  "chain": "X"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "location": "widget"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "buttonMA4",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/IMHJDKCP/IMHJDKCP.tar.gz"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "position": 1,
+            "type": "button-download",
+            "location": "widget"
+          }
+        ]
+      }
+    ]
+  }
+]

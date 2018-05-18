@@ -1,0 +1,134 @@
+[
+  {
+    "jobid": "TDIXG37X",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "name": "pdb6VN",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/TDIXG37X/results_TDIXG37X.pdb"
+        }
+      },
+      {
+        "model": {
+          "name": "cubeSD8",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/TDIXG37X/TDIXG37X.cube"
+        }
+      },
+      {
+        "model": {
+          "name": [
+            "tableCSM"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "is_expanded": [
+              true
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "resid": "1",
+                  "id": "1",
+                  "score": "0.97",
+                  "centers": "[14.8, -2.1, 23.4]",
+                  "chain": "X"
+                },
+                {
+                  "resid": "2",
+                  "id": "2",
+                  "score": "0.98",
+                  "centers": "[26.8, -4.1, 19.4]",
+                  "chain": "X"
+                },
+                {
+                  "resid": "3",
+                  "id": "3",
+                  "score": "0.65",
+                  "centers": "[12.8, 9.9, 13.4]",
+                  "chain": "X"
+                },
+                {
+                  "resid": "4",
+                  "id": "4",
+                  "score": "0.59",
+                  "centers": "[12.8, -6.1, 3.4]",
+                  "chain": "X"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "name": "buttonPP2",
+          "type": null
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "label": "Download results",
+            "type": "button-download",
+            "position": 1
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/TDIXG37X/TDIXG37X.tar.gz"
+        }
+      }
+    ]
+  }
+]

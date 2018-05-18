@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "name": "pdbZRH",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/BCVSCNCD/results_BCVSCNCD.pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "cube8N3",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/BCVSCNCD/BCVSCNCD.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": [
+            "tableFXC"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "1.0",
+                  "resid": "1",
+                  "centers": "[29.9, -11.4, 15.3]",
+                  "id": "1",
+                  "chain": "X"
+                },
+                {
+                  "score": "0.95",
+                  "resid": "2",
+                  "centers": "[31.9, -1.4, 29.3]",
+                  "id": "2",
+                  "chain": "X"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "type": "table",
+            "position": 0,
+            "is_expanded": [
+              true
+            ],
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ]
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "buttonCO7",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/BCVSCNCD/BCVSCNCD.tar.gz"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "type": "button-download",
+            "position": 1,
+            "label": "Download results"
+          }
+        ]
+      }
+    ],
+    "jobid": "BCVSCNCD"
+  }
+]

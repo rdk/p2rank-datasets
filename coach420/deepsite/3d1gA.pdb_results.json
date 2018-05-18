@@ -1,0 +1,127 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "G59HYABA",
+    "result": [
+      {
+        "model": {
+          "name": "pdbWVG",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/G59HYABA/results_G59HYABA.pdb"
+        }
+      },
+      {
+        "model": {
+          "name": "cubeG84",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/G59HYABA/G59HYABA.cube"
+        }
+      },
+      {
+        "model": {
+          "name": [
+            "tableYTP"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "position": 0,
+            "location": "widget",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "resid": "1",
+                  "centers": "[-59.0, -104.2, -23.8]",
+                  "score": "0.95",
+                  "chain": "X",
+                  "id": "1"
+                },
+                {
+                  "resid": "2",
+                  "centers": "[-49.0, -116.2, -39.8]",
+                  "score": "0.97",
+                  "chain": "X",
+                  "id": "2"
+                },
+                {
+                  "resid": "3",
+                  "centers": "[-65.0, -106.2, -11.8]",
+                  "score": "0.89",
+                  "chain": "X",
+                  "id": "3"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "name": "buttonJ0M",
+          "type": null
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "label": "Download results",
+            "type": "button-download",
+            "position": 1
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/G59HYABA/G59HYABA.tar.gz"
+        }
+      }
+    ]
+  }
+]

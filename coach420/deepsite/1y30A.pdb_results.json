@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdbTMK"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/QYT1KRKY/results_QYT1KRKY.pdb"
+        }
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeFTB"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/QYT1KRKY/QYT1KRKY.cube"
+        }
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "table2KV"
+          ]
+        },
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "position": 0
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[8.6, 29.1, 37.7]",
+                  "resid": "1",
+                  "chain": "X",
+                  "score": "0.97",
+                  "id": "1"
+                },
+                {
+                  "centers": "[18.6, 39.1, 49.7]",
+                  "resid": "2",
+                  "chain": "X",
+                  "score": "0.92",
+                  "id": "2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "buttonRRV"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "type": "button-download",
+            "location": "widget",
+            "position": 1
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/QYT1KRKY/QYT1KRKY.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "QYT1KRKY"
+  }
+]

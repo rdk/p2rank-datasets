@@ -1,0 +1,141 @@
+[
+  {
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdbI62"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "displayAroundSelection": 8
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/OLII4SUR/results_OLII4SUR.pdb"
+        }
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeSP9"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/OLII4SUR/OLII4SUR.cube"
+        }
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "tableBRT"
+          ]
+        },
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "location": "widget",
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "id": "1",
+                  "chain": "X",
+                  "resid": "1",
+                  "score": "0.92",
+                  "centers": "[14.8, -2.3, 25.1]"
+                },
+                {
+                  "id": "2",
+                  "chain": "X",
+                  "resid": "2",
+                  "score": "0.84",
+                  "centers": "[20.8, -10.3, 35.1]"
+                },
+                {
+                  "id": "3",
+                  "chain": "X",
+                  "resid": "3",
+                  "score": "0.91",
+                  "centers": "[34.8, 1.7, 27.1]"
+                },
+                {
+                  "id": "4",
+                  "chain": "X",
+                  "resid": "4",
+                  "score": "0.8",
+                  "centers": "[26.8, 9.7, 29.1]"
+                },
+                {
+                  "id": "5",
+                  "chain": "X",
+                  "resid": "5",
+                  "score": "0.69",
+                  "centers": "[18.8, 7.7, 17.1]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "buttonS64"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "type": "button-download",
+            "location": "widget",
+            "position": 1
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/OLII4SUR/OLII4SUR.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "OLII4SUR"
+  }
+]

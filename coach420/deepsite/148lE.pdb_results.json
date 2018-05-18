@@ -1,0 +1,127 @@
+[
+  {
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdb60T"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/XKV35GWU/results_XKV35GWU.pdb"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cube90J"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/XKV35GWU/XKV35GWU.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "table3AF"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "id": "1",
+                  "score": "1.0",
+                  "centers": "[10.4, 50.8, 36.3]",
+                  "resid": "1"
+                },
+                {
+                  "chain": "X",
+                  "id": "2",
+                  "score": "0.86",
+                  "centers": "[4.4, 38.8, 32.3]",
+                  "resid": "2"
+                },
+                {
+                  "chain": "X",
+                  "id": "3",
+                  "score": "0.61",
+                  "centers": "[20.4, 40.8, 26.3]",
+                  "resid": "3"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "label": [
+              "DeepSite prediction results"
+            ]
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "buttonB6S"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/XKV35GWU/XKV35GWU.tar.gz"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "type": "button-download",
+            "label": "Download results",
+            "position": 1
+          }
+        ]
+      }
+    ],
+    "jobid": "XKV35GWU",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

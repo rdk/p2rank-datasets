@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/6IARCEOE/results_6IARCEOE.pdb"
+        },
+        "model": {
+          "name": "pdbZ24",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/6IARCEOE/6IARCEOE.cube"
+        },
+        "model": {
+          "name": "cube1GV",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "resid": "1",
+                  "score": "1.0",
+                  "id": "1",
+                  "chain": "X",
+                  "centers": "[3.1, -14.1, 84.5]"
+                },
+                {
+                  "resid": "2",
+                  "score": "1.0",
+                  "id": "2",
+                  "chain": "X",
+                  "centers": "[1.1, -14.1, 84.5]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "tableVDE"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "collapsible": [
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/6IARCEOE/6IARCEOE.tar.gz"
+        },
+        "model": {
+          "name": "buttonBKW",
+          "type": null
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "location": "widget",
+            "type": "button-download",
+            "position": 1
+          }
+        ]
+      }
+    ],
+    "jobid": "6IARCEOE"
+  }
+]

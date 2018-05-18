@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "name": "pdbBRU",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/5DR687C3/results_5DR687C3.pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "cubeN0V",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/5DR687C3/5DR687C3.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": [
+            "tableF4H"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "id": "1",
+                  "centers": "[-5.0, 15.9, 19.4]",
+                  "score": "1.0",
+                  "chain": "X",
+                  "resid": "1"
+                },
+                {
+                  "id": "2",
+                  "centers": "[-5.0, 9.9, 19.4]",
+                  "score": "1.0",
+                  "chain": "X",
+                  "resid": "2"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "type": "table",
+            "collapsible": [
+              true
+            ],
+            "is_expanded": [
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "buttonT6M",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/5DR687C3/5DR687C3.tar.gz"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "label": "Download results",
+            "type": "button-download",
+            "position": 1
+          }
+        ]
+      }
+    ],
+    "jobid": "5DR687C3"
+  }
+]

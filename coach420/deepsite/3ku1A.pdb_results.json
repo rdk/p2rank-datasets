@@ -1,0 +1,127 @@
+[
+  {
+    "result": [
+      {
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/IVQX521L/results_IVQX521L.pdb"
+        },
+        "model": {
+          "name": "pdb896",
+          "type": "pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/IVQX521L/IVQX521L.cube"
+        },
+        "model": {
+          "name": "cubeG9X",
+          "type": "cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "collapsible": [
+              true
+            ],
+            "location": "widget",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "position": 0
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "score": "0.97",
+                  "resid": "1",
+                  "chain": "X",
+                  "id": "1",
+                  "centers": "[33.1, 37.8, 9.8]"
+                },
+                {
+                  "score": "0.89",
+                  "resid": "2",
+                  "chain": "X",
+                  "id": "2",
+                  "centers": "[45.1, 27.8, -8.2]"
+                },
+                {
+                  "score": "0.7",
+                  "resid": "3",
+                  "chain": "X",
+                  "id": "3",
+                  "centers": "[23.1, 37.8, -6.2]"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "table45E"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "label": "Download results",
+            "position": 1,
+            "type": "button-download"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/IVQX521L/IVQX521L.tar.gz"
+        },
+        "model": {
+          "name": "buttonXH6",
+          "type": null
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "IVQX521L"
+  }
+]

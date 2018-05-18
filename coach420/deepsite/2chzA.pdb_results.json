@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "B93XJCX6",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/B93XJCX6/results_B93XJCX6.pdb"
+        },
+        "model": {
+          "name": "pdbHKR",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/B93XJCX6/B93XJCX6.cube"
+        },
+        "model": {
+          "name": "cubeS3L",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "resid": "1",
+                  "centers": "[44.6, 14.8, 33.6]",
+                  "chain": "X",
+                  "id": "1",
+                  "score": "1.0"
+                },
+                {
+                  "resid": "2",
+                  "centers": "[14.6, -1.2, 17.6]",
+                  "chain": "X",
+                  "id": "2",
+                  "score": "1.0"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "tableKCB"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "position": 0
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/B93XJCX6/B93XJCX6.tar.gz"
+        },
+        "model": {
+          "name": "buttonX3C",
+          "type": null
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "position": 1,
+            "type": "button-download",
+            "location": "widget"
+          }
+        ]
+      }
+    ]
+  }
+]

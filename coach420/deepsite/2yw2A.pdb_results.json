@@ -1,0 +1,113 @@
+[
+  {
+    "result": [
+      {
+        "model": {
+          "name": "pdbJRT",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/83PL5K0C/results_83PL5K0C.pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "type": "ngl-viewer-pdb"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "cube7XJ",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/83PL5K0C/83PL5K0C.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": [
+            "tableEU6"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "resid": "1",
+                  "id": "1",
+                  "chain": "X",
+                  "score": "1.0",
+                  "centers": "[-2.9, -12.9, -0.1]"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "type": "table",
+            "is_expanded": [
+              true
+            ],
+            "location": "widget",
+            "collapsible": [
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "buttonHHB",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/83PL5K0C/83PL5K0C.tar.gz"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "location": "widget",
+            "position": 1,
+            "type": "button-download"
+          }
+        ]
+      }
+    ],
+    "jobid": "83PL5K0C",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

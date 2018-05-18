@@ -1,0 +1,134 @@
+[
+  {
+    "jobid": "WON2VCEG",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdbW77"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/WON2VCEG/results_WON2VCEG.pdb"
+        }
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeAKU"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/WON2VCEG/WON2VCEG.cube"
+        }
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "tableYRM"
+          ]
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "collapsible": [
+              true
+            ],
+            "type": "table",
+            "position": 0,
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "centers": "[54.9, -5.0, 65.9]",
+                  "resid": "1",
+                  "id": "1",
+                  "score": "1.0"
+                },
+                {
+                  "chain": "X",
+                  "centers": "[64.9, -11.0, 69.9]",
+                  "resid": "2",
+                  "id": "2",
+                  "score": "0.95"
+                },
+                {
+                  "chain": "X",
+                  "centers": "[68.9, -9.0, 77.9]",
+                  "resid": "3",
+                  "id": "3",
+                  "score": "0.83"
+                },
+                {
+                  "chain": "X",
+                  "centers": "[62.9, 5.0, 77.9]",
+                  "resid": "4",
+                  "id": "4",
+                  "score": "0.65"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "buttonUHU"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "type": "button-download",
+            "position": 1,
+            "label": "Download results"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/WON2VCEG/WON2VCEG.tar.gz"
+        }
+      }
+    ]
+  }
+]

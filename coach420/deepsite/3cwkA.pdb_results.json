@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "6M1ZNOBC",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "name": "pdb68W",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/6M1ZNOBC/results_6M1ZNOBC.pdb"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "cube8BW",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/6M1ZNOBC/6M1ZNOBC.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": [
+            "table689"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "chain": "X",
+                  "resid": "1",
+                  "id": "1",
+                  "score": "1.0",
+                  "centers": "[16.4, 22.0, 24.4]"
+                },
+                {
+                  "chain": "X",
+                  "resid": "2",
+                  "id": "2",
+                  "score": "1.0",
+                  "centers": "[20.4, 22.0, 24.4]"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "position": 0,
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "buttonLIL",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/6M1ZNOBC/6M1ZNOBC.tar.gz"
+        },
+        "representation": [
+          {
+            "type": "button-download",
+            "label": "Download results",
+            "location": "widget",
+            "position": 1
+          }
+        ]
+      }
+    ]
+  }
+]

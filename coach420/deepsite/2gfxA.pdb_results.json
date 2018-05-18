@@ -1,0 +1,127 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "SCCIADB2",
+    "result": [
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ],
+        "model": {
+          "name": "pdb0SK",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/SCCIADB2/results_SCCIADB2.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cubeARH",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/SCCIADB2/SCCIADB2.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "type": "table",
+            "location": "widget",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "tableJII"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "id": "1",
+                  "resid": "1",
+                  "centers": "[16.9, 28.9, 54.6]",
+                  "score": "1.0"
+                },
+                {
+                  "chain": "X",
+                  "id": "2",
+                  "resid": "2",
+                  "centers": "[-1.1, 12.9, 64.6]",
+                  "score": "0.98"
+                },
+                {
+                  "chain": "X",
+                  "id": "3",
+                  "resid": "3",
+                  "centers": "[6.9, 36.9, 82.6]",
+                  "score": "0.8"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": "Download results",
+            "position": 1,
+            "type": "button-download",
+            "location": "widget"
+          }
+        ],
+        "model": {
+          "name": "button3Z6",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/SCCIADB2/SCCIADB2.tar.gz"
+        }
+      }
+    ]
+  }
+]

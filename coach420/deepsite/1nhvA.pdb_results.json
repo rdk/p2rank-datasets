@@ -1,0 +1,113 @@
+[
+  {
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/NRB7XWQX/results_NRB7XWQX.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbX0I"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/NRB7XWQX/NRB7XWQX.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeZTK"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "centers": "[18.1, 54.8, 45.1]",
+                  "resid": "1",
+                  "id": "1",
+                  "chain": "X",
+                  "score": "1.0"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "table1WD"
+          ]
+        },
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "type": "table",
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/NRB7XWQX/NRB7XWQX.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonAK5"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "location": "widget",
+            "position": 1,
+            "type": "button-download"
+          }
+        ]
+      }
+    ],
+    "jobid": "NRB7XWQX",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

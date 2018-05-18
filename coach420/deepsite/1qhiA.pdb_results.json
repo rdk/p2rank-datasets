@@ -1,0 +1,113 @@
+[
+  {
+    "result": [
+      {
+        "model": {
+          "name": "pdb5XD",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/6CB2EFTQ/results_6CB2EFTQ.pdb"
+        }
+      },
+      {
+        "model": {
+          "name": "cubeI7X",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/6CB2EFTQ/6CB2EFTQ.cube"
+        }
+      },
+      {
+        "model": {
+          "name": [
+            "table2OU"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "position": 0,
+            "collapsible": [
+              true
+            ],
+            "type": "table"
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "resid": "1",
+                  "centers": "[46.1, 82.5, 55.0]",
+                  "id": "1",
+                  "chain": "X",
+                  "score": "1.0"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "name": "buttonH4W",
+          "type": null
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "label": "Download results",
+            "type": "button-download",
+            "position": 1
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/6CB2EFTQ/6CB2EFTQ.tar.gz"
+        }
+      }
+    ],
+    "jobid": "6CB2EFTQ",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

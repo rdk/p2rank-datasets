@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "DEL075US",
+    "result": [
+      {
+        "model": {
+          "name": "pdbEBK",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/DEL075US/results_DEL075US.pdb"
+        }
+      },
+      {
+        "model": {
+          "name": "cube5BJ",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/DEL075US/DEL075US.cube"
+        }
+      },
+      {
+        "model": {
+          "name": [
+            "tableJO6"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "location": "widget",
+            "label": [
+              "DeepSite prediction results"
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "chain": "X",
+                  "centers": "[67.7, 63.3, 20.9]",
+                  "score": "1.0",
+                  "resid": "1",
+                  "id": "1"
+                },
+                {
+                  "chain": "X",
+                  "centers": "[55.7, 69.3, 12.9]",
+                  "score": "1.0",
+                  "resid": "2",
+                  "id": "2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "name": "buttonJLF",
+          "type": null
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "type": "button-download",
+            "label": "Download results",
+            "position": 1
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/DEL075US/DEL075US.tar.gz"
+        }
+      }
+    ]
+  }
+]

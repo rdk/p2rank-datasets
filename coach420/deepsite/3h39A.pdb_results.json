@@ -1,0 +1,134 @@
+[
+  {
+    "jobid": "CXXRBJIK",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/CXXRBJIK/results_CXXRBJIK.pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "model": {
+          "name": "pdb41X",
+          "type": "pdb"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/CXXRBJIK/CXXRBJIK.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cube488",
+          "type": "cube"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "id": "1",
+                  "score": "0.96",
+                  "resid": "1",
+                  "centers": "[32.7, 9.3, 79.2]",
+                  "chain": "X"
+                },
+                {
+                  "id": "2",
+                  "score": "0.96",
+                  "resid": "2",
+                  "centers": "[60.7, 35.3, 71.2]",
+                  "chain": "X"
+                },
+                {
+                  "id": "3",
+                  "score": "0.99",
+                  "resid": "3",
+                  "centers": "[70.7, 77.3, 95.2]",
+                  "chain": "X"
+                },
+                {
+                  "id": "4",
+                  "score": "0.95",
+                  "resid": "4",
+                  "centers": "[68.7, 53.3, 91.2]",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "type": "table",
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "is_expanded": [
+              true
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "tableF1G"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/CXXRBJIK/CXXRBJIK.tar.gz"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "position": 1,
+            "location": "widget",
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "name": "button8XR",
+          "type": null
+        }
+      }
+    ]
+  }
+]

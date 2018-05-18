@@ -1,0 +1,113 @@
+[
+  {
+    "jobid": "J7Q8Y2X6",
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdbQQ6"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "displayAroundSelection": 8
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/J7Q8Y2X6/results_J7Q8Y2X6.pdb"
+        }
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeX8S"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/J7Q8Y2X6/J7Q8Y2X6.cube"
+        }
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "table501"
+          ]
+        },
+        "representation": [
+          {
+            "type": "table",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "collapsible": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[2.4, 13.7, 24.4]",
+                  "chain": "X",
+                  "resid": "1",
+                  "score": "0.49",
+                  "id": "1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "button4AT"
+        },
+        "representation": [
+          {
+            "type": "button-download",
+            "label": "Download results",
+            "position": 1,
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/J7Q8Y2X6/J7Q8Y2X6.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

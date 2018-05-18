@@ -1,0 +1,141 @@
+[
+  {
+    "result": [
+      {
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/F81A4SXE/results_F81A4SXE.pdb"
+        },
+        "model": {
+          "name": "pdbDJ3",
+          "type": "pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/F81A4SXE/F81A4SXE.cube"
+        },
+        "model": {
+          "name": "cubePJ2",
+          "type": "cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "1.0",
+                  "id": "1",
+                  "resid": "1",
+                  "chain": "X",
+                  "centers": "[15.0, 44.1, 16.7]"
+                },
+                {
+                  "score": "0.95",
+                  "id": "2",
+                  "resid": "2",
+                  "chain": "X",
+                  "centers": "[33.0, 38.1, 10.7]"
+                },
+                {
+                  "score": "0.74",
+                  "id": "3",
+                  "resid": "3",
+                  "chain": "X",
+                  "centers": "[23.0, 30.1, 18.7]"
+                },
+                {
+                  "score": "0.6",
+                  "id": "4",
+                  "resid": "4",
+                  "chain": "X",
+                  "centers": "[27.0, 46.1, 28.7]"
+                },
+                {
+                  "score": "0.51",
+                  "id": "5",
+                  "resid": "5",
+                  "chain": "X",
+                  "centers": "[27.0, 34.1, 30.7]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "tableAQY"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "position": 1,
+            "type": "button-download",
+            "label": "Download results"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/F81A4SXE/F81A4SXE.tar.gz"
+        },
+        "model": {
+          "name": "buttonBIF",
+          "type": null
+        }
+      }
+    ],
+    "jobid": "F81A4SXE",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

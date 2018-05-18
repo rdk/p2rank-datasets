@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdbT7U"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/GWLC7YKJ/results_GWLC7YKJ.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cubeMTX"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/GWLC7YKJ/GWLC7YKJ.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "location": "widget",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "table4D5"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "1.0",
+                  "centers": "[-38.5, 12.8, 17.6]",
+                  "resid": "1",
+                  "chain": "X",
+                  "id": "1"
+                },
+                {
+                  "score": "0.98",
+                  "centers": "[-14.5, 30.8, -2.4]",
+                  "resid": "2",
+                  "chain": "X",
+                  "id": "2"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "position": 1,
+            "type": "button-download",
+            "location": "widget",
+            "label": "Download results"
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "buttonQ4X"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/GWLC7YKJ/GWLC7YKJ.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "GWLC7YKJ"
+  }
+]

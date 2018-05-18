@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/6DNFMKIL/results_6DNFMKIL.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbRW4"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/6DNFMKIL/6DNFMKIL.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cube1TC"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "chain": "X",
+                  "id": "1",
+                  "resid": "1",
+                  "score": "1.0",
+                  "centers": "[20.2, -0.4, 34.0]"
+                },
+                {
+                  "chain": "X",
+                  "id": "2",
+                  "resid": "2",
+                  "score": "1.0",
+                  "centers": "[24.2, 13.6, 16.0]"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "tableL5S"
+          ]
+        },
+        "representation": [
+          {
+            "type": "table",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0,
+            "is_expanded": [
+              true
+            ],
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/6DNFMKIL/6DNFMKIL.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonTPV"
+        },
+        "representation": [
+          {
+            "position": 1,
+            "type": "button-download",
+            "label": "Download results",
+            "location": "widget"
+          }
+        ]
+      }
+    ],
+    "jobid": "6DNFMKIL",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

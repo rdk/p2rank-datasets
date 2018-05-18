@@ -1,0 +1,113 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "CK142JBO",
+    "result": [
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdbO68"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/CK142JBO/results_CK142JBO.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cubeL9S"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/CK142JBO/CK142JBO.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "location": "widget",
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "table6AP"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "id": "1",
+                  "resid": "1",
+                  "score": "0.66",
+                  "centers": "[-1.4, -22.1, -6.7]",
+                  "chain": "X"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "button-download",
+            "position": 1,
+            "location": "widget",
+            "label": "Download results"
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "button880"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/CK142JBO/CK142JBO.tar.gz"
+        }
+      }
+    ]
+  }
+]

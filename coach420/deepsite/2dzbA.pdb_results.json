@@ -1,0 +1,134 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/TIE0LEAJ/results_TIE0LEAJ.pdb"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdbBHF"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/TIE0LEAJ/TIE0LEAJ.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cubeDQ3"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[-37.4, 19.5, 11.9]",
+                  "id": "1",
+                  "chain": "X",
+                  "resid": "1",
+                  "score": "1.0"
+                },
+                {
+                  "centers": "[-27.4, 27.5, -0.1]",
+                  "id": "2",
+                  "chain": "X",
+                  "resid": "2",
+                  "score": "0.9"
+                },
+                {
+                  "centers": "[-35.4, 37.5, 7.9]",
+                  "id": "3",
+                  "chain": "X",
+                  "resid": "3",
+                  "score": "0.75"
+                },
+                {
+                  "centers": "[-29.4, 35.5, 17.9]",
+                  "id": "4",
+                  "chain": "X",
+                  "resid": "4",
+                  "score": "0.62"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "location": "widget",
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ]
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "tablePWE"
+          ]
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/TIE0LEAJ/TIE0LEAJ.tar.gz"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "type": "button-download",
+            "location": "widget",
+            "position": 1
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "button1FF"
+        }
+      }
+    ],
+    "jobid": "TIE0LEAJ"
+  }
+]

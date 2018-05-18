@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/TUYD8W6Q/results_TUYD8W6Q.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbVNC"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/TUYD8W6Q/TUYD8W6Q.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeTN2"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "score": "1.0",
+                  "centers": "[-9.0, -0.7, 34.8]",
+                  "resid": "1",
+                  "id": "1"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.84",
+                  "centers": "[5.0, 15.3, 30.8]",
+                  "resid": "2",
+                  "id": "2"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "tableV5B"
+          ]
+        },
+        "representation": [
+          {
+            "type": "table",
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "location": "widget",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/TUYD8W6Q/TUYD8W6Q.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonBYY"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "type": "button-download",
+            "position": 1,
+            "label": "Download results"
+          }
+        ]
+      }
+    ],
+    "jobid": "TUYD8W6Q"
+  }
+]

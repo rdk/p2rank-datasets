@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "PGPNGRP2",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdbPDB"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/PGPNGRP2/results_PGPNGRP2.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cube6GF"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/PGPNGRP2/PGPNGRP2.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "type": "table",
+            "location": "widget",
+            "is_expanded": [
+              true
+            ],
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "table6JK"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "resid": "1",
+                  "score": "1.0",
+                  "centers": "[27.8, 9.8, 18.9]",
+                  "id": "1"
+                },
+                {
+                  "chain": "X",
+                  "resid": "2",
+                  "score": "0.99",
+                  "centers": "[27.8, 21.8, 20.9]",
+                  "id": "2"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "button-download",
+            "location": "widget",
+            "label": "Download results",
+            "position": 1
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "buttonWI9"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/PGPNGRP2/PGPNGRP2.tar.gz"
+        }
+      }
+    ]
+  }
+]

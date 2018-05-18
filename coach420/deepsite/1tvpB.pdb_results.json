@@ -1,0 +1,127 @@
+[
+  {
+    "jobid": "NFJB1U7A",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/NFJB1U7A/results_NFJB1U7A.pdb"
+        },
+        "model": {
+          "name": "pdbSCI",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/NFJB1U7A/NFJB1U7A.cube"
+        },
+        "model": {
+          "name": "cubeCUS",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "score": "1.0",
+                  "id": "1",
+                  "resid": "1",
+                  "centers": "[29.9, 62.0, 41.0]",
+                  "chain": "X"
+                },
+                {
+                  "score": "0.96",
+                  "id": "2",
+                  "resid": "2",
+                  "centers": "[39.9, 58.0, 29.0]",
+                  "chain": "X"
+                },
+                {
+                  "score": "0.6",
+                  "id": "3",
+                  "resid": "3",
+                  "centers": "[39.9, 68.0, 27.0]",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "tableBCV"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "type": "table",
+            "position": 0
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/NFJB1U7A/NFJB1U7A.tar.gz"
+        },
+        "model": {
+          "name": "button2F6",
+          "type": null
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "location": "widget",
+            "position": 1,
+            "type": "button-download"
+          }
+        ]
+      }
+    ]
+  }
+]

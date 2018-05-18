@@ -1,0 +1,134 @@
+[
+  {
+    "jobid": "4AX6AVEC",
+    "result": [
+      {
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "model": {
+          "name": "pdbM03",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/4AX6AVEC/results_4AX6AVEC.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cubeVUX",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/4AX6AVEC/4AX6AVEC.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "collapsible": [
+              true
+            ],
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "tableICT"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "centers": "[-12.2, 23.0, 39.8]",
+                  "resid": "1",
+                  "id": "1",
+                  "chain": "X",
+                  "score": "1.0"
+                },
+                {
+                  "centers": "[-20.2, 39.0, 35.8]",
+                  "resid": "2",
+                  "id": "2",
+                  "chain": "X",
+                  "score": "0.91"
+                },
+                {
+                  "centers": "[1.8, 29.0, 35.8]",
+                  "resid": "3",
+                  "id": "3",
+                  "chain": "X",
+                  "score": "0.97"
+                },
+                {
+                  "centers": "[3.8, 11.0, 33.8]",
+                  "resid": "4",
+                  "id": "4",
+                  "chain": "X",
+                  "score": "0.79"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "position": 1,
+            "label": "Download results",
+            "location": "widget",
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "name": "buttonETC",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/4AX6AVEC/4AX6AVEC.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "AGIRGB4V",
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/AGIRGB4V/results_AGIRGB4V.pdb"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdb1ZU"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/AGIRGB4V/AGIRGB4V.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cube6Z3"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "centers": "[52.2, 12.8, 53.0]",
+                  "id": "1",
+                  "resid": "1",
+                  "score": "1.0"
+                },
+                {
+                  "chain": "X",
+                  "centers": "[64.2, -9.2, 67.0]",
+                  "id": "2",
+                  "resid": "2",
+                  "score": "1.0"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "location": "widget",
+            "collapsible": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "tableHS3"
+          ]
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/AGIRGB4V/AGIRGB4V.tar.gz"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "position": 1,
+            "type": "button-download",
+            "location": "widget"
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "buttonKX6"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

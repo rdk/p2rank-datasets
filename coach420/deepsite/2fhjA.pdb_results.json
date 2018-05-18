@@ -1,0 +1,127 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "name": "pdbEL8",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/WP703FPP/results_WP703FPP.pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "cubeK65",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/WP703FPP/WP703FPP.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": [
+            "tableY4E"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "resid": "1",
+                  "chain": "X",
+                  "score": "1.0",
+                  "id": "1",
+                  "centers": "[-40.6, 67.5, 50.8]"
+                },
+                {
+                  "resid": "2",
+                  "chain": "X",
+                  "score": "1.0",
+                  "id": "2",
+                  "centers": "[-28.6, 77.5, 58.8]"
+                },
+                {
+                  "resid": "3",
+                  "chain": "X",
+                  "score": "0.78",
+                  "id": "3",
+                  "centers": "[-38.6, 95.5, 52.8]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0,
+            "location": "widget",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "collapsible": [
+              true
+            ],
+            "type": "table"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "buttonAZW",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/WP703FPP/WP703FPP.tar.gz"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "label": "Download results",
+            "position": 1,
+            "type": "button-download"
+          }
+        ]
+      }
+    ],
+    "jobid": "WP703FPP"
+  }
+]

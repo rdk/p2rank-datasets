@@ -1,0 +1,127 @@
+[
+  {
+    "jobid": "6W3Z12RN",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/6W3Z12RN/results_6W3Z12RN.pdb"
+        },
+        "model": {
+          "name": "pdb5CQ",
+          "type": "pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/6W3Z12RN/6W3Z12RN.cube"
+        },
+        "model": {
+          "name": "cubeXLN",
+          "type": "cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "resid": "1",
+                  "centers": "[30.9, 12.9, 9.6]",
+                  "id": "1",
+                  "score": "0.99",
+                  "chain": "X"
+                },
+                {
+                  "resid": "2",
+                  "centers": "[16.9, 10.9, 1.6]",
+                  "id": "2",
+                  "score": "0.83",
+                  "chain": "X"
+                },
+                {
+                  "resid": "3",
+                  "centers": "[16.9, 18.9, 5.6]",
+                  "id": "3",
+                  "score": "0.44",
+                  "chain": "X"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "tableYJ9"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": "Download results",
+            "location": "widget",
+            "position": 1,
+            "type": "button-download"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/6W3Z12RN/6W3Z12RN.tar.gz"
+        },
+        "model": {
+          "name": "button1FY",
+          "type": null
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "jobid": "BBUSQ14N",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "name": "pdb4KY",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/BBUSQ14N/results_BBUSQ14N.pdb"
+        }
+      },
+      {
+        "model": {
+          "name": "cube5Q2",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/BBUSQ14N/BBUSQ14N.cube"
+        }
+      },
+      {
+        "model": {
+          "name": [
+            "table30L"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0,
+            "type": "table",
+            "collapsible": [
+              true
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "resid": "1",
+                  "score": "1.0",
+                  "id": "1",
+                  "chain": "X",
+                  "centers": "[18.6, 34.6, 63.1]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "name": "button80S",
+          "type": null
+        },
+        "representation": [
+          {
+            "position": 1,
+            "location": "widget",
+            "label": "Download results",
+            "type": "button-download"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/BBUSQ14N/BBUSQ14N.tar.gz"
+        }
+      }
+    ]
+  }
+]

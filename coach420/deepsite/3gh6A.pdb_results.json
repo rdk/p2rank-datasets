@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "Y24CCR1U",
+    "result": [
+      {
+        "model": {
+          "name": "pdbTG4",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/Y24CCR1U/results_Y24CCR1U.pdb"
+        }
+      },
+      {
+        "model": {
+          "name": "cubeNSS",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/Y24CCR1U/Y24CCR1U.cube"
+        }
+      },
+      {
+        "model": {
+          "name": [
+            "tableS5S"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "location": "widget",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table"
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "resid": "1",
+                  "score": "1.0",
+                  "id": "1",
+                  "centers": "[17.3, 9.5, 40.7]",
+                  "chain": "X"
+                },
+                {
+                  "resid": "2",
+                  "score": "0.91",
+                  "id": "2",
+                  "centers": "[19.3, -0.5, 46.7]",
+                  "chain": "X"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "name": "buttonRLQ",
+          "type": null
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "type": "button-download",
+            "position": 1,
+            "label": "Download results"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/Y24CCR1U/Y24CCR1U.tar.gz"
+        }
+      }
+    ]
+  }
+]

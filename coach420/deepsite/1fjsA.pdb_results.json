@@ -1,0 +1,134 @@
+[
+  {
+    "result": [
+      {
+        "model": {
+          "name": "pdbYL1",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/UNC49J3P/results_UNC49J3P.pdb"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "cubeZ6S",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/UNC49J3P/UNC49J3P.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": [
+            "tableMUW"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[11.2, 12.0, 23.9]",
+                  "id": "1",
+                  "resid": "1",
+                  "chain": "X",
+                  "score": "0.96"
+                },
+                {
+                  "centers": "[25.2, 22.0, 29.9]",
+                  "id": "2",
+                  "resid": "2",
+                  "chain": "X",
+                  "score": "0.96"
+                },
+                {
+                  "centers": "[23.2, 2.0, 25.9]",
+                  "id": "3",
+                  "resid": "3",
+                  "chain": "X",
+                  "score": "0.99"
+                },
+                {
+                  "centers": "[17.2, 20.0, 13.9]",
+                  "id": "4",
+                  "resid": "4",
+                  "chain": "X",
+                  "score": "0.8"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "collapsible": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "buttonTH4",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/UNC49J3P/UNC49J3P.tar.gz"
+        },
+        "representation": [
+          {
+            "position": 1,
+            "type": "button-download",
+            "label": "Download results",
+            "location": "widget"
+          }
+        ]
+      }
+    ],
+    "jobid": "UNC49J3P",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

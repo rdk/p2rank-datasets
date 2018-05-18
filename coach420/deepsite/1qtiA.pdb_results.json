@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/2GXTEXNW/results_2GXTEXNW.pdb"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8
+          }
+        ],
+        "model": {
+          "name": "pdb7OA",
+          "type": "pdb"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/2GXTEXNW/2GXTEXNW.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "cubeYMJ",
+          "type": "cube"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "score": "1.0",
+                  "centers": "[3.7, 66.9, 64.9]",
+                  "id": "1",
+                  "resid": "1"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.9",
+                  "centers": "[-10.3, 64.9, 42.9]",
+                  "id": "2",
+                  "resid": "2"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "type": "table",
+            "is_expanded": [
+              true
+            ],
+            "position": 0,
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "tableG4I"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/2GXTEXNW/2GXTEXNW.tar.gz"
+        },
+        "representation": [
+          {
+            "position": 1,
+            "type": "button-download",
+            "location": "widget",
+            "label": "Download results"
+          }
+        ],
+        "model": {
+          "name": "button4X7",
+          "type": null
+        }
+      }
+    ],
+    "jobid": "2GXTEXNW"
+  }
+]

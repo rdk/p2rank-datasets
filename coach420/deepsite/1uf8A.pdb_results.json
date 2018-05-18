@@ -1,0 +1,141 @@
+[
+  {
+    "jobid": "DEVR89EM",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/DEVR89EM/results_DEVR89EM.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbX8X"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/DEVR89EM/DEVR89EM.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeZOG"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "table",
+            "location": "widget",
+            "collapsible": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "centers": "[17.0, 9.3, 31.2]",
+                  "chain": "X",
+                  "resid": "1",
+                  "id": "1",
+                  "score": "1.0"
+                },
+                {
+                  "centers": "[39.0, 19.3, 43.2]",
+                  "chain": "X",
+                  "resid": "2",
+                  "id": "2",
+                  "score": "0.99"
+                },
+                {
+                  "centers": "[5.0, 9.3, 47.2]",
+                  "chain": "X",
+                  "resid": "3",
+                  "id": "3",
+                  "score": "0.84"
+                },
+                {
+                  "centers": "[23.0, 17.3, 45.2]",
+                  "chain": "X",
+                  "resid": "4",
+                  "id": "4",
+                  "score": "0.82"
+                },
+                {
+                  "centers": "[29.0, 9.3, 59.2]",
+                  "chain": "X",
+                  "resid": "5",
+                  "id": "5",
+                  "score": "0.5"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "tableSS3"
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "button-download",
+            "location": "widget",
+            "position": 1,
+            "label": "Download results"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/DEVR89EM/DEVR89EM.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonOT4"
+        }
+      }
+    ]
+  }
+]

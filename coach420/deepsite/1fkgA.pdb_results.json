@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdb6NR"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/9S4CAROE/results_9S4CAROE.pdb"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeO8I"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/9S4CAROE/9S4CAROE.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "table842"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "centers": "[-27.1, 25.6, 3.1]",
+                  "id": "1",
+                  "resid": "1",
+                  "chain": "X",
+                  "score": "0.99"
+                },
+                {
+                  "centers": "[-27.1, 23.6, 3.1]",
+                  "id": "2",
+                  "resid": "2",
+                  "chain": "X",
+                  "score": "0.99"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "location": "widget",
+            "position": 0
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "button5UR"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/9S4CAROE/9S4CAROE.tar.gz"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "location": "widget",
+            "type": "button-download",
+            "position": 1
+          }
+        ]
+      }
+    ],
+    "jobid": "9S4CAROE",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

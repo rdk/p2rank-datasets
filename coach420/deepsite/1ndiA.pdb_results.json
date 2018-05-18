@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "model": {
+          "name": "pdbAHU",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/TCFII8HB/results_TCFII8HB.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cubeBL1",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/TCFII8HB/TCFII8HB.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "type": "table"
+          }
+        ],
+        "model": {
+          "name": [
+            "tableCQZ"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "centers": "[30.2, 27.4, 90.4]",
+                  "id": "1",
+                  "resid": "1",
+                  "score": "1.0"
+                },
+                {
+                  "chain": "X",
+                  "centers": "[44.2, 33.4, 76.4]",
+                  "id": "2",
+                  "resid": "2",
+                  "score": "1.0"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": "Download results",
+            "position": 1,
+            "location": "widget",
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "name": "buttonLP5",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/TCFII8HB/TCFII8HB.tar.gz"
+        }
+      }
+    ],
+    "jobid": "TCFII8HB",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

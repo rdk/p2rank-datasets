@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "D5Y7V7VG",
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/D5Y7V7VG/results_D5Y7V7VG.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbCCK"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/D5Y7V7VG/D5Y7V7VG.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cube86J"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "resid": "1",
+                  "centers": "[27.3, 4.7, -7.1]",
+                  "id": "1",
+                  "chain": "X",
+                  "score": "1.0"
+                },
+                {
+                  "resid": "2",
+                  "centers": "[33.3, -1.3, -1.1]",
+                  "id": "2",
+                  "chain": "X",
+                  "score": "0.68"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "tableX5I"
+          ]
+        },
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "is_expanded": [
+              true
+            ],
+            "position": 0,
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/D5Y7V7VG/D5Y7V7VG.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonU2L"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "position": 1,
+            "type": "button-download",
+            "location": "widget"
+          }
+        ]
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

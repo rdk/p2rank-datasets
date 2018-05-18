@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "LOQ7ZCYR",
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/LOQ7ZCYR/results_LOQ7ZCYR.pdb"
+        },
+        "model": {
+          "name": "pdb6IC",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/LOQ7ZCYR/LOQ7ZCYR.cube"
+        },
+        "model": {
+          "name": "cubeZGI",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "centers": "[13.2, 9.5, -3.8]",
+                  "id": "1",
+                  "resid": "1",
+                  "score": "1.0"
+                },
+                {
+                  "chain": "X",
+                  "centers": "[-4.8, -6.5, -9.8]",
+                  "id": "2",
+                  "resid": "2",
+                  "score": "0.99"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "tableKJG"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "location": "widget",
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/LOQ7ZCYR/LOQ7ZCYR.tar.gz"
+        },
+        "model": {
+          "name": "buttonKH0",
+          "type": null
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "type": "button-download",
+            "position": 1,
+            "location": "widget"
+          }
+        ]
+      }
+    ]
+  }
+]

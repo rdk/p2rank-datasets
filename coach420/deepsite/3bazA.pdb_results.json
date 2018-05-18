@@ -1,0 +1,127 @@
+[
+  {
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/6XHBBAXU/results_6XHBBAXU.pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "model": {
+          "name": "pdbH1B",
+          "type": "pdb"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/6XHBBAXU/6XHBBAXU.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cubeEZH",
+          "type": "cube"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "id": "1",
+                  "score": "1.0",
+                  "resid": "1",
+                  "chain": "X",
+                  "centers": "[31.8, 15.5, -18.4]"
+                },
+                {
+                  "id": "2",
+                  "score": "0.98",
+                  "resid": "2",
+                  "chain": "X",
+                  "centers": "[27.8, 11.5, 7.6]"
+                },
+                {
+                  "id": "3",
+                  "score": "0.97",
+                  "resid": "3",
+                  "chain": "X",
+                  "centers": "[43.8, 11.5, -6.4]"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "location": "widget"
+          }
+        ],
+        "model": {
+          "name": [
+            "tableZ44"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/6XHBBAXU/6XHBBAXU.tar.gz"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "position": 1,
+            "location": "widget",
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "name": "buttonL7A",
+          "type": null
+        }
+      }
+    ],
+    "jobid": "6XHBBAXU",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

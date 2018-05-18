@@ -1,0 +1,113 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "pdbNP1",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/RFI15JOF/results_RFI15JOF.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "cubeOI9",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/RFI15JOF/RFI15JOF.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "is_expanded": [
+              true
+            ],
+            "location": "widget",
+            "type": "table",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "tableJSQ"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "resid": "1",
+                  "id": "1",
+                  "score": "0.57",
+                  "centers": "[10.1, 26.3, 8.4]",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "position": 1,
+            "location": "widget",
+            "type": "button-download",
+            "label": "Download results"
+          }
+        ],
+        "model": {
+          "name": "buttonKON",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/RFI15JOF/RFI15JOF.tar.gz"
+        }
+      }
+    ],
+    "jobid": "RFI15JOF"
+  }
+]

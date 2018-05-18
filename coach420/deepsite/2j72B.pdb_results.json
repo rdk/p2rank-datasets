@@ -1,0 +1,113 @@
+[
+  {
+    "jobid": "J4OSI4P0",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/J4OSI4P0/results_J4OSI4P0.pdb"
+        },
+        "model": {
+          "name": "pdb7O9",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/J4OSI4P0/J4OSI4P0.cube"
+        },
+        "model": {
+          "name": "cubeU92",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "resid": "1",
+                  "id": "1",
+                  "score": "0.48",
+                  "centers": "[64.1, 23.6, 18.8]",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "table45J"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/J4OSI4P0/J4OSI4P0.tar.gz"
+        },
+        "model": {
+          "name": "button3N2",
+          "type": null
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "label": "Download results",
+            "type": "button-download",
+            "position": 1
+          }
+        ]
+      }
+    ]
+  }
+]

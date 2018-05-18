@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdb9OO"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/VFUIRTOJ/results_VFUIRTOJ.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cubeQD9"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/VFUIRTOJ/VFUIRTOJ.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "table",
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "is_expanded": [
+              true
+            ],
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "tableGXY"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "chain": "X",
+                  "resid": "1",
+                  "centers": "[32.2, 19.8, 32.3]",
+                  "id": "1",
+                  "score": "0.99"
+                },
+                {
+                  "chain": "X",
+                  "resid": "2",
+                  "centers": "[36.2, 21.8, 32.3]",
+                  "id": "2",
+                  "score": "0.98"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "type": "button-download",
+            "position": 1,
+            "label": "Download results"
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "button4LX"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/VFUIRTOJ/VFUIRTOJ.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "VFUIRTOJ"
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "model": {
+          "name": "pdbUX9",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/K0ZIGHOY/results_K0ZIGHOY.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cube3V1",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/K0ZIGHOY/K0ZIGHOY.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "is_expanded": [
+              true
+            ],
+            "position": 0,
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "tableL1K"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[49.7, 26.4, 16.9]",
+                  "id": "1",
+                  "resid": "1",
+                  "score": "1.0",
+                  "chain": "X"
+                },
+                {
+                  "centers": "[33.7, 20.4, 14.9]",
+                  "id": "2",
+                  "resid": "2",
+                  "score": "0.96",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "position": 1,
+            "location": "widget",
+            "label": "Download results",
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "name": "buttonGHL",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/K0ZIGHOY/K0ZIGHOY.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "K0ZIGHOY"
+  }
+]

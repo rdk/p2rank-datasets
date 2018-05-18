@@ -1,0 +1,134 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "GFHKFHCH",
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdbX67"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/GFHKFHCH/results_GFHKFHCH.pdb"
+        }
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeJGW"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/GFHKFHCH/GFHKFHCH.cube"
+        }
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "tableQ95"
+          ]
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "centers": "[29.3, -2.9, 1.4]",
+                  "score": "0.99",
+                  "id": "1",
+                  "resid": "1"
+                },
+                {
+                  "chain": "X",
+                  "centers": "[31.3, 29.1, 5.4]",
+                  "score": "1.0",
+                  "id": "2",
+                  "resid": "2"
+                },
+                {
+                  "chain": "X",
+                  "centers": "[15.3, 11.1, 9.4]",
+                  "score": "1.0",
+                  "id": "3",
+                  "resid": "3"
+                },
+                {
+                  "chain": "X",
+                  "centers": "[21.3, 29.1, -4.6]",
+                  "score": "0.98",
+                  "id": "4",
+                  "resid": "4"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "buttonGH9"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "type": "button-download",
+            "position": 1,
+            "label": "Download results"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/GFHKFHCH/GFHKFHCH.tar.gz"
+        }
+      }
+    ]
+  }
+]

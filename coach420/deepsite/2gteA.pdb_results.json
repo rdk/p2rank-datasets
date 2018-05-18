@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "WWHXC0ZK",
+    "result": [
+      {
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdbBP2"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/WWHXC0ZK/results_WWHXC0ZK.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cubeQ8O"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/WWHXC0ZK/WWHXC0ZK.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "position": 0,
+            "collapsible": [
+              true
+            ],
+            "type": "table",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "is_expanded": [
+              true
+            ]
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "tableMC0"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "score": "1.0",
+                  "resid": "1",
+                  "centers": "[-4.1, 4.0, -1.4]",
+                  "chain": "X",
+                  "id": "1"
+                },
+                {
+                  "score": "1.0",
+                  "resid": "2",
+                  "centers": "[-2.1, 6.0, -3.4]",
+                  "chain": "X",
+                  "id": "2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "position": 1,
+            "type": "button-download",
+            "label": "Download results",
+            "location": "widget"
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "button67P"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/WWHXC0ZK/WWHXC0ZK.tar.gz"
+        }
+      }
+    ]
+  }
+]

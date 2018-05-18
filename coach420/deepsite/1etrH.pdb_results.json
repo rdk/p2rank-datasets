@@ -1,0 +1,127 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "U7U0FENO",
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/U7U0FENO/results_U7U0FENO.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdb92X"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/U7U0FENO/U7U0FENO.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeYN3"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "score": "1.0",
+                  "centers": "[-33.5, -26.1, 40.0]",
+                  "id": "1",
+                  "resid": "1"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.99",
+                  "centers": "[-53.5, -20.1, 44.0]",
+                  "id": "2",
+                  "resid": "2"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.93",
+                  "centers": "[-39.5, -22.1, 20.0]",
+                  "id": "3",
+                  "resid": "3"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "tableUPB"
+          ]
+        },
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "location": "widget",
+            "collapsible": [
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/U7U0FENO/U7U0FENO.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonATJ"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "type": "button-download",
+            "location": "widget",
+            "position": 1
+          }
+        ]
+      }
+    ]
+  }
+]

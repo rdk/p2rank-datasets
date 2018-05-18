@@ -1,0 +1,127 @@
+[
+  {
+    "jobid": "VL8LAHLC",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdbBWN"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/VL8LAHLC/results_VL8LAHLC.pdb"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill"
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cube6WG"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/VL8LAHLC/VL8LAHLC.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "table5DK"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "centers": "[88.0, 15.0, 60.4]",
+                  "id": "1",
+                  "score": "1.0",
+                  "resid": "1"
+                },
+                {
+                  "chain": "X",
+                  "centers": "[66.0, 23.0, 44.4]",
+                  "id": "2",
+                  "score": "1.0",
+                  "resid": "2"
+                },
+                {
+                  "chain": "X",
+                  "centers": "[62.0, 23.0, 72.4]",
+                  "id": "3",
+                  "score": "0.99",
+                  "resid": "3"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "position": 0,
+            "collapsible": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "button9T3"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/VL8LAHLC/VL8LAHLC.tar.gz"
+        },
+        "representation": [
+          {
+            "type": "button-download",
+            "location": "widget",
+            "position": 1,
+            "label": "Download results"
+          }
+        ]
+      }
+    ]
+  }
+]

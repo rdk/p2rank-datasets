@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdbFJ2"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/UNDLCQCG/results_UNDLCQCG.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cubeIKH"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/UNDLCQCG/UNDLCQCG.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "table",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "is_expanded": [
+              true
+            ],
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ]
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "tableU5I"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "centers": "[19.7, 71.2, -4.4]",
+                  "resid": "1",
+                  "id": "1",
+                  "score": "1.0"
+                },
+                {
+                  "chain": "X",
+                  "centers": "[31.7, 91.2, -0.4]",
+                  "resid": "2",
+                  "id": "2",
+                  "score": "0.99"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "button-download",
+            "label": "Download results",
+            "location": "widget",
+            "position": 1
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "buttonJ6A"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/UNDLCQCG/UNDLCQCG.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "UNDLCQCG"
+  }
+]

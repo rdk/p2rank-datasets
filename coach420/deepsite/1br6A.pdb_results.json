@@ -1,0 +1,134 @@
+[
+  {
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/V6539Z6G/results_V6539Z6G.pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdbC5L"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/V6539Z6G/V6539Z6G.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cubeXHA"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "resid": "1",
+                  "id": "1",
+                  "centers": "[0.8, 2.5, 9.8]",
+                  "chain": "X",
+                  "score": "0.99"
+                },
+                {
+                  "resid": "2",
+                  "id": "2",
+                  "centers": "[-5.2, -13.5, 9.8]",
+                  "chain": "X",
+                  "score": "0.93"
+                },
+                {
+                  "resid": "3",
+                  "id": "3",
+                  "centers": "[-13.2, 2.5, -2.2]",
+                  "chain": "X",
+                  "score": "0.98"
+                },
+                {
+                  "resid": "4",
+                  "id": "4",
+                  "centers": "[-19.2, 12.5, 9.8]",
+                  "chain": "X",
+                  "score": "0.64"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "collapsible": [
+              true
+            ],
+            "type": "table",
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "tableBX1"
+          ]
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/V6539Z6G/V6539Z6G.tar.gz"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "type": "button-download",
+            "position": 1,
+            "label": "Download results"
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "buttonEWW"
+        }
+      }
+    ],
+    "jobid": "V6539Z6G",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

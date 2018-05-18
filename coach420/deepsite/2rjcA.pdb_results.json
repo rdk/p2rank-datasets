@@ -1,0 +1,134 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/KF2AX68R/results_KF2AX68R.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbF02"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/KF2AX68R/KF2AX68R.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeBFO"
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "position": 0,
+            "is_expanded": [
+              true
+            ],
+            "location": "widget",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[53.5, 22.8, 33.3]",
+                  "resid": "1",
+                  "id": "1",
+                  "chain": "X",
+                  "score": "1.0"
+                },
+                {
+                  "centers": "[49.5, 12.8, 19.3]",
+                  "resid": "2",
+                  "id": "2",
+                  "chain": "X",
+                  "score": "0.96"
+                },
+                {
+                  "centers": "[47.5, 22.8, 53.3]",
+                  "resid": "3",
+                  "id": "3",
+                  "chain": "X",
+                  "score": "0.86"
+                },
+                {
+                  "centers": "[45.5, 40.8, 31.3]",
+                  "resid": "4",
+                  "id": "4",
+                  "chain": "X",
+                  "score": "0.9"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "tableUZT"
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": "Download results",
+            "type": "button-download",
+            "position": 1,
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/KF2AX68R/KF2AX68R.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonRVW"
+        }
+      }
+    ],
+    "jobid": "KF2AX68R"
+  }
+]

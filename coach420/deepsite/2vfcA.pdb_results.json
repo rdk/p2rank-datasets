@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "REJEV17A",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/REJEV17A/results_REJEV17A.pdb"
+        },
+        "model": {
+          "name": "pdbA6M",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/REJEV17A/REJEV17A.cube"
+        },
+        "model": {
+          "name": "cubeRB2",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "id": "1",
+                  "resid": "1",
+                  "chain": "X",
+                  "score": "1.0",
+                  "centers": "[19.4, -8.5, -0.4]"
+                },
+                {
+                  "id": "2",
+                  "resid": "2",
+                  "chain": "X",
+                  "score": "0.95",
+                  "centers": "[19.4, 11.5, 5.6]"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "tableMXS"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "type": "table",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "location": "widget",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/REJEV17A/REJEV17A.tar.gz"
+        },
+        "model": {
+          "name": "buttonIHG",
+          "type": null
+        },
+        "representation": [
+          {
+            "type": "button-download",
+            "location": "widget",
+            "label": "Download results",
+            "position": 1
+          }
+        ]
+      }
+    ]
+  }
+]

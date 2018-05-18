@@ -1,0 +1,127 @@
+[
+  {
+    "jobid": "COE3QS4M",
+    "result": [
+      {
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdbKH5"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/COE3QS4M/results_COE3QS4M.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cubeJ0O"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/COE3QS4M/COE3QS4M.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "position": 0,
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget"
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "table24Y"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "1.0",
+                  "id": "1",
+                  "centers": "[28.0, 10.6, 32.6]",
+                  "resid": "1",
+                  "chain": "X"
+                },
+                {
+                  "score": "0.74",
+                  "id": "2",
+                  "centers": "[18.0, 14.6, 44.6]",
+                  "resid": "2",
+                  "chain": "X"
+                },
+                {
+                  "score": "0.65",
+                  "id": "3",
+                  "centers": "[22.0, 22.6, 32.6]",
+                  "resid": "3",
+                  "chain": "X"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": "Download results",
+            "type": "button-download",
+            "position": 1,
+            "location": "widget"
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "buttonQ18"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/COE3QS4M/COE3QS4M.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

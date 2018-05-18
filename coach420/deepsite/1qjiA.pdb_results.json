@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "YIETKZ9H",
+    "result": [
+      {
+        "model": {
+          "name": "pdb2G8",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/YIETKZ9H/results_YIETKZ9H.pdb"
+        }
+      },
+      {
+        "model": {
+          "name": "cube6AD",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/YIETKZ9H/YIETKZ9H.cube"
+        }
+      },
+      {
+        "model": {
+          "name": [
+            "table9O1"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "location": "widget",
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0,
+            "type": "table"
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[21.6, 28.8, 19.6]",
+                  "resid": "1",
+                  "id": "1",
+                  "chain": "X",
+                  "score": "1.0"
+                },
+                {
+                  "centers": "[15.6, 20.8, 23.6]",
+                  "resid": "2",
+                  "id": "2",
+                  "chain": "X",
+                  "score": "0.79"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "name": "buttonTQZ",
+          "type": null
+        },
+        "representation": [
+          {
+            "position": 1,
+            "label": "Download results",
+            "location": "widget",
+            "type": "button-download"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/YIETKZ9H/YIETKZ9H.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

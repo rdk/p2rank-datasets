@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "WO79NEB9",
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/WO79NEB9/results_WO79NEB9.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbXLF"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/WO79NEB9/WO79NEB9.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeHVP"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "resid": "1",
+                  "centers": "[31.7, 9.3, 58.2]",
+                  "score": "1.0",
+                  "chain": "X",
+                  "id": "1"
+                },
+                {
+                  "resid": "2",
+                  "centers": "[25.7, 9.3, 82.2]",
+                  "score": "0.95",
+                  "chain": "X",
+                  "id": "2"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "table4OS"
+          ]
+        },
+        "representation": [
+          {
+            "type": "table",
+            "location": "widget",
+            "position": 0,
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/WO79NEB9/WO79NEB9.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonNZ2"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "location": "widget",
+            "type": "button-download",
+            "position": 1
+          }
+        ]
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

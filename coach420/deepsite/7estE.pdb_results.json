@@ -1,0 +1,134 @@
+[
+  {
+    "jobid": "JDPZIATY",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "name": "pdbMOY",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/JDPZIATY/results_JDPZIATY.pdb"
+        }
+      },
+      {
+        "model": {
+          "name": "cubeOCX",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/JDPZIATY/JDPZIATY.cube"
+        }
+      },
+      {
+        "model": {
+          "name": [
+            "table929"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "location": "widget",
+            "is_expanded": [
+              true
+            ],
+            "type": "table"
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "resid": "1",
+                  "score": "1.0",
+                  "id": "1",
+                  "centers": "[4.0, 51.2, 1.3]",
+                  "chain": "X"
+                },
+                {
+                  "resid": "2",
+                  "score": "0.91",
+                  "id": "2",
+                  "centers": "[-4.0, 65.2, -2.7]",
+                  "chain": "X"
+                },
+                {
+                  "resid": "3",
+                  "score": "0.91",
+                  "id": "3",
+                  "centers": "[14.0, 57.2, -14.7]",
+                  "chain": "X"
+                },
+                {
+                  "resid": "4",
+                  "score": "0.56",
+                  "id": "4",
+                  "centers": "[18.0, 55.2, 3.3]",
+                  "chain": "X"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "name": "button0AX",
+          "type": null
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "location": "widget",
+            "type": "button-download",
+            "position": 1
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/JDPZIATY/JDPZIATY.tar.gz"
+        }
+      }
+    ]
+  }
+]

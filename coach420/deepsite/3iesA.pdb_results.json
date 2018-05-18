@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "pdb0WH",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/W5XDWJZ2/results_W5XDWJZ2.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "cubeSOU",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/W5XDWJZ2/W5XDWJZ2.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "collapsible": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table"
+          }
+        ],
+        "model": {
+          "name": [
+            "tableYC5"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "id": "1",
+                  "centers": "[-28.5, -1.1, -6.9]",
+                  "chain": "X",
+                  "score": "1.0",
+                  "resid": "1"
+                },
+                {
+                  "id": "2",
+                  "centers": "[-18.5, -11.1, 3.1]",
+                  "chain": "X",
+                  "score": "1.0",
+                  "resid": "2"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "position": 1,
+            "label": "Download results",
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "name": "button9DH",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/W5XDWJZ2/W5XDWJZ2.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "W5XDWJZ2"
+  }
+]

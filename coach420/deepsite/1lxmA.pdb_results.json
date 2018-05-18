@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "WZWMCSRN",
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/WZWMCSRN/results_WZWMCSRN.pdb"
+        },
+        "model": {
+          "name": "pdb6S6",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/WZWMCSRN/WZWMCSRN.cube"
+        },
+        "model": {
+          "name": "cube7YC",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "resid": "1",
+                  "centers": "[11.6, -5.4, 10.3]",
+                  "chain": "X",
+                  "id": "1",
+                  "score": "1.0"
+                },
+                {
+                  "resid": "2",
+                  "centers": "[25.6, 4.6, 30.3]",
+                  "chain": "X",
+                  "id": "2",
+                  "score": "1.0"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "tableYLQ"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "location": "widget",
+            "type": "table"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/WZWMCSRN/WZWMCSRN.tar.gz"
+        },
+        "model": {
+          "name": "buttonYRU",
+          "type": null
+        },
+        "representation": [
+          {
+            "position": 1,
+            "type": "button-download",
+            "location": "widget",
+            "label": "Download results"
+          }
+        ]
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

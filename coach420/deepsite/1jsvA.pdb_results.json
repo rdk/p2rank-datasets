@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/LM11T0TG/results_LM11T0TG.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdb0VG"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/LM11T0TG/LM11T0TG.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeU89"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "id": "1",
+                  "resid": "1",
+                  "chain": "X",
+                  "score": "1.0",
+                  "centers": "[14.9, 5.9, 25.7]"
+                },
+                {
+                  "id": "2",
+                  "resid": "2",
+                  "chain": "X",
+                  "score": "0.89",
+                  "centers": "[18.9, -18.1, 33.7]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "table5GW"
+          ]
+        },
+        "representation": [
+          {
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "location": "widget",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/LM11T0TG/LM11T0TG.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonG42"
+        },
+        "representation": [
+          {
+            "position": 1,
+            "type": "button-download",
+            "location": "widget",
+            "label": "Download results"
+          }
+        ]
+      }
+    ],
+    "jobid": "LM11T0TG"
+  }
+]

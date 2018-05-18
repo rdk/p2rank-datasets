@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "model": {
+          "name": "pdb4I9",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/ETUWS3U0/results_ETUWS3U0.pdb"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "cubeOND",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/ETUWS3U0/ETUWS3U0.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": [
+            "tableK3D"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "chain": "X",
+                  "centers": "[14.4, 2.9, 28.1]",
+                  "score": "0.99",
+                  "resid": "1",
+                  "id": "1"
+                },
+                {
+                  "chain": "X",
+                  "centers": "[18.4, 12.9, 10.1]",
+                  "score": "0.98",
+                  "resid": "2",
+                  "id": "2"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "buttonQ5B",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/ETUWS3U0/ETUWS3U0.tar.gz"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "type": "button-download",
+            "label": "Download results",
+            "position": 1
+          }
+        ]
+      }
+    ],
+    "jobid": "ETUWS3U0",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "QKNTHHO9",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdb5TN"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/QKNTHHO9/results_QKNTHHO9.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cubeBUP"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/QKNTHHO9/QKNTHHO9.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "location": "widget",
+            "type": "table",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "tableJ1N"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[51.0, 28.7, 14.7]",
+                  "chain": "X",
+                  "score": "1.0",
+                  "resid": "1",
+                  "id": "1"
+                },
+                {
+                  "centers": "[41.0, 18.7, 26.7]",
+                  "chain": "X",
+                  "score": "0.96",
+                  "resid": "2",
+                  "id": "2"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "position": 1,
+            "location": "widget",
+            "type": "button-download",
+            "label": "Download results"
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "buttonUAT"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/QKNTHHO9/QKNTHHO9.tar.gz"
+        }
+      }
+    ]
+  }
+]

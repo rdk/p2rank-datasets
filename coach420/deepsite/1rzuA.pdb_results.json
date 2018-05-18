@@ -1,0 +1,127 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "1NQDQN1I",
+    "result": [
+      {
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/1NQDQN1I/results_1NQDQN1I.pdb"
+        },
+        "model": {
+          "name": "pdbPUQ",
+          "type": "pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/1NQDQN1I/1NQDQN1I.cube"
+        },
+        "model": {
+          "name": "cube93J",
+          "type": "cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "type": "table",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0,
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "1.0",
+                  "chain": "X",
+                  "resid": "1",
+                  "centers": "[11.6, 89.1, 19.1]",
+                  "id": "1"
+                },
+                {
+                  "score": "1.0",
+                  "chain": "X",
+                  "resid": "2",
+                  "centers": "[19.6, 79.1, 7.1]",
+                  "id": "2"
+                },
+                {
+                  "score": "0.98",
+                  "chain": "X",
+                  "resid": "3",
+                  "centers": "[-8.4, 99.1, 31.1]",
+                  "id": "3"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "tableRRU"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "button-download",
+            "label": "Download results",
+            "position": 1,
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/1NQDQN1I/1NQDQN1I.tar.gz"
+        },
+        "model": {
+          "name": "button3F5",
+          "type": null
+        }
+      }
+    ]
+  }
+]

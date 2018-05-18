@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/3QADBCPQ/results_3QADBCPQ.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbQNB"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "displayAroundSelection": 8
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/3QADBCPQ/3QADBCPQ.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeOPH"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "id": "1",
+                  "centers": "[-45.8, -23.1, 4.4]",
+                  "resid": "1",
+                  "score": "1.0",
+                  "chain": "X"
+                },
+                {
+                  "id": "2",
+                  "centers": "[-35.8, -33.1, 14.4]",
+                  "resid": "2",
+                  "score": "0.99",
+                  "chain": "X"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "tableKQA"
+          ]
+        },
+        "representation": [
+          {
+            "type": "table",
+            "position": 0,
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/3QADBCPQ/3QADBCPQ.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonZS8"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "position": 1,
+            "location": "widget",
+            "type": "button-download"
+          }
+        ]
+      }
+    ],
+    "jobid": "3QADBCPQ",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

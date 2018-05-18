@@ -1,0 +1,127 @@
+[
+  {
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/PCI3GPK0/results_PCI3GPK0.pdb"
+        },
+        "model": {
+          "name": "pdb5C9",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/PCI3GPK0/PCI3GPK0.cube"
+        },
+        "model": {
+          "name": "cubeXIZ",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "resid": "1",
+                  "score": "0.94",
+                  "chain": "X",
+                  "centers": "[1.4, -6.8, 21.8]",
+                  "id": "1"
+                },
+                {
+                  "resid": "2",
+                  "score": "0.88",
+                  "chain": "X",
+                  "centers": "[17.4, -8.8, 21.8]",
+                  "id": "2"
+                },
+                {
+                  "resid": "3",
+                  "score": "0.91",
+                  "chain": "X",
+                  "centers": "[1.4, -4.8, 17.8]",
+                  "id": "3"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "table7WX"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "type": "table",
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/PCI3GPK0/PCI3GPK0.tar.gz"
+        },
+        "model": {
+          "name": "button6JU",
+          "type": null
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "label": "Download results",
+            "type": "button-download",
+            "position": 1
+          }
+        ]
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "PCI3GPK0"
+  }
+]

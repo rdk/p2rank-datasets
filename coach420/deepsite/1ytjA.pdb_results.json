@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "6A6JQYOZ",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/6A6JQYOZ/results_6A6JQYOZ.pdb"
+        },
+        "model": {
+          "name": "pdb269",
+          "type": "pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/6A6JQYOZ/6A6JQYOZ.cube"
+        },
+        "model": {
+          "name": "cubeV17",
+          "type": "cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "location": "widget",
+            "type": "table",
+            "position": 0,
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "score": "1.0",
+                  "id": "1",
+                  "chain": "X",
+                  "resid": "1",
+                  "centers": "[-21.9, 2.8, -4.2]"
+                },
+                {
+                  "score": "0.95",
+                  "id": "2",
+                  "chain": "X",
+                  "resid": "2",
+                  "centers": "[-3.9, 2.8, -4.2]"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "tableN4M"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": "Download results",
+            "location": "widget",
+            "type": "button-download",
+            "position": 1
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/6A6JQYOZ/6A6JQYOZ.tar.gz"
+        },
+        "model": {
+          "name": "buttonFHI",
+          "type": null
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "AUL7RS0F",
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdbZ04"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/AUL7RS0F/results_AUL7RS0F.pdb"
+        }
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeGZ2"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/AUL7RS0F/AUL7RS0F.cube"
+        }
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "tableXBV"
+          ]
+        },
+        "representation": [
+          {
+            "type": "table",
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "is_expanded": [
+              true
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "centers": "[38.3, 39.3, 28.7]",
+                  "chain": "X",
+                  "score": "1.0",
+                  "id": "1",
+                  "resid": "1"
+                },
+                {
+                  "centers": "[18.3, 31.3, 22.7]",
+                  "chain": "X",
+                  "score": "0.99",
+                  "id": "2",
+                  "resid": "2"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "buttonK6V"
+        },
+        "representation": [
+          {
+            "type": "button-download",
+            "location": "widget",
+            "position": 1,
+            "label": "Download results"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/AUL7RS0F/AUL7RS0F.tar.gz"
+        }
+      }
+    ]
+  }
+]

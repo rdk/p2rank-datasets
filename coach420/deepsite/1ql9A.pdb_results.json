@@ -1,0 +1,134 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "MULDJHDZ",
+    "result": [
+      {
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/MULDJHDZ/results_MULDJHDZ.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbD5C"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/MULDJHDZ/MULDJHDZ.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeDCJ"
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "location": "widget",
+            "collapsible": [
+              true
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "resid": "1",
+                  "centers": "[7.3, 46.7, 55.0]",
+                  "chain": "X",
+                  "score": "0.98",
+                  "id": "1"
+                },
+                {
+                  "resid": "2",
+                  "centers": "[17.3, 52.7, 43.0]",
+                  "chain": "X",
+                  "score": "0.96",
+                  "id": "2"
+                },
+                {
+                  "resid": "3",
+                  "centers": "[-2.7, 34.7, 43.0]",
+                  "chain": "X",
+                  "score": "0.63",
+                  "id": "3"
+                },
+                {
+                  "resid": "4",
+                  "centers": "[11.3, 38.7, 55.0]",
+                  "chain": "X",
+                  "score": "0.72",
+                  "id": "4"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "table7DG"
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "position": 1,
+            "type": "button-download",
+            "location": "widget",
+            "label": "Download results"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/MULDJHDZ/MULDJHDZ.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonS1Y"
+        }
+      }
+    ]
+  }
+]

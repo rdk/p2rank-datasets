@@ -1,0 +1,134 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "G4618GSJ",
+    "result": [
+      {
+        "model": {
+          "name": "pdb80H",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/G4618GSJ/results_G4618GSJ.pdb"
+        }
+      },
+      {
+        "model": {
+          "name": "cube9PA",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/G4618GSJ/G4618GSJ.cube"
+        }
+      },
+      {
+        "model": {
+          "name": [
+            "table060"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "chain": "X",
+                  "score": "1.0",
+                  "resid": "1",
+                  "centers": "[10.9, 26.1, 26.7]",
+                  "id": "1"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.8",
+                  "resid": "2",
+                  "centers": "[14.9, 16.1, 18.7]",
+                  "id": "2"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.62",
+                  "resid": "3",
+                  "centers": "[18.9, 26.1, 42.7]",
+                  "id": "3"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.48",
+                  "resid": "4",
+                  "centers": "[4.9, 22.1, 42.7]",
+                  "id": "4"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "name": "buttonT8U",
+          "type": null
+        },
+        "representation": [
+          {
+            "type": "button-download",
+            "label": "Download results",
+            "position": 1,
+            "location": "widget"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/G4618GSJ/G4618GSJ.tar.gz"
+        }
+      }
+    ]
+  }
+]

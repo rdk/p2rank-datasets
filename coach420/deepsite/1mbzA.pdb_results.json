@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "JVBIZBI0",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "model": {
+          "name": "pdb7WJ",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/JVBIZBI0/results_JVBIZBI0.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cubeKGV",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/JVBIZBI0/JVBIZBI0.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "table4U9"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "id": "1",
+                  "centers": "[-5.7, 93.7, 60.4]",
+                  "score": "1.0",
+                  "resid": "1",
+                  "chain": "X"
+                },
+                {
+                  "id": "2",
+                  "centers": "[-23.7, 103.7, 74.4]",
+                  "score": "0.99",
+                  "resid": "2",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": "Download results",
+            "location": "widget",
+            "position": 1,
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "name": "buttonHMD",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/JVBIZBI0/JVBIZBI0.tar.gz"
+        }
+      }
+    ]
+  }
+]

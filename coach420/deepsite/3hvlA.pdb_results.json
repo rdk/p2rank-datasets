@@ -1,0 +1,127 @@
+[
+  {
+    "jobid": "ROX2TPYL",
+    "result": [
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/ROX2TPYL/results_ROX2TPYL.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbY8O"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/ROX2TPYL/ROX2TPYL.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cube295"
+        }
+      },
+      {
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "collapsible": [
+              true
+            ],
+            "position": 0
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "score": "1.0",
+                  "id": "1",
+                  "resid": "1",
+                  "centers": "[13.9, 32.3, 23.2]"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.95",
+                  "id": "2",
+                  "resid": "2",
+                  "centers": "[-0.1, 28.3, 25.2]"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.97",
+                  "id": "3",
+                  "resid": "3",
+                  "centers": "[13.9, 28.3, 39.2]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "tableCSF"
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "position": 1,
+            "type": "button-download",
+            "label": "Download results"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/ROX2TPYL/ROX2TPYL.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonRR7"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

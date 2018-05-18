@@ -1,0 +1,127 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "name": "pdbMBG",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/IYL23GFZ/results_IYL23GFZ.pdb"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "displayAroundSelection": 8
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "cubeBPU",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/IYL23GFZ/IYL23GFZ.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": [
+            "table8SC"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "resid": "1",
+                  "centers": "[11.5, -2.9, -1.2]",
+                  "score": "1.0",
+                  "id": "1",
+                  "chain": "X"
+                },
+                {
+                  "resid": "2",
+                  "centers": "[13.5, -2.9, 24.8]",
+                  "score": "0.95",
+                  "id": "2",
+                  "chain": "X"
+                },
+                {
+                  "resid": "3",
+                  "centers": "[21.5, -2.9, -11.2]",
+                  "score": "0.93",
+                  "id": "3",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "position": 0,
+            "location": "widget",
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "buttonN16",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/IYL23GFZ/IYL23GFZ.tar.gz"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "type": "button-download",
+            "position": 1,
+            "location": "widget"
+          }
+        ]
+      }
+    ],
+    "jobid": "IYL23GFZ"
+  }
+]

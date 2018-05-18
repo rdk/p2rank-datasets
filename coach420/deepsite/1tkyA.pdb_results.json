@@ -1,0 +1,141 @@
+[
+  {
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/FBQWS74W/results_FBQWS74W.pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "model": {
+          "name": "pdbGZE",
+          "type": "pdb"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/FBQWS74W/FBQWS74W.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cubeMZN",
+          "type": "cube"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "centers": "[19.7, -4.5, 56.1]",
+                  "score": "0.94",
+                  "chain": "X",
+                  "id": "1",
+                  "resid": "1"
+                },
+                {
+                  "centers": "[19.7, 1.5, 34.1]",
+                  "score": "0.96",
+                  "chain": "X",
+                  "id": "2",
+                  "resid": "2"
+                },
+                {
+                  "centers": "[19.7, 7.5, 56.1]",
+                  "score": "0.58",
+                  "chain": "X",
+                  "id": "3",
+                  "resid": "3"
+                },
+                {
+                  "centers": "[11.7, -2.5, 42.1]",
+                  "score": "0.51",
+                  "chain": "X",
+                  "id": "4",
+                  "resid": "4"
+                },
+                {
+                  "centers": "[7.7, 11.5, 34.1]",
+                  "score": "0.44",
+                  "chain": "X",
+                  "id": "5",
+                  "resid": "5"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "position": 0,
+            "collapsible": [
+              true
+            ],
+            "is_expanded": [
+              true
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "tableZSL"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/FBQWS74W/FBQWS74W.tar.gz"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "position": 1,
+            "location": "widget",
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "name": "buttonEM6",
+          "type": null
+        }
+      }
+    ],
+    "jobid": "FBQWS74W",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

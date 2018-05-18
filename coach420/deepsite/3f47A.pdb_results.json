@@ -1,0 +1,148 @@
+[
+  {
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/DAZQKONI/results_DAZQKONI.pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "model": {
+          "name": "pdbV8S",
+          "type": "pdb"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/DAZQKONI/DAZQKONI.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cubeD10",
+          "type": "cube"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "1.0",
+                  "resid": "1",
+                  "chain": "X",
+                  "centers": "[20.4, 7.7, 35.4]",
+                  "id": "1"
+                },
+                {
+                  "score": "1.0",
+                  "resid": "2",
+                  "chain": "X",
+                  "centers": "[10.4, 11.7, -4.6]",
+                  "id": "2"
+                },
+                {
+                  "score": "0.77",
+                  "resid": "3",
+                  "chain": "X",
+                  "centers": "[38.4, 11.7, 19.4]",
+                  "id": "3"
+                },
+                {
+                  "score": "0.59",
+                  "resid": "4",
+                  "chain": "X",
+                  "centers": "[16.4, -8.3, 35.4]",
+                  "id": "4"
+                },
+                {
+                  "score": "0.42",
+                  "resid": "5",
+                  "chain": "X",
+                  "centers": "[16.4, 1.7, 23.4]",
+                  "id": "5"
+                },
+                {
+                  "score": "0.47",
+                  "resid": "6",
+                  "chain": "X",
+                  "centers": "[22.4, 5.7, 9.4]",
+                  "id": "6"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "type": "table"
+          }
+        ],
+        "model": {
+          "name": [
+            "tableEKG"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/DAZQKONI/DAZQKONI.tar.gz"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "position": 1,
+            "location": "widget",
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "name": "buttonMKL",
+          "type": null
+        }
+      }
+    ],
+    "jobid": "DAZQKONI",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

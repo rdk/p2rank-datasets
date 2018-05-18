@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "ZK10Q6AM",
+    "result": [
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdbJZY"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/ZK10Q6AM/results_ZK10Q6AM.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cubeLQA"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/ZK10Q6AM/ZK10Q6AM.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "location": "widget"
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "tableVLD"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "id": "1",
+                  "score": "1.0",
+                  "chain": "X",
+                  "centers": "[9.3, 49.7, 4.4]",
+                  "resid": "1"
+                },
+                {
+                  "id": "2",
+                  "score": "0.92",
+                  "chain": "X",
+                  "centers": "[-0.7, 53.7, 6.4]",
+                  "resid": "2"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": "Download results",
+            "type": "button-download",
+            "location": "widget",
+            "position": 1
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "buttonV2G"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/ZK10Q6AM/ZK10Q6AM.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

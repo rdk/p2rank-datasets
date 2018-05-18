@@ -1,0 +1,127 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "RJ4BOA9Q",
+    "result": [
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "model": {
+          "name": "pdbE47",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/RJ4BOA9Q/results_RJ4BOA9Q.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cube3Z8",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/RJ4BOA9Q/RJ4BOA9Q.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "type": "table",
+            "location": "widget",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "position": 0,
+            "collapsible": [
+              true
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "tableXPP"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "score": "0.95",
+                  "centers": "[44.4, 47.5, 73.2]",
+                  "chain": "X",
+                  "resid": "1",
+                  "id": "1"
+                },
+                {
+                  "score": "0.71",
+                  "centers": "[14.4, 49.5, 81.2]",
+                  "chain": "X",
+                  "resid": "2",
+                  "id": "2"
+                },
+                {
+                  "score": "0.59",
+                  "centers": "[30.4, 51.5, 87.2]",
+                  "chain": "X",
+                  "resid": "3",
+                  "id": "3"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "label": "Download results",
+            "position": 1,
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "name": "button0WV",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/RJ4BOA9Q/RJ4BOA9Q.tar.gz"
+        }
+      }
+    ]
+  }
+]

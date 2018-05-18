@@ -1,0 +1,120 @@
+[
+  {
+    "result": [
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdb6ZG"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/GEEM3COS/results_GEEM3COS.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cubeFXP"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/GEEM3COS/GEEM3COS.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "type": "table",
+            "position": 0,
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget"
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "tableMF1"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "id": "1",
+                  "resid": "1",
+                  "score": "1.0",
+                  "chain": "X",
+                  "centers": "[27.5, 9.8, 32.6]"
+                },
+                {
+                  "id": "2",
+                  "resid": "2",
+                  "score": "0.76",
+                  "chain": "X",
+                  "centers": "[25.5, 23.8, 30.6]"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "button-download",
+            "position": 1,
+            "label": "Download results",
+            "location": "widget"
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "buttonETJ"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/GEEM3COS/GEEM3COS.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "GEEM3COS"
+  }
+]

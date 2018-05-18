@@ -1,0 +1,134 @@
+[
+  {
+    "jobid": "RCSMWALU",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdb5QR"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/RCSMWALU/results_RCSMWALU.pdb"
+        }
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeK9X"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/RCSMWALU/RCSMWALU.cube"
+        }
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "tableP06"
+          ]
+        },
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table"
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "id": "1",
+                  "chain": "X",
+                  "score": "0.88",
+                  "centers": "[-24.0, -30.0, 10.0]",
+                  "resid": "1"
+                },
+                {
+                  "id": "2",
+                  "chain": "X",
+                  "score": "0.69",
+                  "centers": "[-14.0, -18.0, -4.0]",
+                  "resid": "2"
+                },
+                {
+                  "id": "3",
+                  "chain": "X",
+                  "score": "0.51",
+                  "centers": "[-36.0, -30.0, 4.0]",
+                  "resid": "3"
+                },
+                {
+                  "id": "4",
+                  "chain": "X",
+                  "score": "0.46",
+                  "centers": "[-20.0, -28.0, 16.0]",
+                  "resid": "4"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "buttonA12"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "label": "Download results",
+            "type": "button-download",
+            "position": 1
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/RCSMWALU/RCSMWALU.tar.gz"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "7CGWIUFO",
+    "result": [
+      {
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "model": {
+          "name": "pdb6EW",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/7CGWIUFO/results_7CGWIUFO.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cubeMZ3",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/7CGWIUFO/7CGWIUFO.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "collapsible": [
+              true
+            ],
+            "location": "widget",
+            "type": "table",
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "tableEON"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "chain": "X",
+                  "id": "1",
+                  "centers": "[33.5, -17.5, 35.2]",
+                  "resid": "1",
+                  "score": "0.99"
+                },
+                {
+                  "chain": "X",
+                  "id": "2",
+                  "centers": "[17.5, 4.5, 25.2]",
+                  "resid": "2",
+                  "score": "0.98"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "button-download",
+            "location": "widget",
+            "position": 1,
+            "label": "Download results"
+          }
+        ],
+        "model": {
+          "name": "button8A8",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/7CGWIUFO/7CGWIUFO.tar.gz"
+        }
+      }
+    ]
+  }
+]

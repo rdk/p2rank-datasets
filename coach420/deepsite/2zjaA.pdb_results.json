@@ -1,0 +1,113 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "name": "pdb3EJ",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/QQ0DTBPW/results_QQ0DTBPW.pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "type": "ngl-viewer-pdb"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "cube5J3",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/QQ0DTBPW/QQ0DTBPW.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": [
+            "tableR4Y"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[6.0, 9.0, 28.0]",
+                  "score": "1.0",
+                  "chain": "X",
+                  "id": "1",
+                  "resid": "1"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "position": 0,
+            "collapsible": [
+              true
+            ],
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "type": "table"
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "buttonMAM",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/QQ0DTBPW/QQ0DTBPW.tar.gz"
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "position": 1,
+            "type": "button-download",
+            "label": "Download results"
+          }
+        ]
+      }
+    ],
+    "jobid": "QQ0DTBPW"
+  }
+]

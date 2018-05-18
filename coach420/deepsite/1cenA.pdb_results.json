@@ -1,0 +1,141 @@
+[
+  {
+    "result": [
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdbVFX"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/WOIRVOT3/results_WOIRVOT3.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cubeZNF"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/WOIRVOT3/WOIRVOT3.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "position": 0
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "tableYLA"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "chain": "X",
+                  "score": "1.0",
+                  "centers": "[43.6, 28.0, 57.7]",
+                  "resid": "1",
+                  "id": "1"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.99",
+                  "centers": "[41.6, 42.0, 69.7]",
+                  "resid": "2",
+                  "id": "2"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.66",
+                  "centers": "[47.6, 42.0, 51.7]",
+                  "resid": "3",
+                  "id": "3"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.73",
+                  "centers": "[47.6, 34.0, 79.7]",
+                  "resid": "4",
+                  "id": "4"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.42",
+                  "centers": "[61.6, 38.0, 65.7]",
+                  "resid": "5",
+                  "id": "5"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "button-download",
+            "label": "Download results",
+            "location": "widget",
+            "position": 1
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "buttonGZI"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/WOIRVOT3/WOIRVOT3.tar.gz"
+        }
+      }
+    ],
+    "jobid": "WOIRVOT3",
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

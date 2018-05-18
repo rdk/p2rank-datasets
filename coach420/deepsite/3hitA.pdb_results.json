@@ -1,0 +1,134 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "IQICDNET",
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdbCQ1"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/IQICDNET/results_IQICDNET.pdb"
+        }
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeXCU"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/IQICDNET/IQICDNET.cube"
+        }
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "tableHCY"
+          ]
+        },
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "is_expanded": [
+              true
+            ],
+            "location": "widget",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "type": "table",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "resid": "1",
+                  "centers": "[31.2, 61.7, 43.6]",
+                  "id": "1",
+                  "score": "0.98",
+                  "chain": "X"
+                },
+                {
+                  "resid": "2",
+                  "centers": "[43.2, 51.7, 53.6]",
+                  "id": "2",
+                  "score": "0.92",
+                  "chain": "X"
+                },
+                {
+                  "resid": "3",
+                  "centers": "[17.2, 55.7, 51.6]",
+                  "id": "3",
+                  "score": "0.85",
+                  "chain": "X"
+                },
+                {
+                  "resid": "4",
+                  "centers": "[47.2, 55.7, 53.6]",
+                  "id": "4",
+                  "score": "0.47",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "buttonFA3"
+        },
+        "representation": [
+          {
+            "type": "button-download",
+            "location": "widget",
+            "label": "Download results",
+            "position": 1
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/IQICDNET/IQICDNET.tar.gz"
+        }
+      }
+    ]
+  }
+]

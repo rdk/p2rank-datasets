@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "OSUSGHZH",
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdbDFP"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/OSUSGHZH/results_OSUSGHZH.pdb"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill"
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeNBK"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/OSUSGHZH/OSUSGHZH.cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "tableDTD"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[-42.1, -51.6, 119.4]",
+                  "score": "1.0",
+                  "id": "1",
+                  "resid": "1",
+                  "chain": "X"
+                },
+                {
+                  "centers": "[-54.1, -37.6, 119.4]",
+                  "score": "0.99",
+                  "id": "2",
+                  "resid": "2",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "location": "widget",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "type": "table",
+            "is_expanded": [
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "buttonNOL"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/OSUSGHZH/OSUSGHZH.tar.gz"
+        },
+        "representation": [
+          {
+            "position": 1,
+            "label": "Download results",
+            "type": "button-download",
+            "location": "widget"
+          }
+        ]
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

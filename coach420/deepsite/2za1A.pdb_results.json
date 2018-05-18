@@ -1,0 +1,127 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdb6L5"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "has_waters": false,
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/EYLUSLLH/results_EYLUSLLH.pdb"
+        }
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeCLL"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/EYLUSLLH/EYLUSLLH.cube"
+        }
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "tableNYC"
+          ]
+        },
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "position": 0
+          }
+        ],
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "chain": "X",
+                  "score": "1.0",
+                  "id": "1",
+                  "centers": "[19.0, 32.9, 25.4]",
+                  "resid": "1"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.99",
+                  "id": "2",
+                  "centers": "[5.0, 26.9, 31.4]",
+                  "resid": "2"
+                },
+                {
+                  "chain": "X",
+                  "score": "0.95",
+                  "id": "3",
+                  "centers": "[17.0, 32.9, 1.4]",
+                  "resid": "3"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "buttonE8Q"
+        },
+        "representation": [
+          {
+            "type": "button-download",
+            "label": "Download results",
+            "location": "widget",
+            "position": 1
+          }
+        ],
+        "data": {
+          "path": "/static/apps/deepsite/output/EYLUSLLH/EYLUSLLH.tar.gz"
+        }
+      }
+    ],
+    "jobid": "EYLUSLLH"
+  }
+]

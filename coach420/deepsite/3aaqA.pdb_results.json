@@ -1,0 +1,134 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "MV0687PX",
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/MV0687PX/results_MV0687PX.pdb"
+        },
+        "model": {
+          "name": "pdbH87",
+          "type": "pdb"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/MV0687PX/MV0687PX.cube"
+        },
+        "model": {
+          "name": "cube5U1",
+          "type": "cube"
+        },
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "id": "1",
+                  "chain": "X",
+                  "score": "1.0",
+                  "resid": "1",
+                  "centers": "[26.6, 33.6, 23.4]"
+                },
+                {
+                  "id": "2",
+                  "chain": "X",
+                  "score": "0.94",
+                  "resid": "2",
+                  "centers": "[22.6, 21.6, 7.4]"
+                },
+                {
+                  "id": "3",
+                  "chain": "X",
+                  "score": "0.75",
+                  "resid": "3",
+                  "centers": "[26.6, 51.6, 27.4]"
+                },
+                {
+                  "id": "4",
+                  "chain": "X",
+                  "score": "0.84",
+                  "resid": "4",
+                  "centers": "[32.6, 23.6, 29.4]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "name": [
+            "tableR84"
+          ],
+          "type": "text"
+        },
+        "representation": [
+          {
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "is_expanded": [
+              true
+            ],
+            "collapsible": [
+              true
+            ],
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "label": [
+              "DeepSite prediction results"
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/MV0687PX/MV0687PX.tar.gz"
+        },
+        "model": {
+          "name": "buttonQBQ",
+          "type": null
+        },
+        "representation": [
+          {
+            "location": "widget",
+            "position": 1,
+            "label": "Download results",
+            "type": "button-download"
+          }
+        ]
+      }
+    ]
+  }
+]

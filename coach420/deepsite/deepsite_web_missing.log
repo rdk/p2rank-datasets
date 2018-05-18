@@ -1,0 +1,133 @@
+START:Fri Oct 6 13:22:08 CEST 2017
+
+
+processing 1hdqA.pdb
+FILE:
+ 1hdqA.pdb
+START:  2017-10-06 13:22:09.002582
+RESPONSE:
+ [{'jobid': 'KJZQ64J4', 'promise': {'type': 'single', 'callback': '/getDeepSiteResults', 'status': 'Submitted', 'update_time': 4000}}]
+JOBID:
+ KJZQ64J4
+RESPONSE:
+
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'jobid': 'KJZQ64J4', 'result': [{'model': {'type': 'pdb', 'name': 'pdbX19'}, 'representation': [{'type': 'ngl-viewer-pdb', 'displayAroundSelection': 8, 'highlighted_style': 'spacefill', 'has_waters': False}], 'data': {'path': '/static/apps/deepsite/output/KJZQ64J4/results_KJZQ64J4.pdb'}}, {'model': {'type': 'cube', 'name': 'cube32Z'}, 'representation': [{'type': 'ngl-viewer-cube', 'has_waters': False}], 'data': {'path': '/static/apps/deepsite/output/KJZQ64J4/KJZQ64J4.cube'}}, {'model': {'type': 'text', 'name': ['tableVET']}, 'representation': [{'bindNGLSingleResidueSel': ['chain', 'resid'], 'position': 0, 'is_expanded': [True], 'collapsible': [True], 'type': 'table', 'hiddenFields': ['chain', 'resid'], 'label': ['DeepSite prediction results'], 'location': 'widget'}], 'data': {'content': [{'headers': ['id', 'centers', 'score', 'resid', 'chain'], 'body': [{'chain': 'X', 'centers': '[-1.8, 26.1, -12.8]', 'resid': '1', 'score': '0.98', 'id': '1'}, {'chain': 'X', 'centers': '[-15.8, 20.1, -12.8]', 'resid': '2', 'score': '0.99', 'id': '2'}, {'chain': 'X', 'centers': '[-11.8, 20.1, -0.8]', 'resid': '3', 'score': '0.99', 'id': '3'}, {'chain': 'X', 'centers': '[10.2, 18.1, -8.8]', 'resid': '4', 'score': '0.99', 'id': '4'}]}]}}, {'model': {'type': None, 'name': 'buttonY6B'}, 'representation': [{'type': 'button-download', 'label': 'Download results', 'position': 1, 'location': 'widget'}], 'data': {'path': '/static/apps/deepsite/output/KJZQ64J4/KJZQ64J4.tar.gz'}}], 'promise': {'status': 'Finished'}}]
+writing results to results_missing/1hdqA.pdb_results.json
+downloading http://www.playmolecule.org/static/apps/deepsite/output/KJZQ64J4/KJZQ64J4.tar.gz
+downloading http://www.playmolecule.org/static/apps/deepsite/output/KJZQ64J4/results_KJZQ64J4.pdb
+TIME: 43.27652430534363
+DONE
+
+
+processing 1hnjA.pdb
+FILE:
+ 1hnjA.pdb
+START:  2017-10-06 13:22:52.401196
+RESPONSE:
+ [{'promise': {'status': 'Submitted', 'update_time': 4000, 'type': 'single', 'callback': '/getDeepSiteResults'}, 'jobid': 'F65R967F'}]
+JOBID:
+ F65R967F
+RESPONSE:
+
+[{'promise': {'status': 'Computing', 'callback': '/getDeepSiteResults'}}]
+[{'promise': {'status': 'Computing', 'callback': '/getDeepSiteResults'}}]
+[{'promise': {'status': 'Computing', 'callback': '/getDeepSiteResults'}}]
+[{'promise': {'status': 'Computing', 'callback': '/getDeepSiteResults'}}]
+[{'promise': {'status': 'Computing', 'callback': '/getDeepSiteResults'}}]
+[{'promise': {'status': 'Computing', 'callback': '/getDeepSiteResults'}}]
+[{'promise': {'status': 'Computing', 'callback': '/getDeepSiteResults'}}]
+[{'result': [{'data': {'path': '/static/apps/deepsite/output/F65R967F/results_F65R967F.pdb'}, 'representation': [{'displayAroundSelection': 8, 'type': 'ngl-viewer-pdb', 'highlighted_style': 'spacefill', 'has_waters': False}], 'model': {'name': 'pdbH9D', 'type': 'pdb'}}, {'data': {'path': '/static/apps/deepsite/output/F65R967F/F65R967F.cube'}, 'representation': [{'type': 'ngl-viewer-cube', 'has_waters': False}], 'model': {'name': 'cubeM8N', 'type': 'cube'}}, {'data': {'content': [{'body': [{'id': '1', 'score': '1.0', 'chain': 'X', 'resid': '1', 'centers': '[24.8, 19.0, 29.1]'}, {'id': '2', 'score': '0.94', 'chain': 'X', 'resid': '2', 'centers': '[14.8, 33.0, 15.1]'}], 'headers': ['id', 'centers', 'score', 'resid', 'chain']}]}, 'representation': [{'bindNGLSingleResidueSel': ['chain', 'resid'], 'type': 'table', 'collapsible': [True], 'position': 0, 'hiddenFields': ['chain', 'resid'], 'location': 'widget', 'label': ['DeepSite prediction results'], 'is_expanded': [True]}], 'model': {'name': ['tableXW9'], 'type': 'text'}}, {'data': {'path': '/static/apps/deepsite/output/F65R967F/F65R967F.tar.gz'}, 'representation': [{'type': 'button-download', 'label': 'Download results', 'location': 'widget', 'position': 1}], 'model': {'name': 'buttonG1Z', 'type': None}}], 'promise': {'status': 'Finished'}, 'jobid': 'F65R967F'}]
+writing results to results_missing/1hnjA.pdb_results.json
+downloading http://www.playmolecule.org/static/apps/deepsite/output/F65R967F/F65R967F.tar.gz
+downloading http://www.playmolecule.org/static/apps/deepsite/output/F65R967F/results_F65R967F.pdb
+TIME: 37.50249195098877
+DONE
+
+
+processing 1hpvA.pdb
+FILE:
+ 1hpvA.pdb
+START:  2017-10-06 13:23:30.024001
+RESPONSE:
+ [{'promise': {'callback': '/getDeepSiteResults', 'status': 'Submitted', 'type': 'single', 'update_time': 4000}, 'jobid': 'R27HPR5H'}]
+JOBID:
+ R27HPR5H
+RESPONSE:
+
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Pending'}}]
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'result': [{'model': {'name': 'pdbSEO', 'type': 'pdb'}, 'representation': [{'highlighted_style': 'spacefill', 'displayAroundSelection': 8, 'type': 'ngl-viewer-pdb', 'has_waters': False}], 'data': {'path': '/static/apps/deepsite/output/R27HPR5H/results_R27HPR5H.pdb'}}, {'model': {'name': 'cube22Z', 'type': 'cube'}, 'representation': [{'type': 'ngl-viewer-cube', 'has_waters': False}], 'data': {'path': '/static/apps/deepsite/output/R27HPR5H/R27HPR5H.cube'}}, {'model': {'name': ['tableX01'], 'type': 'text'}, 'representation': [{'is_expanded': [True], 'bindNGLSingleResidueSel': ['chain', 'resid'], 'type': 'table', 'hiddenFields': ['chain', 'resid'], 'label': ['DeepSite prediction results'], 'position': 0, 'location': 'widget', 'collapsible': [True]}], 'data': {'content': [{'body': [{'resid': '1', 'centers': '[6.6, 14.7, 4.6]', 'score': '0.99', 'id': '1', 'chain': 'X'}, {'resid': '2', 'centers': '[14.6, 30.7, 4.6]', 'score': '0.93', 'id': '2', 'chain': 'X'}], 'headers': ['id', 'centers', 'score', 'resid', 'chain']}]}}, {'model': {'name': 'button505', 'type': None}, 'representation': [{'label': 'Download results', 'type': 'button-download', 'location': 'widget', 'position': 1}], 'data': {'path': '/static/apps/deepsite/output/R27HPR5H/R27HPR5H.tar.gz'}}], 'promise': {'status': 'Finished'}, 'jobid': 'R27HPR5H'}]
+writing results to results_missing/1hpvA.pdb_results.json
+downloading http://www.playmolecule.org/static/apps/deepsite/output/R27HPR5H/R27HPR5H.tar.gz
+downloading http://www.playmolecule.org/static/apps/deepsite/output/R27HPR5H/results_R27HPR5H.pdb
+TIME: 26.690349578857422
+DONE
+
+
+processing 2dttB.pdb
+FILE:
+ 2dttB.pdb
+START:  2017-10-06 13:23:56.834067
+RESPONSE:
+ [{'jobid': 'NG8VE5XU', 'promise': {'update_time': 4000, 'type': 'single', 'callback': '/getDeepSiteResults', 'status': 'Submitted'}}]
+JOBID:
+ NG8VE5XU
+RESPONSE:
+
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'result': [{'representation': [{'label': '', 'location': 'widget', 'type': 'text', 'position': 0}], 'data': {'content': '<p style="padding:15px; margin:0">No pockets were detected</p>'}, 'model': {'type': 'null', 'name': 'textBlock4KO'}}], 'jobid': 'NG8VE5XU', 'promise': {'status': 'Finished'}, 'error': {'title': 'No pockets found', 'error': 'No pockets were able to be detected with the current threshold.'}}]
+writing results to results_missing/2dttB.pdb_results.json
+
+
+processing 2rk2A.pdb
+FILE:
+ 2rk2A.pdb
+START:  2017-10-06 13:24:23.278151
+RESPONSE:
+ [{'jobid': 'D99DXBUM', 'promise': {'type': 'single', 'status': 'Submitted', 'callback': '/getDeepSiteResults', 'update_time': 4000}}]
+JOBID:
+ D99DXBUM
+RESPONSE:
+
+[{'promise': {'status': 'Pending', 'callback': '/getDeepSiteResults'}}]
+[{'promise': {'status': 'Computing', 'callback': '/getDeepSiteResults'}}]
+[{'promise': {'status': 'Computing', 'callback': '/getDeepSiteResults'}}]
+[{'promise': {'status': 'Computing', 'callback': '/getDeepSiteResults'}}]
+[{'jobid': 'D99DXBUM', 'promise': {'status': 'Finished'}, 'error': {'error': 'No pockets were able to be detected with the current threshold.', 'title': 'No pockets found'}, 'result': [{'representation': [{'type': 'text', 'label': '', 'position': 0, 'location': 'widget'}], 'model': {'type': 'null', 'name': 'textBlock9TJ'}, 'data': {'content': '<p style="padding:15px; margin:0">No pockets were detected</p>'}}]}]
+writing results to results_missing/2rk2A.pdb_results.json
+
+
+processing 3cagA.pdb
+FILE:
+ 3cagA.pdb
+START:  2017-10-06 13:24:44.495939
+RESPONSE:
+ [{'jobid': 'LJ69BULY', 'promise': {'update_time': 4000, 'callback': '/getDeepSiteResults', 'type': 'single', 'status': 'Submitted'}}]
+JOBID:
+ LJ69BULY
+RESPONSE:
+
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Pending'}}]
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'promise': {'callback': '/getDeepSiteResults', 'status': 'Computing'}}]
+[{'jobid': 'LJ69BULY', 'promise': {'status': 'Finished'}, 'error': {'error': 'No pockets were able to be detected with the current threshold.', 'title': 'No pockets found'}, 'result': [{'representation': [{'location': 'widget', 'position': 0, 'type': 'text', 'label': ''}], 'data': {'content': '<p style="padding:15px; margin:0">No pockets were detected</p>'}, 'model': {'type': 'null', 'name': 'textBlockIQ1'}}]}]
+writing results to results_missing/3cagA.pdb_results.json
+
+
+DONE:Fri Oct 6 13:25:05 CEST 2017

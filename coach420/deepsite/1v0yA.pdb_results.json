@@ -1,0 +1,113 @@
+[
+  {
+    "jobid": "2PJRJ79W",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "name": "pdbMWX",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/2PJRJ79W/results_2PJRJ79W.pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "displayAroundSelection": 8
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "cube3VF",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/2PJRJ79W/2PJRJ79W.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": [
+            "tableRZA"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "centers": "[11.7, 41.7, 16.4]",
+                  "score": "1.0",
+                  "chain": "X",
+                  "id": "1",
+                  "resid": "1"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "position": 0,
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "is_expanded": [
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "model": {
+          "name": "buttonGUJ",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/2PJRJ79W/2PJRJ79W.tar.gz"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "type": "button-download",
+            "location": "widget",
+            "position": 1
+          }
+        ]
+      }
+    ]
+  }
+]

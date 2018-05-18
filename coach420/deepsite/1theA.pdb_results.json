@@ -1,0 +1,141 @@
+[
+  {
+    "jobid": "JIM2PT59",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/JIM2PT59/results_JIM2PT59.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbVV4"
+        },
+        "representation": [
+          {
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "highlighted_style": "spacefill"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/JIM2PT59/JIM2PT59.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeJ1L"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "1.0",
+                  "id": "1",
+                  "centers": "[17.9, 62.9, 37.5]",
+                  "chain": "X",
+                  "resid": "1"
+                },
+                {
+                  "score": "0.95",
+                  "id": "2",
+                  "centers": "[9.9, 60.9, 29.5]",
+                  "chain": "X",
+                  "resid": "2"
+                },
+                {
+                  "score": "0.84",
+                  "id": "3",
+                  "centers": "[-2.1, 70.9, 29.5]",
+                  "chain": "X",
+                  "resid": "3"
+                },
+                {
+                  "score": "0.7",
+                  "id": "4",
+                  "centers": "[9.9, 42.9, 35.5]",
+                  "chain": "X",
+                  "resid": "4"
+                },
+                {
+                  "score": "0.66",
+                  "id": "5",
+                  "centers": "[-6.1, 60.9, 29.5]",
+                  "chain": "X",
+                  "resid": "5"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "table2TW"
+          ]
+        },
+        "representation": [
+          {
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "collapsible": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "position": 0
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/JIM2PT59/JIM2PT59.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "button0ML"
+        },
+        "representation": [
+          {
+            "type": "button-download",
+            "position": 1,
+            "location": "widget",
+            "label": "Download results"
+          }
+        ]
+      }
+    ]
+  }
+]

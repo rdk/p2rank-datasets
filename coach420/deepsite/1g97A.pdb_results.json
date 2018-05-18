@@ -1,0 +1,127 @@
+[
+  {
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/CDBACQQU/results_CDBACQQU.pdb"
+        },
+        "model": {
+          "type": "pdb",
+          "name": "pdbFZO"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill"
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/CDBACQQU/CDBACQQU.cube"
+        },
+        "model": {
+          "type": "cube",
+          "name": "cubeHV5"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "score": "1.0",
+                  "id": "1",
+                  "centers": "[25.7, 9.7, -20.8]",
+                  "resid": "1",
+                  "chain": "X"
+                },
+                {
+                  "score": "0.93",
+                  "id": "2",
+                  "centers": "[33.7, 25.7, -4.8]",
+                  "resid": "2",
+                  "chain": "X"
+                },
+                {
+                  "score": "0.84",
+                  "id": "3",
+                  "centers": "[39.7, 37.7, 21.2]",
+                  "resid": "3",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        },
+        "model": {
+          "type": "text",
+          "name": [
+            "tableX8L"
+          ]
+        },
+        "representation": [
+          {
+            "position": 0,
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "collapsible": [
+              true
+            ],
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/CDBACQQU/CDBACQQU.tar.gz"
+        },
+        "model": {
+          "type": null,
+          "name": "buttonNKM"
+        },
+        "representation": [
+          {
+            "type": "button-download",
+            "position": 1,
+            "location": "widget",
+            "label": "Download results"
+          }
+        ]
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    },
+    "jobid": "CDBACQQU"
+  }
+]

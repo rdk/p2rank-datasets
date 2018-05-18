@@ -1,0 +1,120 @@
+[
+  {
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ],
+        "model": {
+          "type": "pdb",
+          "name": "pdbV8W"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/98XPSYT6/results_98XPSYT6.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "type": "cube",
+          "name": "cubeV1L"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/98XPSYT6/98XPSYT6.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "collapsible": [
+              true
+            ]
+          }
+        ],
+        "model": {
+          "type": "text",
+          "name": [
+            "tableJ87"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "resid": "1",
+                  "chain": "X",
+                  "id": "1",
+                  "centers": "[14.2, 30.8, 5.4]",
+                  "score": "0.9"
+                },
+                {
+                  "resid": "2",
+                  "chain": "X",
+                  "id": "2",
+                  "centers": "[34.2, 34.8, 5.4]",
+                  "score": "0.53"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": "Download results",
+            "type": "button-download",
+            "location": "widget",
+            "position": 1
+          }
+        ],
+        "model": {
+          "type": null,
+          "name": "buttonTZV"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/98XPSYT6/98XPSYT6.tar.gz"
+        }
+      }
+    ],
+    "jobid": "98XPSYT6"
+  }
+]

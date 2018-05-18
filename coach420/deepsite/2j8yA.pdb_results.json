@@ -1,0 +1,141 @@
+[
+  {
+    "jobid": "DOUII7SX",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8
+          }
+        ],
+        "model": {
+          "name": "pdbYKN",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/DOUII7SX/results_DOUII7SX.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cubeBHS",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/DOUII7SX/DOUII7SX.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "collapsible": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "position": 0
+          }
+        ],
+        "model": {
+          "name": [
+            "tableEGQ"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "0.98",
+                  "chain": "X",
+                  "resid": "1",
+                  "centers": "[-10.2, 26.3, -8.2]",
+                  "id": "1"
+                },
+                {
+                  "score": "0.81",
+                  "chain": "X",
+                  "resid": "2",
+                  "centers": "[-20.2, 40.3, 3.8]",
+                  "id": "2"
+                },
+                {
+                  "score": "0.49",
+                  "chain": "X",
+                  "resid": "3",
+                  "centers": "[-12.2, 36.3, -0.2]",
+                  "id": "3"
+                },
+                {
+                  "score": "0.84",
+                  "chain": "X",
+                  "resid": "4",
+                  "centers": "[-0.2, 22.3, -0.2]",
+                  "id": "4"
+                },
+                {
+                  "score": "0.46",
+                  "chain": "X",
+                  "resid": "5",
+                  "centers": "[-24.2, 38.3, -6.2]",
+                  "id": "5"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "location": "widget",
+            "label": "Download results",
+            "position": 1,
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "name": "button720",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/DOUII7SX/DOUII7SX.tar.gz"
+        }
+      }
+    ]
+  }
+]

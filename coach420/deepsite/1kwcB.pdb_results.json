@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "UQGGQ2PY",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-pdb",
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill"
+          }
+        ],
+        "model": {
+          "name": "pdbBYR",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/UQGGQ2PY/results_UQGGQ2PY.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cubeTLU",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/UQGGQ2PY/UQGGQ2PY.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "collapsible": [
+              true
+            ],
+            "location": "widget",
+            "type": "table",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "is_expanded": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "tableUPB"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "resid": "1",
+                  "score": "1.0",
+                  "chain": "X",
+                  "centers": "[83.3, 39.4, 14.9]",
+                  "id": "1"
+                },
+                {
+                  "resid": "2",
+                  "score": "0.96",
+                  "chain": "X",
+                  "centers": "[93.3, 39.4, 26.9]",
+                  "id": "2"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "label": "Download results",
+            "position": 1,
+            "location": "widget",
+            "type": "button-download"
+          }
+        ],
+        "model": {
+          "name": "button5OZ",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/UQGGQ2PY/UQGGQ2PY.tar.gz"
+        }
+      }
+    ]
+  }
+]

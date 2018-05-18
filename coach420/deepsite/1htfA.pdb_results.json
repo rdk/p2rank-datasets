@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "E1CEL203",
+    "result": [
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "displayAroundSelection": 8,
+            "highlighted_style": "spacefill",
+            "type": "ngl-viewer-pdb"
+          }
+        ],
+        "model": {
+          "name": "pdb9MX",
+          "type": "pdb"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/E1CEL203/results_E1CEL203.pdb"
+        }
+      },
+      {
+        "representation": [
+          {
+            "has_waters": false,
+            "type": "ngl-viewer-cube"
+          }
+        ],
+        "model": {
+          "name": "cubeTG0",
+          "type": "cube"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/E1CEL203/E1CEL203.cube"
+        }
+      },
+      {
+        "representation": [
+          {
+            "collapsible": [
+              true
+            ],
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "location": "widget",
+            "position": 0,
+            "type": "table",
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ],
+            "label": [
+              "DeepSite prediction results"
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "tableQVX"
+          ],
+          "type": "text"
+        },
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "score": "0.98",
+                  "chain": "X",
+                  "id": "1",
+                  "centers": "[18.2, 3.6, -5.3]",
+                  "resid": "1"
+                },
+                {
+                  "score": "0.98",
+                  "chain": "X",
+                  "id": "2",
+                  "centers": "[32.2, 5.6, -3.3]",
+                  "resid": "2"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "representation": [
+          {
+            "type": "button-download",
+            "position": 1,
+            "location": "widget",
+            "label": "Download results"
+          }
+        ],
+        "model": {
+          "name": "buttonM03",
+          "type": null
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/E1CEL203/E1CEL203.tar.gz"
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

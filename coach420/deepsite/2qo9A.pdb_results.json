@@ -1,0 +1,134 @@
+[
+  {
+    "jobid": "ICHLZVW6",
+    "result": [
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/ICHLZVW6/results_ICHLZVW6.pdb"
+        },
+        "representation": [
+          {
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "type": "ngl-viewer-pdb",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "pdbGW1",
+          "type": "pdb"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/ICHLZVW6/ICHLZVW6.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ],
+        "model": {
+          "name": "cube4G0",
+          "type": "cube"
+        }
+      },
+      {
+        "data": {
+          "content": [
+            {
+              "body": [
+                {
+                  "resid": "1",
+                  "score": "1.0",
+                  "id": "1",
+                  "chain": "X",
+                  "centers": "[-10.6, 8.7, 52.2]"
+                },
+                {
+                  "resid": "2",
+                  "score": "0.97",
+                  "id": "2",
+                  "chain": "X",
+                  "centers": "[11.4, 20.7, 68.2]"
+                },
+                {
+                  "resid": "3",
+                  "score": "0.96",
+                  "id": "3",
+                  "chain": "X",
+                  "centers": "[11.4, 0.7, 56.2]"
+                },
+                {
+                  "resid": "4",
+                  "score": "0.83",
+                  "id": "4",
+                  "chain": "X",
+                  "centers": "[17.4, 14.7, 52.2]"
+                }
+              ],
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "location": "widget",
+            "collapsible": [
+              true
+            ],
+            "position": 0,
+            "type": "table",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "is_expanded": [
+              true
+            ]
+          }
+        ],
+        "model": {
+          "name": [
+            "table1GJ"
+          ],
+          "type": "text"
+        }
+      },
+      {
+        "data": {
+          "path": "/static/apps/deepsite/output/ICHLZVW6/ICHLZVW6.tar.gz"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "position": 1,
+            "type": "button-download",
+            "location": "widget"
+          }
+        ],
+        "model": {
+          "name": "button4SE",
+          "type": null
+        }
+      }
+    ],
+    "promise": {
+      "status": "Finished"
+    }
+  }
+]

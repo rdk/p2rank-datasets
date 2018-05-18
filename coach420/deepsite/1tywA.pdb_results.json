@@ -1,0 +1,120 @@
+[
+  {
+    "jobid": "U10XDZC0",
+    "promise": {
+      "status": "Finished"
+    },
+    "result": [
+      {
+        "model": {
+          "type": "pdb",
+          "name": "pdbT3T"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/U10XDZC0/results_U10XDZC0.pdb"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-pdb",
+            "highlighted_style": "spacefill",
+            "displayAroundSelection": 8,
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "cube",
+          "name": "cubeLOR"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/U10XDZC0/U10XDZC0.cube"
+        },
+        "representation": [
+          {
+            "type": "ngl-viewer-cube",
+            "has_waters": false
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "text",
+          "name": [
+            "table10M"
+          ]
+        },
+        "data": {
+          "content": [
+            {
+              "headers": [
+                "id",
+                "centers",
+                "score",
+                "resid",
+                "chain"
+              ],
+              "body": [
+                {
+                  "resid": "1",
+                  "centers": "[79.2, 61.8, 95.4]",
+                  "id": "1",
+                  "score": "1.0",
+                  "chain": "X"
+                },
+                {
+                  "resid": "2",
+                  "centers": "[67.2, 51.8, 87.4]",
+                  "id": "2",
+                  "score": "0.96",
+                  "chain": "X"
+                }
+              ]
+            }
+          ]
+        },
+        "representation": [
+          {
+            "is_expanded": [
+              true
+            ],
+            "hiddenFields": [
+              "chain",
+              "resid"
+            ],
+            "position": 0,
+            "label": [
+              "DeepSite prediction results"
+            ],
+            "type": "table",
+            "location": "widget",
+            "bindNGLSingleResidueSel": [
+              "chain",
+              "resid"
+            ],
+            "collapsible": [
+              true
+            ]
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": null,
+          "name": "buttonXGU"
+        },
+        "data": {
+          "path": "/static/apps/deepsite/output/U10XDZC0/U10XDZC0.tar.gz"
+        },
+        "representation": [
+          {
+            "label": "Download results",
+            "type": "button-download",
+            "position": 1,
+            "location": "widget"
+          }
+        ]
+      }
+    ]
+  }
+]
