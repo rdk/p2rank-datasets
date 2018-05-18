@@ -21,7 +21,7 @@ Main sets of proteins:
 * FPTRAIN: dataset used by Fpocket for training its pocket scoring function
 * HOLO4K: large dataset of protein-ligand complexes. Contains larger multi chain structures downloaded directly from PDB. Disjunct with CHEN11 and JOINED. 
 
-###Variations 
+### Variations 
 * "standard" ... 1 column of liganated proteins 
 * * `*(mlig)*` datasets: datasets that
 contain explicitely specified relevant ligands. Valid ligand codes come from MOAD 2013 database.
@@ -51,4 +51,3 @@ This repository also contains binding site predictions prodused by some other me
 # modifications
 
 * 1xgf.pdb removed from holo4k datasets (all UNK groups, no ligands)
-* 
