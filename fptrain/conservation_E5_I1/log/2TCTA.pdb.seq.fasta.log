@@ -1,0 +1,149 @@
+PROCESSING [/mnt/ssd/prank/p2rank-datasets/fptrain/fasta/2TCTA.pdb.seq.fasta]
+LOG: /mnt/ssd/prank/p2rank-datasets/fptrain/conservation_E5_I1/log/2TCTA.pdb.seq.fasta.log
++ source local-setenv.sh
+++ PSIBLAST_DIR=/mnt/ssd/conservation/conservation-workbench/ncbi-blast/bin
+++ CDHIT_DIR=/mnt/ssd/conservation/conservation-workbench/cd-hit
+++ MUSCLE_DIR=/mnt/ssd/conservation/conservation-workbench
+++ JSD_DIR=/mnt/ssd/conservation/conservation-workbench/conservation_code
+++ PYTHON_CMD=python
+++ BLASTDB_DIR=/mnt/ssd/conservation/blastdb
+++ PSIBLAST_THREADS=24
+++ export PATH=/mnt/ssd/conservation/conservation-workbench/ncbi-blast/bin:/mnt/ssd/conservation/conservation-workbench/cd-hit:/mnt/ssd/conservation/conservation-workbench:/home/rdk/.sdkman/candidates/gradle/current/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+++ PATH=/mnt/ssd/conservation/conservation-workbench/ncbi-blast/bin:/mnt/ssd/conservation/conservation-workbench/cd-hit:/mnt/ssd/conservation/conservation-workbench:/home/rdk/.sdkman/candidates/gradle/current/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+++ export JSD_DIR=/mnt/ssd/conservation/conservation-workbench/conservation_code
+++ JSD_DIR=/mnt/ssd/conservation/conservation-workbench/conservation_code
+++ export BLASTDB=/mnt/ssd/conservation/blastdb
+++ BLASTDB=/mnt/ssd/conservation/blastdb
+++ export PYTHON_CMD=python
+++ PYTHON_CMD=python
+++ export PSIBLAST_THREADS=24
+++ PSIBLAST_THREADS=24
++ file=/mnt/ssd/prank/p2rank-datasets/fptrain/fasta/2TCTA.pdb.seq.fasta
++ outdir=/mnt/ssd/prank/p2rank-datasets/fptrain/conservation_E5_I1
++ psiblast_evalue=0.00001
++ psiblast_iterations=1
++ mkdir -p /mnt/ssd/prank/p2rank-datasets/fptrain/conservation_E5_I1/alignments
++ mkdir -p /mnt/ssd/prank/p2rank-datasets/fptrain/conservation_E5_I1/scores
+++ basename /mnt/ssd/prank/p2rank-datasets/fptrain/fasta/2TCTA.pdb.seq.fasta
++ file_base=2TCTA.pdb.seq.fasta
++ alignments_file=/mnt/ssd/prank/p2rank-datasets/fptrain/conservation_E5_I1/alignments/2TCTA.pdb.seq.fasta.ali
++ scores_file=/mnt/ssd/prank/p2rank-datasets/fptrain/conservation_E5_I1/scores/2TCTA.pdb.seq.fasta.hom.gz
+++ tempfile
++ blastResFile=/tmp/file57IYFG
+++ tempfile
++ blastSeq=/tmp/fileH886vJ
+++ tempfile
++ modifiedInputFile=/tmp/filempLc7H
+++ tempfile
++ muscleResultFile=/tmp/fileOrLMJL
+++ tempfile
++ conservationExtractorInput=/tmp/file5A4OtM
++ search swissprot
++ db=swissprot
++ tee /mnt/ssd/prank/p2rank-datasets/fptrain/conservation_E5_I1/alignments/2TCTA.pdb.seq.fasta.ali
++ psiblast -db swissprot -outfmt '6 sallseqid qcovs pident' -evalue 0.00001 -num_threads 24 -num_iterations 1
++ ./filter.awk
++ blastdbcmd -db swissprot -entry_batch /tmp/file57IYFG
++ cd-hit -i /tmp/fileH886vJ -o /tmp/file57IYFG
+================================================================
+Program: CD-HIT, V4.7 (+OpenMP), Mar 23 2018, 15:56:04
+Command: cd-hit -i /tmp/fileH886vJ -o /tmp/file57IYFG
+
+Started: Wed Jan 16 02:06:36 2019
+================================================================
+                            Output                              
+----------------------------------------------------------------
+total seq: 6
+longest and shortest : 219 and 207
+Total letters: 1270
+Sequences have been sorted
+
+Approximated minimal memory consumption:
+Sequence        : 0M
+Buffer          : 1 X 10M = 10M
+Table           : 1 X 65M = 65M
+Miscellaneous   : 0M
+Total           : 75M
+
+Table limit with the given memory limit:
+Max number of representatives: 2326709
+Max number of word counting entries: 90514522
+
+comparing sequences from          0  to          6
+
+        6  finished          6  clusters
+
+Apprixmated maximum memory consumption: 75M
+writing new database
+writing clustering information
+program completed !
+
+Total CPU time 0.06
+++ wc -l
+++ grep '^>'
++ numSeq=6
++ echo Found 6 sequences in swissprot
+Found 6 sequences in swissprot
+++ grep '^>'
+++ wc -l
++ numSeq=6
++ '[' 0 = 0 ']'
++ search uniref90
++ db=uniref90
++ tee /mnt/ssd/prank/p2rank-datasets/fptrain/conservation_E5_I1/alignments/2TCTA.pdb.seq.fasta.ali
++ ./filter.awk
++ psiblast -db uniref90 -outfmt '6 sallseqid qcovs pident' -evalue 0.00001 -num_threads 24 -num_iterations 1
++ blastdbcmd -db uniref90 -entry_batch /tmp/file57IYFG
++ cd-hit -i /tmp/fileH886vJ -o /tmp/file57IYFG
+================================================================
+Program: CD-HIT, V4.7 (+OpenMP), Mar 23 2018, 15:56:04
+Command: cd-hit -i /tmp/fileH886vJ -o /tmp/file57IYFG
+
+Started: Wed Jan 16 02:07:46 2019
+================================================================
+                            Output                              
+----------------------------------------------------------------
+total seq: 291
+longest and shortest : 534 and 173
+Total letters: 61538
+Sequences have been sorted
+
+Approximated minimal memory consumption:
+Sequence        : 0M
+Buffer          : 1 X 10M = 10M
+Table           : 1 X 65M = 65M
+Miscellaneous   : 0M
+Total           : 76M
+
+Table limit with the given memory limit:
+Max number of representatives: 2331271
+Max number of word counting entries: 90492396
+
+comparing sequences from          0  to        291
+
+      291  finished        284  clusters
+
+Apprixmated maximum memory consumption: 76M
+writing new database
+writing clustering information
+program completed !
+
+Total CPU time 0.09
+++ grep '^>'
+++ wc -l
++ numSeq=284
++ echo Found 284 sequences in uniref90
+Found 284 sequences in uniref90
++ sed 's/^>/>query_sekvence|/'
++ muscle -quiet
++ cat /tmp/file57IYFG /tmp/filempLc7H
++ awk -f sortMuscleOutput.awk
++ cd /mnt/ssd/conservation/conservation-workbench/conservation_code
++ gzip -9
++ python /mnt/ssd/conservation/conservation-workbench/conservation_code/score_conservation.py /tmp/file5A4OtM
++ rm /tmp/fileOrLMJL
++ rm /tmp/filempLc7H
++ rm /tmp/fileH886vJ
++ rm /tmp/file57IYFG
+TIME: 2 min 35 s
+DONE
