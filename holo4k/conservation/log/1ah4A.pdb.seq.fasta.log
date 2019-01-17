@@ -1,0 +1,103 @@
+PROCESSING [/home/rdk/proj/p2rank-datasets/holo4k/fasta/1ah4A.pdb.seq.fasta]
+LOG: /home/rdk/proj/p2rank-datasets/holo4k/conservation/log/1ah4A.pdb.seq.fasta.log
++ source local-setenv.sh
+++ PSIBLAST_DIR=/home/rdk/proj/conservation/conservation-workbench/ncbi-blast/bin
+++ CDHIT_DIR=/home/rdk/proj/conservation/conservation-workbench/cd-hit
+++ MUSCLE_DIR=/home/rdk/proj/conservation/conservation-workbench
+++ JSD_DIR=/home/rdk/proj/conservation/conservation-workbench/conservation_code
+++ PYTHON_CMD=python
+++ BLASTDB_DIR=/home/rdk/proj/conservation/blastdb
+++ PSIBLAST_THREADS=16
+++ export PATH=/home/rdk/proj/conservation/conservation-workbench/ncbi-blast/bin:/home/rdk/proj/conservation/conservation-workbench/cd-hit:/home/rdk/proj/conservation/conservation-workbench:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+++ PATH=/home/rdk/proj/conservation/conservation-workbench/ncbi-blast/bin:/home/rdk/proj/conservation/conservation-workbench/cd-hit:/home/rdk/proj/conservation/conservation-workbench:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+++ export JSD_DIR=/home/rdk/proj/conservation/conservation-workbench/conservation_code
+++ JSD_DIR=/home/rdk/proj/conservation/conservation-workbench/conservation_code
+++ export BLASTDB=/home/rdk/proj/conservation/blastdb
+++ BLASTDB=/home/rdk/proj/conservation/blastdb
+++ export PYTHON_CMD=python
+++ PYTHON_CMD=python
+++ export PSIBLAST_THREADS=16
+++ PSIBLAST_THREADS=16
++ file=/home/rdk/proj/p2rank-datasets/holo4k/fasta/1ah4A.pdb.seq.fasta
++ outdir=/home/rdk/proj/p2rank-datasets/holo4k/conservation
++ psiblast_evalue=0.00001
++ psiblast_iterations=1
++ mkdir -p /home/rdk/proj/p2rank-datasets/holo4k/conservation/alignments
++ mkdir -p /home/rdk/proj/p2rank-datasets/holo4k/conservation/scores
+++ basename /home/rdk/proj/p2rank-datasets/holo4k/fasta/1ah4A.pdb.seq.fasta
++ file_base=1ah4A.pdb.seq.fasta
++ alignments_file=/home/rdk/proj/p2rank-datasets/holo4k/conservation/alignments/1ah4A.pdb.seq.fasta.ali
++ scores_file=/home/rdk/proj/p2rank-datasets/holo4k/conservation/scores/1ah4A.pdb.seq.fasta.hom.gz
+++ tempfile
++ blastResFile=/tmp/fileP7Bf9Z
+++ tempfile
++ blastSeq=/tmp/fileLFGKZZ
+++ tempfile
++ modifiedInputFile=/tmp/fileMK4PXZ
+++ tempfile
++ muscleResultFile=/tmp/fileGaLtNZ
+++ tempfile
++ conservationExtractorInput=/tmp/file0idIN0
++ search swissprot
++ db=swissprot
++ psiblast -db swissprot -outfmt '6 sallseqid qcovs pident' -evalue 0.00001 -num_threads 16 -num_iterations 1
++ tee /home/rdk/proj/p2rank-datasets/holo4k/conservation/alignments/1ah4A.pdb.seq.fasta.ali
++ ./filter.awk
++ blastdbcmd -db swissprot -entry_batch /tmp/fileP7Bf9Z
++ cd-hit -i /tmp/fileLFGKZZ -o /tmp/fileP7Bf9Z
+================================================================
+Program: CD-HIT, V4.7 (+OpenMP), Mar 23 2018, 15:56:04
+Command: cd-hit -i /tmp/fileLFGKZZ -o /tmp/fileP7Bf9Z
+
+Started: Thu Jan 17 06:05:52 2019
+================================================================
+                            Output                              
+----------------------------------------------------------------
+total seq: 170
+longest and shortest : 901 and 267
+Total letters: 53108
+Sequences have been sorted
+
+Approximated minimal memory consumption:
+Sequence        : 0M
+Buffer          : 1 X 10M = 10M
+Table           : 1 X 65M = 65M
+Miscellaneous   : 0M
+Total           : 76M
+
+Table limit with the given memory limit:
+Max number of representatives: 1723960
+Max number of word counting entries: 90486572
+
+comparing sequences from          0  to        170
+
+      170  finished        120  clusters
+
+Apprixmated maximum memory consumption: 76M
+writing new database
+writing clustering information
+program completed !
+
+Total CPU time 0.10
+++ grep '^>'
+++ wc -l
++ numSeq=120
++ echo Found 120 sequences in swissprot
+Found 120 sequences in swissprot
+++ grep '^>'
+++ wc -l
++ numSeq=120
++ '[' 1 = 0 ']'
++ sed 's/^>/>query_sekvence|/'
++ cat /tmp/fileP7Bf9Z /tmp/fileMK4PXZ
++ muscle -quiet
++ awk -f sortMuscleOutput.awk
++ cd /home/rdk/proj/conservation/conservation-workbench/conservation_code
++ gzip -9
++ python /home/rdk/proj/conservation/conservation-workbench/conservation_code/score_conservation.py /tmp/file0idIN0
++ rm /tmp/fileGaLtNZ
++ rm /tmp/fileMK4PXZ
++ rm /tmp/fileLFGKZZ
++ rm /tmp/fileP7Bf9Z
+TIME: 3 min 20 s
+DONE
