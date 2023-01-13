@@ -5,7 +5,7 @@ These are datasets used by P2Rank ligand binding site prediction tool for traini
 
 Each `*.ds` file contains list of items that form a dataset with actual data being stored in subdirectories.
 
-Note that `*.ds` files may contain only subsets of PDB files in individual directories (e.g. `holo4k.ds`). 
+!! Note that `*.ds` files may contain only subsets of PDB files in individual directories (e.g. `holo4k.ds`). !!
 
 
 ## Datasets
