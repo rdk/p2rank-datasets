@@ -5,7 +5,7 @@ These are datasets used by P2Rank ligand binding site prediction tool for traini
 
 Each `*.ds` file contains a list of items that form a dataset with actual data being stored in subdirectories.
 
-## ! Important note !
+## ⚠️ Important note 
 
 Please note that `*.ds` files that define the datasets from our papers may contain only subsets of PDB files in individual directories. For example `holo4k/` directory contains 4543 pdb files but `holo4k.ds` contains 4009 lines. For reproducibility, 4009 is the correct number of proteins in the HOLO4K dataset used in P2Rank/PrankWeb papers. 
 
